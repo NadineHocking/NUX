@@ -1,0 +1,58 @@
+
+@media (max-width: 768px) {
+
+  :root {
+    --spacing: 80px;
+  }
+
+  .container {
+    width: min(100% - 32px, var(--max-width));
+  }
+
+  // nav {
+  //   gap: 16px;
+  // }
+
+  .hero {
+    padding: 100px 0;
+  }
+
+  .project-grid,
+  .process-grid,
+  .about-preview,
+  .skills,
+  .playground-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-preview {
+    gap: 40px;
+  }
+
+  .process-grid {
+    gap: 40px;
+    margin-top: 50px;
+  }
+
+  .skills {
+    gap: 40px;
+  }
+
+  // .header-inner {
+  //   align-items: flex-start;
+  // }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .hero-actions {
+    flex-wrap: wrap;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,17 @@
+
+.playground-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.experiment {
+  min-height: 280px;
+  padding: 32px;
+  border: 1px solid var(--border);
+}
+
+.experiment h3 {
+  margin-top: 80px;
+  font-size: 2rem;
+}

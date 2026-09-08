@@ -1,0 +1,130 @@
+nav,
+button,
+a {
+  font-family: var(--font-sans);
+}
+
+nav a {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+button {
+  font-weight: 500;
+}
+
+.site-header,
+.site-footer,
+.project-card,
+.experiment,
+.button {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+//
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 13px 20px;
+
+  border: 1px solid transparent;
+  border-radius: 999px;
+
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* Icon */
+
+.button-icon {
+  width: 17px;
+  height: 17px;
+
+  transition: transform 0.2s ease;
+}
+
+/* Icon moves slightly on hover */
+
+.button:hover .button-icon {
+  transform: translateX(3px);
+}
+
+/* =========================
+   Primary
+========================= */
+
+.button-primary {
+  background: var(--foreground);
+  color: var(--background);
+  border-color: var(--foreground);
+}
+
+.button-primary:hover {
+  background: transparent;
+  color: var(--foreground);
+}
+
+/* =========================
+   Secondary
+========================= */
+
+.button-secondary {
+  background: transparent;
+  color: var(--foreground);
+  border-color: var(--foreground);
+}
+
+.button-secondary:hover {
+  background: var(--foreground);
+  color: var(--background);
+}
+
+/* =========================
+   Accent
+========================= */
+
+.button-accent {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+.button-accent:hover {
+  background: transparent;
+  color: var(--accent);
+}
+
+//
+
+.cta {
+  padding: 140px 0;
+  background: #ddd;
+}
+
+.cta .button {
+  margin-top: 40px;
+}

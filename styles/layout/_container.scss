@@ -1,0 +1,6 @@
+// styles/layout/_container.scss
+
+.container {
+  width: min(100% - 48px, var(--max-width));
+  margin-inline: auto;
+}

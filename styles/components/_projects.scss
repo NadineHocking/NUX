@@ -1,0 +1,51 @@
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 64px 32px;
+}
+
+// .project-card {
+//   border-top: 1px solid var(--border);
+// }
+
+.project-image {
+  aspect-ratio: 16 / 10;
+  background: #ddd;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+html.dark .project-image {
+  background: #292929;
+}
+
+.project-image span {
+  background: var(--light);
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.7rem;
+}
+
+.project-category {
+  margin-bottom: 8px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.project-content h3 {
+  font-size: 2rem;
+  letter-spacing: -0.03em;
+}
+
+.project-content > p:not(.project-category) {
+  max-width: 600px;
+  margin: 16px 0;
+  color: var(--muted);
+}

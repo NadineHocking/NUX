@@ -1,0 +1,26 @@
+// styles/layout/_sections.scss
+
+.section {
+  padding-block: var(--spacing);
+}
+
+.section-dark {
+  background: #111111;
+  color: #ffffff;
+}
+
+html.dark .section-dark {
+  background: #f5f5f5;
+  color: #111111;
+}
+
+.section-intro {
+  margin-bottom: 64px;
+}
+
+.section h2,
+.cta h2 {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+}

@@ -1,69 +1,201 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link from "next/link";
+import Button from "@/components/Button";
+import ProjectCard from "@/components/ProjectCard";
+import projects from "@/data/projects";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>
-            To get started, edit the{" "}
-            <code className={styles.code}>page.js</code> file.
-          </h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <>
+      {/* HERO */}
+      <section className="hero">
+        <div className="container">
+
+          <p className="eyebrow">
+            Product Designer & UI Engineer
           </p>
+
+          <h1>
+            Designing digital products
+            <br />
+            that people understand.
+          </h1>
+
+          <p className="hero-intro">
+            I combine UX research, product design and frontend
+            development to create thoughtful digital experiences.
+          </p>
+
+          <div className="hero-actions">
+            <Button href="/work" icon="arrow">
+              View my work
+            </Button>
+
+            <Button
+              href="/contact"
+              variant="secondary"
+              icon="mail"
+            >
+              Get in touch
+            </Button>
+          </div>
+
         </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+
+      {/* WORK */}
+
+      <section className="section">
+
+        <div className="container">
+
+          <div className="section-intro">
+
+            <p className="eyebrow">
+              Selected work
+            </p>
+
+            <h2>
+              Products, interfaces
+              <br />
+              and experiences.
+            </h2>
+
+          </div>
+
+          <div className="project-grid">
+
+            {projects.map((project) => (
+              <ProjectCard
+                key={project.slug}
+                project={project}
+              />
+            ))}
+
+          </div>
+
         </div>
-      </main>
-    </div>
+
+      </section>
+
+
+      {/* DESIGN + DEVELOPMENT */}
+
+      <section className="section section-dark">
+
+        <div className="container">
+
+          <p className="eyebrow">
+            Design <span className="accent">+</span> development
+          </p>
+
+          <h2>
+            From idea to
+            <br />
+            interface to code.
+          </h2>
+
+          <div className="process-grid">
+
+            <div>
+              <span>01</span>
+              <h3>Understand</h3>
+              <p>
+                Research, user needs, business goals
+                and product strategy.
+              </p>
+            </div>
+
+            <div>
+              <span>02</span>
+              <h3>Design</h3>
+              <p>
+                Information architecture, interaction
+                design, UI and prototyping.
+              </p>
+            </div>
+
+            <div>
+              <span>03</span>
+              <h3>Build</h3>
+              <p>
+                React, Next.js and modern frontend
+                development.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* ABOUT */}
+
+      <section className="section">
+
+        <div className="container about-preview">
+
+          <div>
+            <p className="eyebrow">About</p>
+
+            <h2>
+              A designer who
+              <br />
+              understands code.
+            </h2>
+          </div>
+
+          <div>
+
+            <p>
+              With 15+ years of experience in UI/UX
+              design, I bring together research,
+              product thinking, visual design and
+              frontend development.
+            </p>
+
+            <Link
+              href="/about"
+              className="text-link"
+            >
+              More about me →
+            </Link>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* CTA */}
+
+      <section className="cta">
+
+        <div className="container">
+
+          <p className="eyebrow">
+            Have a project?
+          </p>
+
+          <h2>
+            Let's build something
+            <br />
+            useful.
+          </h2>
+
+          <Link
+            href="/contact"
+            className="button button-primary"
+          >
+            Get in touch
+          </Link>
+
+        </div>
+
+      </section>
+    </>
   );
 }
