@@ -24,7 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${momoTrust.variable}`}>
-      <body>
+      <body className="theme">
         <Header />
         <main>{children}</main>
         <Footer />

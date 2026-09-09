@@ -1,43 +1,57 @@
+import SkillsGrid from "../../components/SkillsGrid";
+import { skills } from "../../data/skills";
+
 export default function About() {
   return (
     <section className="section page-header">
 
       <div className="container about-page">
+       
 
-        <p className="eyebrow">
-          About me
-        </p>
-
-        <h1>
-          Product Designer
-          <br />
-          & UI Engineer.
-        </h1>
-
-        <div className="about-copy">
-
-          <p>
-            I'm a multidisciplinary designer with
-            15+ years of experience creating digital
-            products and user-centred experiences.
+          <p className="eyebrow">
+            About me
           </p>
 
-          <p>
-            My practice spans UX research, product
-            strategy, interaction design, UI design
-            and design systems.
-          </p>
+          <h1>
+            Product Designer
+            <br />
+            & UI Engineer.
+          </h1>
 
-          <p>
-            More recently, I've expanded into
-            full-stack development, working with
-            React, Next.js, JavaScript, Node.js
-            and databases.
-          </p>
+          <div className="about-copy container-md">
+
+            <p>
+              I'm a multidisciplinary designer with
+              15+ years of experience creating digital
+              products and user-centred experiences.
+            </p>
+
+            <p>
+              My practice spans UX research, product
+              strategy, interaction design, UI design
+              and design systems.
+            </p>
+
+            <p>
+              More recently, I've expanded into
+              full-stack development, working with
+              React, Next.js, JavaScript, Node.js
+              and databases.
+            </p>
 
         </div>
 
-        <div className="skills">
+         <span className="eyebrow m-t-2">My Skills</span>
+            <h2>What I bring to a team</h2>
+
+            <section className="skills-section">
+              <h2>Skills</h2>
+
+              <SkillsGrid skills={skills} />
+            </section>
+        
+
+        {/* <div className="skills">
 
           <div>
             <h3>Design</h3>
@@ -65,7 +79,7 @@ export default function About() {
             </p>
           </div>
 
-        </div>
+        </div> */}
 
       </div>
 

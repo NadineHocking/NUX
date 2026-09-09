@@ -4,3 +4,14 @@
   width: min(100% - 48px, var(--max-width));
   margin-inline: auto;
 }
+
+.container-md {
+  width: min(100% - 48px, var(--max-width-md));
+  // margin-inline: auto;
+}
+
+.container-sm {
+  width: min(100% - 48px, var(--max-width-sm));   
+  // margin-inline: auto;
+}
+

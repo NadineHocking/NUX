@@ -8,36 +8,39 @@ export default function Home() {
     <>
       {/* HERO */}
       <section className="hero">
-        <div className="container">
+        <div className="container d-flex">
+            <div className="container-md flex-column align-items-start justify-content-start text-md-start">
+            <p className="eyebrow">
+              Product Designer & UI Engineer
+            </p>
 
-          <p className="eyebrow">
-            Product Designer & UI Engineer
-          </p>
+            <h1>
+              Designing digital products
+              <br />
+              that people understand.
+            </h1>
 
-          <h1>
-            Designing digital products
-            <br />
-            that people understand.
-          </h1>
+            <p className="hero-intro">
+              I combine UX research, product design and frontend
+              development to create thoughtful digital experiences.
+            </p>
 
-          <p className="hero-intro">
-            I combine UX research, product design and frontend
-            development to create thoughtful digital experiences.
-          </p>
+            <div className="hero-actions">
+              <Button href="/work" icon="arrow">
+                View my work
+              </Button>
 
-          <div className="hero-actions">
-            <Button href="/work" icon="arrow">
-              View my work
-            </Button>
-
-            <Button
-              href="/contact"
-              variant="secondary"
-              icon="mail"
-            >
-              Get in touch
-            </Button>
+              <Button
+                href="/contact"
+                variant="secondary"
+                icon="mail"
+              >
+                Get in touch
+              </Button>
+              </div>
+              
           </div>
+
 
         </div>
       </section>

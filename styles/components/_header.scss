@@ -96,13 +96,15 @@
 /* Hover */
 
 .desktop-nav a:hover {
-  border-color: var(--foreground);
+  // border-color: var(--foreground);
+  background: var(--nav-hover);
 }
 
 /* Active */
 
 .desktop-nav a.active {
-  border-color: var(--foreground);
+  // border-color: var(--foreground);
+  background: var(--nav-hover);
 }
 
 /* =========================

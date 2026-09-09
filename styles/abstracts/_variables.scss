@@ -5,7 +5,8 @@
   --foreground: #111111;
   --paper: #f3f6fb;
 
-  --header-bg: rgba(247, 247, 245, 0.6);
+  // --header-bg: rgba(247, 247, 245, 0.6);
+  --header-bg: rgba(220, 222, 247, 0.55) 93.5%;
 
   --muted: #666666;
   --border: #dddddd;
@@ -14,14 +15,16 @@
   --light: #ffffff;
   --accent: #000e30;
 
+  --nav-hover: rgba(27, 42, 74, 0.06);
+
   --font-sans: var(--font-inter);
 
   --max-width: 1200px;
   --spacing: 120px;
 
   --line: #d7e0ee;
-  --radial-bg: radial-gradient(50% 50% at 50% 50%, rgba(237, 215, 255, 0.10) 8%, rgba(224, 224, 255, 0.50) 46.5%, rgba(200, 202, 255, 0.30) 93.5%);
-  
+  // --radial-bg: radial-gradient(50% 50% at 50% 50%, rgba(237, 215, 255, 0.10) 8%, rgba(224, 224, 255, 0.50) 46.5%, rgba(200, 202, 255, 0.30) 93.5%);
+  --radial-bg: radial-gradient(50% 50% at 50% 50%, rgba(237, 215, 255, 0.10) 8%, rgba(224, 224, 255, 0.50) 46.5%, rgba(60, 67, 252, 0.30) 93.5%);
     /* Typography */
   --font-sans: var(--font-inter);
 
@@ -36,6 +39,8 @@
 
   /* Layout */
   --max-width: 1200px;
+  --max-width-md: 800px;
+  --max-width-sm: 600px;
 
   /* Radius */
   --radius-sm: 6px;
@@ -45,10 +50,13 @@
 }
 
 html.dark {
-  --background: #111111;
+  --background: #26272b;
   --foreground: #f5f5f5;
 
-  --header-bg: rgba(17, 17, 17, 0.6);
+  --radial-bg:  #26272b;
+  // --radial-bg: radial-gradient(50% 50% at 50% 50%, #edd7ff1a 8%, #e0e0ff80 46.5%, #c8caff4d 93.5%);
+
+  --header-bg: rgba(38, 39, 43, 0.7);
     
   --muted: #aaaaaa;
   --border: #333333;
@@ -57,5 +65,7 @@ html.dark {
   --light: #111111;
 
   --accent: #33ffff;
+
+  --nav-hover: rgba(230, 230, 234, 0.2);
 }
 
