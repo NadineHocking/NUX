@@ -1,11 +1,11 @@
 import SkillsGrid from "../../components/SkillsGrid";
-import { skills } from "../../data/skills";
+import skills from "../../data/skills";
 
 export default function About() {
   return (
     <section className="section page-header">
 
-      <div className="container about-page">
+      <section className="container about-page">
        
 
           <p className="eyebrow">
@@ -13,39 +13,39 @@ export default function About() {
           </p>
 
           <h1>
-            Product Designer
-            <br />
-            & UI Engineer.
+            Product Designer <br/>& UI Engineer
           </h1>
-
-          <div className="about-copy container-md">
-
-            <p>
-              I'm a multidisciplinary designer with
-              15+ years of experience creating digital
-              products and user-centred experiences.
+          <div className="glass-card y-4">
+            <h3>
+            Research. Design. Build.
+          </h3>
+            <p className="page-intro">
+              Bringing together psychology, product design, and full-stack development to create digital experiences that are useful, intuitive, and technically considered.
             </p>
+          </div>
+
+          <div className="about-copy m-b-4">
 
             <p>
-              My practice spans UX research, product
-              strategy, interaction design, UI design
-              and design systems.
+              I’m a <span className="bold">Product Designer & UI Engineer</span>  with 15+ years of experience creating intuitive, user-centred digital experiences across web and mobile. My work spans <span className="bold">UX research, interaction design, wireframing, prototyping, usability testing, visual design, and frontend development</span> .
             </p>
-
             <p>
-              More recently, I've expanded into
-              full-stack development, working with
-              React, Next.js, JavaScript, Node.js
-              and databases.
+              I recently completed a Full-Stack Developer Bootcamp, strengthening my technical capabilities across <span className="bold">HTML, CSS, JavaScript, React, Node.js, REST APIs, databases, SQL, Python, Git/GitHub, and responsive web development</span>. This has expanded my ability to take ideas from early concepts and prototypes through to functional, production-ready digital experiences.
+            </p>
+            <p>
+              Alongside my design and development work, I’m currently completing a Graduate Diploma of Psychology, further developing my skills in <span className="bold">research, critical analysis, data interpretation, and evidence-based thinking</span>. This combination of design, technology, and psychology allows me to approach product challenges from both a human and technical perspective.
+            </p>
+            <p>
+              I excel at translating complex requirements into <span className="bold">elegant, scalable digital solutions</span> that balance user needs, technical feasibility, and business goals. I enjoy working at the intersection of <span className="bold">research, design, and technology</span> — understanding the problem, designing the experience, and having the technical understanding to bring it to life.
             </p>
 
         </div>
 
-         <span className="eyebrow m-t-2">My Skills</span>
-            <h2>What I bring to a team</h2>
+        
 
             <section className="skills-section">
-              <h2>Skills</h2>
+               <p className="eyebrow">My Skills</p>
+            <h2>What I bring to a team</h2>
 
               <SkillsGrid skills={skills} />
             </section>
@@ -81,7 +81,7 @@ export default function About() {
 
         </div> */}
 
-      </div>
+      </section>
 
     </section>
   );

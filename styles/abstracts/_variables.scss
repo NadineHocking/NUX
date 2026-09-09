@@ -4,11 +4,13 @@
   --background: #f7f7f5;
   --foreground: #111111;
   --paper: #f3f6fb;
+  --paper-glass: rgba(255, 255, 255, 0.4);
+  --paper-raised: #ffffff;
 
   // --header-bg: rgba(247, 247, 245, 0.6);
   --header-bg: rgba(220, 222, 247, 0.55) 93.5%;
 
-  --muted: #666666;
+  --muted: #474748;
   --border: #dddddd;
 
   --dark: #111111;
@@ -52,6 +54,10 @@
 html.dark {
   --background: #26272b;
   --foreground: #f5f5f5;
+  --paper: #1e1f23;
+  --paper-glass: rgba(38, 39, 43, 0.6);
+  --paper-raised: #1e1f23;
+  --line: #333333;
 
   --radial-bg:  #26272b;
   // --radial-bg: radial-gradient(50% 50% at 50% 50%, #edd7ff1a 8%, #e0e0ff80 46.5%, #c8caff4d 93.5%);

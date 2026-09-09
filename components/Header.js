@@ -18,11 +18,11 @@ const navItems = [
     href: "/work",
     icon: FiBriefcase,
   },
-  {
-    label: "Playground",
-    href: "/playground",
-    icon: FiCode,
-  },
+//   {
+//     label: "Playground",
+//     href: "/playground",
+//     icon: FiCode,
+//   },
   {
     label: "About",
     href: "/about",

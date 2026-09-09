@@ -6,6 +6,8 @@
 @use "../styles/base/typography";
 @use "../styles/base/media";
 @use "../styles/base/alignment";
+@use "../styles/base/spacing";
+
 
 
 
@@ -23,6 +25,8 @@
 @use "../styles/components/projects";
 @use "../styles/components/tags";
 @use "../styles/components/theme-toggle";
+@use "../styles/components/githubrepos";
+
 
 @use "../styles/pages/about";
 @use "../styles/pages/contact";

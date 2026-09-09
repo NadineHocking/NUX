@@ -14,7 +14,7 @@ const icons = {
 export default function Button({
   href,
   children,
-  variant = "primary",
+  variant = "primary", "secondary":
   icon = "arrow",
 }) {
   const Icon = icons[icon];

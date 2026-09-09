@@ -1,0 +1,302 @@
+github-section {
+  padding: var(--space-3xl) 0;
+  border-top: 1px solid var(--border);
+}
+
+.github-section .section-heading {
+  max-width: 700px;
+  margin-bottom: var(--space-xl);
+}
+
+.github-section .section-heading p:last-child {
+  margin-top: var(--space-sm);
+  color: var(--muted);
+}
+
+
+/* ========================================
+   Repository Grid
+======================================== */
+
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+}
+
+
+
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 230px;
+  padding: var(--space-lg);
+//   border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--paper-raised);
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+
+
+    &:hover.repo-card {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(74, 27, 66, 0.08);
+
+    //   border-color: var(--foreground);
+    }
+
+    h3 {
+    margin-bottom: var(--space-sm);
+    font-size: 1.15rem;
+    }
+
+    p {
+    flex: 1;
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    }
+
+    .repo-contribution {
+    margin-top: .5rem;
+    
+    }
+}
+
+/* ========================================
+   Card Header
+======================================== */
+
+.repo-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: var(--space-md);
+}
+
+.repo-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--foreground);
+}
+
+.repo-card-header a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 36px;
+  height: 36px;
+
+  border: 1px solid var(--border);
+  border-radius: 50%;
+
+  color: var(--foreground);
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.repo-card-header a:hover {
+  background: var(--foreground);
+  border-color: var(--foreground);
+  color: var(--background);
+
+  transform: translateY(-2px);
+}
+
+.repo-link-icon {
+  width: 16px;
+  height: 16px;
+}
+
+
+/* ========================================
+   Category
+======================================== */
+
+.repo-category {
+  margin-bottom: var(--space-sm);
+
+  color: var(--accent);
+
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+
+/* ========================================
+   Title
+======================================== */
+
+.repo-card h3 {
+  margin: 0 0 var(--space-sm);
+
+  color: var(--foreground);
+
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+/* ========================================
+   Description
+======================================== */
+
+.repo-card > p {
+  flex: 1;
+
+  margin: 0;
+
+  color: var(--muted);
+
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+
+/* ========================================
+   Technologies
+======================================== */
+
+.repo-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+
+  margin-top: var(--space-lg);
+}
+
+.repo-technologies span {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 5px 9px;
+
+  border: 1px solid var(--border);
+  border-radius: 999px;
+
+  color: var(--muted);
+
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+
+/* ========================================
+   Repository Metadata
+======================================== */
+
+.repo-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+
+  margin-top: var(--space-lg);
+  padding-top: var(--space-sm);
+
+  border-top: 1px solid var(--border);
+
+  color: var(--muted);
+
+  font-size: 0.8rem;
+}
+
+.repo-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.repo-meta svg {
+  width: 14px;
+  height: 14px;
+}
+
+
+/* ========================================
+   Loading / Error / Empty States
+======================================== */
+
+.state-msg {
+  padding: var(--space-lg);
+
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+
+  color: var(--muted);
+
+  text-align: center;
+}
+
+
+/* ========================================
+   GitHub CTA
+======================================== */
+
+.github-cta {
+  display: flex;
+  justify-content: center;
+
+  margin-top: var(--space-xl);
+}
+
+.github-cta .button {
+  gap: 9px;
+}
+
+.github-cta .button svg {
+  width: 17px;
+  height: 17px;
+}
+
+
+/* ========================================
+   Tablet
+======================================== */
+
+@media (max-width: 900px) {
+  .repo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/* ========================================
+   Mobile
+======================================== */
+
+@media (max-width: 600px) {
+  .github-section {
+    padding: var(--space-2xl) 0;
+  }
+
+  .repo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .repo-card {
+    min-height: auto;
+  }
+
+  .github-cta {
+    justify-content: flex-start;
+  }
+
+  .github-cta .button {
+    width: 100%;
+  }
+}

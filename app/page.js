@@ -9,20 +9,19 @@ export default function Home() {
       {/* HERO */}
       <section className="hero">
         <div className="container d-flex">
-            <div className="container-md flex-column align-items-start justify-content-start text-md-start">
+            <div className=" flex-column align-items-start justify-content-start text-md-start">
             <p className="eyebrow">
-              Product Designer & UI Engineer
+              Nadine Hocking: Product Designer & UI Engineer
             </p>
 
             <h1>
-              Designing digital products
-              <br />
-              that people understand.
+            {/* Transforming complex problems into intuitive digital products.             */}
+            {/* I research, design and build digital products */}
+            Bridging the gap between product strategy, design and development
             </h1>
 
             <p className="hero-intro">
-              I combine UX research, product design and frontend
-              development to create thoughtful digital experiences.
+              I combine UX research, product design, and frontend engineering to create thoughtful, intuitive digital experiences — from understanding the problem and shaping the experience to designing and building the final product.
             </p>
 
             <div className="hero-actions">
@@ -152,11 +151,8 @@ export default function Home() {
 
           <div>
 
-            <p>
-              With 15+ years of experience in UI/UX
-              design, I bring together research,
-              product thinking, visual design and
-              frontend development.
+            <p className="about-text">
+              I help teams bridge the gap between product strategy, design and development, from understanding the problem to designing and building the solution.
             </p>
 
             <Link
@@ -175,7 +171,7 @@ export default function Home() {
 
       {/* CTA */}
 
-      <section className="cta">
+      <section className="cta section-dark">
 
         <div className="container">
 

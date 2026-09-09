@@ -24,3 +24,21 @@ html.dark .section-dark {
   line-height: 1;
   letter-spacing: -0.05em;
 }
+
+.cta {
+  padding: 140px 0;
+  // background: #ddd;
+  .button {
+    margin-top: 40px;
+  }
+
+  .button-primary {
+    background: var(--background);
+    color: var(--foreground);
+    border-color: var(--background);
+      &:hover {
+        background: var(--foreground);
+        color: var(--background);
+      }
+  }
+}

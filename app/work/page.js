@@ -1,5 +1,6 @@
 import ProjectCard from "@/components/ProjectCard";
 import projects from "@/data/projects";
+import GitHubRepos from "../../components/GitHubRepos";
 
 export default function Work() {
   return (
@@ -11,7 +12,7 @@ export default function Work() {
           Portfolio
         </p>
 
-        <h1>Selected work</h1>
+        <h1>Selected projects</h1>
 
         <p className="page-intro">
           A selection of product design, UX and
@@ -31,7 +32,24 @@ export default function Work() {
 
       </div>
 
+      <section className="github-section y-5">
+        <div className="container">
+          <div className="section-heading">
+            <p className="eyebrow">Development</p>
+
+            <h2>Explore my GitHub</h2>
+
+            <p>
+              A selection of recent development projects, experiments,
+              and full-stack applications.
+            </p>
+          </div>
+
+          <GitHubRepos />
+        </div>
+      </section>
     </section>
+    
   );
 }
 

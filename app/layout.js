@@ -16,7 +16,7 @@ const momoTrust = Momo_Trust_Display({
 });
 
 export const metadata = {
-  title: "Nadine — Product Designer & UI Engineer",
+  title: "NUX: Nadine Hocking — Product Designer & UI Engineer",
   description:
     "Portfolio of Nadine Hocking, Product Designer and UI Engineer.",
 };
