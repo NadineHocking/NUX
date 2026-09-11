@@ -2,3 +2,20 @@
   width: min(100% - 48px, var(--max-width));
   margin-inline: auto;
 }
+
+@mixin small-number {
+      display: block;
+      margin-bottom: var(--space-sm);
+      color: var(--accent);
+      font-size: .8rem;
+}
+
+@mixin cards {
+ 
+      flex: 1;
+      padding: var(--space-lg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--paper-glass);
+    
+}

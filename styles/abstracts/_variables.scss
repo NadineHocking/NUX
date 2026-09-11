@@ -6,26 +6,16 @@
   --paper: #f3f6fb;
   --paper-glass: rgba(255, 255, 255, 0.4);
   --paper-raised: #ffffff;
-
-  // --header-bg: rgba(247, 247, 245, 0.6);
   --header-bg: rgba(220, 222, 247, 0.55) 93.5%;
-
   --muted: #474748;
   --border: #dddddd;
-
   --dark: #111111;
   --light: #ffffff;
   --accent: #000e30;
-
+  --accent2: #31d2d2;
   --nav-hover: rgba(27, 42, 74, 0.06);
-
-  --font-sans: var(--font-inter);
-
-  --max-width: 1200px;
   --spacing: 120px;
-
   --line: #d7e0ee;
-  // --radial-bg: radial-gradient(50% 50% at 50% 50%, rgba(237, 215, 255, 0.10) 8%, rgba(224, 224, 255, 0.50) 46.5%, rgba(200, 202, 255, 0.30) 93.5%);
   --radial-bg: radial-gradient(50% 50% at 50% 50%, rgba(237, 215, 255, 0.10) 8%, rgba(224, 224, 255, 0.50) 46.5%, rgba(60, 67, 252, 0.30) 93.5%);
     /* Typography */
   --font-sans: var(--font-inter);
@@ -49,7 +39,17 @@
   --radius-md: 12px;
   --radius-lg: 24px;
 
+  /* Font size */
+--p-size-reg: clamp(1.1rem, 5vw, 1.4rem);
+--p-size-sm: clamp(1rem, 5vw, 1.3rem);
+--p-size-xs: clamp(.9rem, 5vw, 1.2rem);
+
+--h3-size-reg: clamp(1.5rem, 5vw, 1.6rem);
+--h3-size-sm: clamp(1.4rem, 5vw, 1.5rem);
+
+
 }
+
 
 html.dark {
   --background: #26272b;
@@ -58,20 +58,14 @@ html.dark {
   --paper-glass: rgba(38, 39, 43, 0.6);
   --paper-raised: #1e1f23;
   --line: #333333;
-
   --radial-bg:  #26272b;
-  // --radial-bg: radial-gradient(50% 50% at 50% 50%, #edd7ff1a 8%, #e0e0ff80 46.5%, #c8caff4d 93.5%);
-
   --header-bg: rgba(38, 39, 43, 0.7);
-    
   --muted: #aaaaaa;
   --border: #333333;
-
   --dark: #f5f5f5;
   --light: #111111;
-
   --accent: #33ffff;
-
+  --accent2: #056f6f;
   --nav-hover: rgba(230, 230, 234, 0.2);
 }
 

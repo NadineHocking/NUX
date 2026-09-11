@@ -14,6 +14,20 @@ const projects = [
     ],
   },
 
+    {
+    slug: "insurwave",
+    title: "Insurwave",
+    category: "Product Design",
+    description:
+      "A subscription-based yoga platform designed around class discovery, instructors and personalised practice.",
+    skills: [
+      "UX Research",
+      "UX Design",
+      "UI Design",
+      "Prototyping",
+    ],
+  },
+
   {
     slug: "yoga-platform",
     title: "Yoga Platform",

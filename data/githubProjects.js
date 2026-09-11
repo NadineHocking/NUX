@@ -54,7 +54,7 @@ const githubProjects = [
       "Python",
       "Command Line",
     ],
-    category: "Tools & Utilities",
+    category: "Backend",
   },
 
   {

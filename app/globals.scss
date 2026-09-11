@@ -26,12 +26,17 @@
 @use "../styles/components/tags";
 @use "../styles/components/theme-toggle";
 @use "../styles/components/githubrepos";
+@use "../styles/components/back-to-top";
+@use "../styles/components/breadcrumbs";
+
 
 
 @use "../styles/pages/about";
 @use "../styles/pages/contact";
 @use "../styles/pages/casestudy";
+// @use "../styles/pages/insurwave";
 @use "../styles/pages/playground";
+
 
 
 // :root {

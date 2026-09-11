@@ -1,0 +1,622 @@
+/* =========================================================
+   INSURWAVE CASE STUDY
+   ========================================================= */
+
+   .insurwave-case-study .case-image-placeholder {
+  position: relative;
+  overflow: hidden;
+  min-height: 320px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(
+      135deg,
+      var(--paper),
+      var(--paper-raised)
+    );
+}
+
+.insurwave-case-study .placeholder-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-lg);
+  text-align: center;
+}
+
+.insurwave-case-study .placeholder-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.insurwave-case-study .placeholder-description {
+  max-width: 400px;
+  margin-top: var(--space-xs);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.insurwave-case-study {
+
+  /* -------------------------------------------------------
+     Hero
+     ------------------------------------------------------- */
+
+  .case-hero {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-3xl);
+  }
+
+  .case-hero h1 {
+    max-width: 900px;
+  }
+
+  .case-hero-intro {
+    max-width: 720px;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    line-height: 1.6;
+  }
+
+
+  /* -------------------------------------------------------
+     Case metadata
+     ------------------------------------------------------- */
+
+  .case-meta {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-lg);
+    margin-top: var(--space-xl);
+    padding-top: var(--space-lg);
+    border-top: 1px solid var(--line);
+  }
+
+  .case-meta div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .case-meta span {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+  }
+
+  .case-meta strong {
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+
+  /* -------------------------------------------------------
+     Research grid
+     ------------------------------------------------------- */
+
+  .research-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    margin-top: var(--space-xl);
+    background: var(--border);
+    border: 1px solid var(--border);
+  }
+
+  .insight-block,
+  .research-grid .insight-block {
+    padding: var(--space-lg);
+    background: var(--paper-raised);
+  }
+
+  .insight-block > span,
+  .research-grid .insight-block > span {
+    display: block;
+    margin-bottom: var(--space-md);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .insight-block h3 {
+    margin-bottom: var(--space-sm);
+  }
+
+  .insight-block p {
+    margin: 0;
+    color: var(--muted);
+  }
+
+
+  /* -------------------------------------------------------
+     User groups
+     ------------------------------------------------------- */
+
+  .user-groups {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+    margin-top: var(--space-xl);
+  }
+
+  .user-group {
+    padding: var(--space-xl);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--paper-raised);
+  }
+
+  .user-group .eyebrow {
+    margin-bottom: var(--space-md);
+  }
+
+  .user-group h3 {
+    margin-bottom: var(--space-sm);
+  }
+
+  .user-group p {
+    margin: 0;
+    color: var(--muted);
+  }
+
+
+  /* -------------------------------------------------------
+     Research methods
+     ------------------------------------------------------- */
+
+  .research-method {
+    margin-top: var(--space-3xl);
+  }
+
+  .research-method > h3 {
+    margin-bottom: var(--space-lg);
+  }
+
+
+  /* -------------------------------------------------------
+     Dark insight / pivotal section
+     ------------------------------------------------------- */
+
+  .case-dark {
+    background: var(--accent);
+    color: var(--light);
+  }
+
+  .case-dark .eyebrow,
+  .case-dark p {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .case-dark .case-image-placeholder {
+    border-color: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+
+  /* -------------------------------------------------------
+     Policy → asset-centric transition
+     ------------------------------------------------------- */
+
+  .positioning-grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+    align-items: stretch;
+    gap: var(--space-md);
+    margin-top: var(--space-xl);
+  }
+
+  .positioning-item {
+    padding: var(--space-lg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+  }
+
+  .case-dark .positioning-item {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .positioning-item > span {
+    display: block;
+    margin-bottom: var(--space-md);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+
+  .positioning-item h3 {
+    margin-bottom: var(--space-sm);
+  }
+
+  .positioning-item p {
+    margin: 0;
+  }
+
+  .positioning-arrow {
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    color: var(--muted);
+  }
+
+  .case-dark .positioning-arrow {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+
+  /* -------------------------------------------------------
+     Hypothesis / principle cards
+     ------------------------------------------------------- */
+
+  .principles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+    margin-top: var(--space-xl);
+  }
+
+  .principle-card {
+    padding: var(--space-lg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--paper-raised);
+  }
+
+  .principle-card > span {
+    display: block;
+    margin-bottom: var(--space-md);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--muted);
+  }
+
+  .principle-card h3 {
+    margin-bottom: var(--space-sm);
+  }
+
+  .principle-card p {
+    margin: 0;
+    color: var(--muted);
+  }
+
+
+  /* -------------------------------------------------------
+     Process flow
+     ------------------------------------------------------- */
+
+  .process-flow {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    margin-top: var(--space-xl);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .process-step {
+    position: relative;
+    min-height: 220px;
+    padding: var(--space-lg);
+    border-right: 1px solid var(--border);
+  }
+
+  .process-step:last-child {
+    border-right: 0;
+  }
+
+  .process-step > span {
+    display: block;
+    margin-bottom: var(--space-xl);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--muted);
+  }
+
+  .process-step h3,
+  .process-step h4 {
+    margin-bottom: var(--space-sm);
+  }
+
+  .process-step p {
+    margin: 0;
+    color: var(--muted);
+  }
+
+  .case-dark .process-flow {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .case-dark .process-step {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+
+  /* -------------------------------------------------------
+     User journeys
+     ------------------------------------------------------- */
+
+  .journey {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    margin-top: var(--space-lg);
+  }
+
+  .journey > div {
+    padding: var(--space-sm) var(--space-md);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--paper-raised);
+    font-weight: 600;
+  }
+
+  .journey > span {
+    padding-left: var(--space-sm);
+    color: var(--muted);
+  }
+
+  .secondary-journeys {
+    margin-top: var(--space-3xl);
+  }
+
+  .secondary-journeys h3 {
+    margin-bottom: var(--space-lg);
+  }
+
+  .journey-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-md);
+  }
+
+  .journey-grid > div {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    padding: var(--space-lg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+  }
+
+  .journey-grid strong {
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+
+
+  /* -------------------------------------------------------
+     Design → production
+     ------------------------------------------------------- */
+
+  .insight-block {
+    margin-top: var(--space-xl);
+    padding: var(--space-xl);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+  }
+
+  .insight-block h3 {
+    max-width: 700px;
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+  }
+
+  .insight-block p {
+    max-width: 700px;
+  }
+
+
+  /* -------------------------------------------------------
+     Case gallery
+     ------------------------------------------------------- */
+
+  .case-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-md);
+    margin-top: var(--space-xl);
+  }
+
+  .case-gallery .case-image-placeholder {
+    min-height: 360px;
+  }
+
+
+  /* -------------------------------------------------------
+     Outcome grid
+     ------------------------------------------------------- */
+
+  .outcome-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    margin-top: var(--space-xl);
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .case-outcome {
+    padding: var(--space-xl);
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  .case-outcome h3 {
+    margin-bottom: var(--space-sm);
+  }
+
+  .case-outcome p {
+    margin: 0;
+  }
+
+
+  
+
+  /* -------------------------------------------------------
+     Reflection
+     ------------------------------------------------------- */
+
+  .case-reflection {
+    background: var(--paper);
+  }
+
+  .case-copy-wide {
+    max-width: var(--max-width-md);
+  }
+
+  .case-lead {
+    font-size: clamp(1.35rem, 2.5vw, 2rem);
+    line-height: 1.5;
+  }
+
+  .case-reflection blockquote {
+    margin: var(--space-xl) 0 0;
+    padding-left: var(--space-lg);
+    border-left: 3px solid var(--accent);
+    font-size: clamp(1.4rem, 2.5vw, 2.25rem);
+    line-height: 1.4;
+  }
+
+
+  /* -------------------------------------------------------
+     Next project
+     ------------------------------------------------------- */
+
+  .next-project {
+    padding-top: var(--space-3xl);
+    padding-bottom: var(--space-3xl);
+    background: var(--accent);
+    color: var(--light);
+  }
+
+  .next-project h2 {
+    font-size: clamp(3rem, 8vw, 7rem);
+    margin-bottom: var(--space-md);
+  }
+
+  .next-project p {
+    max-width: 600px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .next-project .button {
+    margin-top: var(--space-lg);
+  }
+
+
+  /* =======================================================
+     TABLET
+     ======================================================= */
+
+  @media (max-width: 1024px) {
+
+    .case-meta {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .research-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .user-groups {
+      grid-template-columns: 1fr;
+    }
+
+    .principles-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .process-flow {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .process-step:nth-child(even) {
+      border-right: 0;
+    }
+
+    .positioning-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .positioning-arrow {
+      transform: rotate(90deg);
+      min-height: 40px;
+    }
+
+    .journey-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+  }
+
+
+  /* =======================================================
+     MOBILE
+     ======================================================= */
+
+  @media (max-width: 768px) {
+
+    .case-hero {
+      padding-top: var(--space-md);
+      padding-bottom: var(--space-2xl);
+    }
+
+    .case-meta {
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-md);
+    }
+
+    .research-grid,
+    .principles-grid,
+    .journey-grid,
+    .case-gallery,
+    .outcome-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .process-flow {
+      grid-template-columns: 1fr;
+    }
+
+    .process-step {
+      min-height: auto;
+      border-right: 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .process-step:last-child {
+      border-bottom: 0;
+    }
+
+    .positioning-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .positioning-arrow {
+      min-height: 30px;
+    }
+
+    .user-group {
+      padding: var(--space-lg);
+    }
+
+    .insight-block {
+      padding: var(--space-lg);
+    }
+
+    .case-gallery .case-image-placeholder {
+      min-height: 260px;
+    }
+
+    .next-project h2 {
+      font-size: clamp(3rem, 18vw, 5rem);
+    }
+
+  }
+
+}

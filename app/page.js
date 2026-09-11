@@ -10,8 +10,7 @@ export default function Home() {
       <section className="hero">
         <div className="container d-flex">
             <div className=" flex-column align-items-start justify-content-start text-md-start">
-            <p className="eyebrow">
-              Nadine Hocking: Product Designer & UI Engineer
+            <p className="eyebrow"><span className="eyebrow-highlight">Available </span> | Product Designer & UI Engineer   
             </p>
 
             <h1>

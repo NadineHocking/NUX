@@ -1,5 +1,6 @@
 import { Inter, Momo_Trust_Display } from "next/font/google";
 import "./globals.scss";
+import BackToTop from "../components/BackToTop";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <Header />
         <main>{children}</main>
         <Footer />
+        <BackToTop />
       </body>
     </html>
   );

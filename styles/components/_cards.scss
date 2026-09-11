@@ -1,3 +1,13 @@
+// Card mixins
+@mixin cards {
+  flex: 1;
+  padding: var(--space-md);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--paper-glass);
+
+}
+
 
 /* ---------- Skills grid ---------- */
 
@@ -145,4 +155,171 @@
   font-size: 0.92rem;
   margin: 10px 0 0;
   max-width: 68ch;
+}
+
+//  Case study cards
+
+.cards-ul {
+
+} 
+
+
+
+.card-column {
+    display: flex;
+    flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+  margin-bottom: var(--space-sm);
+
+      .card {
+        @include cards;
+      }
+
+      span, .small-number {
+        // @include small-number;
+      display: block;
+      margin-bottom: var(--space-sm);
+      color: var(--accent);
+      font-size: .9rem;
+    }
+
+      h3, .card-title {
+      display: block;
+      line-height: 1.3;
+      font-size: var(--h3-size-sm);
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+      p, .card-description {
+      margin: 0;
+      color: var(--muted);
+
+      font-size: var(--p-size-sm);
+      line-height: 1.4;
+    }
+}
+
+
+
+.card-container {
+
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  margin-bottom: var(--space-2xl);
+
+      .card {
+        @include cards;
+      }
+
+      span, .small-number {
+        // @include small-number;
+      display: block;
+      margin-bottom: var(--space-sm);
+      color: var(--accent);
+      font-size: .9rem;
+    }
+
+      h3, .card-title {
+      display: block;
+      line-height: 1.3;
+      font-size: var(--h3-size-sm);
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+      p, .card-description {
+      margin: 0;
+      color: var(--muted);
+
+      font-size: var(--p-size-sm);
+      line-height: 1.4;
+    }
+
+     ul, .card-ul {
+      margin: 1.3rem 0 0 0;
+      padding: 0;
+
+      list-style: none;
+    }
+
+    li, .card-li {
+      padding: 9px 0;
+
+      border-top: 1px solid var(--border);
+
+      color: var(--muted);
+
+      font-size: 0.9rem;
+    }
+
+}
+
+
+.arrow-cards {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  margin-bottom: var(--space-2xl);
+
+      .card {
+        @include cards;
+      }
+
+      svg {
+      align-self: center;
+      flex-shrink: 0;
+      width: 18px;
+    }
+
+      span, .small-number {
+        // @include small-number;
+      display: block;
+      margin-bottom: var(--space-sm);
+      color: var(--accent);
+      font-size: .9rem;
+    }
+
+      h3, .card-title {
+      display: block;
+      line-height: 1.3;
+      font-size: var(--h3-size-sm);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+      p, .card-description {
+      margin: 0;
+      color: var(--muted);
+
+      font-size: var(--p-size-sm);
+      line-height: 1.4;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card-container {
+      flex-wrap: wrap;
+    }
+    .arrow-cards {
+      flex-wrap: wrap;
+    
+
+    div {
+      flex-basis: calc(50% - 12px);
+    }
+
+    svg {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+    .card-container {
+      flex-direction: column;
+    }
+    .arrow-cards {
+      flex-direction: column;
+    
+  }
 }
