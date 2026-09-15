@@ -12,7 +12,7 @@ export default function Work() {
           Portfolio
         </p>
 
-        <h1>Selected projects</h1>
+        <h1 className="page-heading">Selected projects</h1>
 
         <p className="page-intro">
           A selection of product design, UX and

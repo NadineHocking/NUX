@@ -1,0 +1,65 @@
+.rethink-case-study {
+  .case-hero h1 {
+    max-width: 900px;
+  }
+
+  .case-hero-intro {
+    max-width: 700px;
+  }
+
+  .prototype-link {
+    margin-top: var(--space-xl);
+  }
+
+  // .tech-stack {
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   gap: var(--space-xs);
+  //   align-content: flex-start;
+
+  //   span {
+  //     padding: 10px 14px;
+  //     border: 1px solid var(--border);
+  //     border-radius: var(--radius-sm);
+  //     font-size: 0.85rem;
+  //     font-weight: 600;
+  //   }
+  // }
+
+  .production-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-lg);
+
+    > div {
+      span {
+        display: block;
+        margin-bottom: var(--space-sm);
+        font-size: 0.8rem;
+        font-weight: 700;
+        opacity: 0.5;
+      }
+
+      h3 {
+        margin-bottom: var(--space-xs);
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    .production-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .production-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}

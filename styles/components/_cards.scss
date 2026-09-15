@@ -206,7 +206,7 @@
 
   display: flex;
   align-items: stretch;
-  gap: 12px;
+  gap: var(--space-md);
   margin-bottom: var(--space-2xl);
 
       .card {
@@ -260,6 +260,7 @@
   display: flex;
   align-items: stretch;
   gap: 12px;
+  // gap: var(--space-md);
   margin-bottom: var(--space-2xl);
 
       .card {
@@ -302,6 +303,8 @@
     }
     .arrow-cards {
       flex-wrap: wrap;
+      gap: var(--space-md);
+
     
 
     div {
@@ -317,9 +320,10 @@
 @media (max-width: 600px) {
     .card-container {
       flex-direction: column;
+      margin-bottom: var(--space-lg);
     }
     .arrow-cards {
       flex-direction: column;
-    
+      gap: var(--space-md);
   }
 }

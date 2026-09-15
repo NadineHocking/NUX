@@ -19,7 +19,7 @@ const projects = [
     title: "Insurwave",
     category: "Product Design",
     description:
-      "A subscription-based yoga platform designed around class discovery, instructors and personalised practice.",
+      "",
     skills: [
       "UX Research",
       "UX Design",
@@ -28,31 +28,49 @@ const projects = [
     ],
   },
 
+
+
+  // {
+  //   slug: "yoga-platform",
+  //   title: "Yoga Platform",
+  //   category: "UX / UI Design",
+  //   description:
+  //     "A subscription-based yoga platform designed around class discovery, instructors and personalised practice.",
+  //   skills: [
+  //     "UX Research",
+  //     "UX Design",
+  //     "UI Design",
+  //     "Prototyping",
+  //   ],
+  // },
+
+
+
   {
-    slug: "yoga-platform",
-    title: "Yoga Platform",
-    category: "UX / UI Design",
+    slug: "rethink",
+    title: "Rethink",
+    category: "Branding, Visual Design, UI Design, Wordpress Development",
     description:
-      "A subscription-based yoga platform designed around class discovery, instructors and personalised practice.",
+      "A start-up that provides training in the property/real estate and technology spaces.",
+    skills: [
+      "Branding",
+      "Visual Design",
+      "UI Design",
+      "Wordpress Development",
+    ],
+  },
+
+     {
+    slug: "cargiant",
+    title: "Cargiant",
+    category: "UI / Visual Design",
+    description:
+      "",
     skills: [
       "UX Research",
       "UX Design",
       "UI Design",
       "Prototyping",
-    ],
-  },
-
-  {
-    slug: "photographer-app",
-    title: "Location Finder",
-    category: "Product Design & Development",
-    description:
-      "A mobile-first application helping photographers discover suitable locations while on the move.",
-    skills: [
-      "UX",
-      "UI",
-      "React",
-      "API Integration",
     ],
   },
 ];

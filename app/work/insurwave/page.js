@@ -1445,38 +1445,28 @@ export default function InsurwaveCaseStudy() {
       </section>
 
 
-      {/* =====================================================
-          NEXT PROJECT
-      ===================================================== */}
+      
+      {/* NEXT PROJECT */}
 
       <section className="case-section next-project">
 
         <div className="container">
 
-          <div className="eyebrow">
-            Next project
-          </div>
-
-          <h2>
-            Constructer.ai
-          </h2>
-
-          <p>
-            Designing and building the digital foundation for an
-            AI construction intelligence startup.
+          <p className="eyebrow">
+            NEXT PROJECT
           </p>
 
           <Link
-            href="/work/constructer"
-            className="button button-primary"
+            href="/work/rethink"
+            className="next-project-link"
           >
             <span>
-              View case study
+              Rethink
             </span>
 
-            <span aria-hidden="true">
-              →
-            </span>
+            <FiArrowRight
+              aria-hidden="true"
+            />
           </Link>
 
         </div>

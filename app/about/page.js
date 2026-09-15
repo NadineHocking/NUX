@@ -15,16 +15,16 @@ export default function About() {
           <h1>
             Product Designer <br/>& UI Engineer
           </h1>
-          <div className="glass-card y-4">
+          {/* <div className="glass-card y-4">
             <h3>
             Research. Design. Build.
           </h3>
             <p className="page-intro">
               Bringing together psychology, product design, and full-stack development to create digital experiences that are useful, intuitive, and technically considered.
             </p>
-          </div>
+          </div> */}
 
-          <div className="about-copy m-b-4">
+          <div className="about-copy y-5">
 
             <p>
               I’m a <span className="bold">Product Designer & UI Engineer</span>  with 15+ years of experience creating intuitive, user-centred digital experiences across web and mobile. My work spans <span className="bold">UX research, interaction design, wireframing, prototyping, usability testing, visual design, and frontend development</span> .

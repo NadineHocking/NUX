@@ -24,6 +24,13 @@ const skills = [
     category: "development",
   },
   {
+    icon: "SiNextdotjs",
+    name: "Next.js",
+    description:
+      "Component architecture, virtual DOM, hooks API, props/state",
+    category: "development",
+  },
+  {
     icon: "FiCode",
     name: "REST APIs",
     description:

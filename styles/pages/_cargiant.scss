@@ -1,0 +1,48 @@
+/* CarGiant design strategy */
+
+.cargiant-case-study {
+  .design-strategy {
+    margin-top: var(--space-xl);
+  }
+
+  .strategy-journey {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0;
+    margin-top: var(--space-2xl);
+  }
+
+  .strategy-step {
+    position: relative;
+    padding: var(--space-md);
+    border-top: 1px solid var(--foreground);
+
+    &::after {
+      content: "→";
+      position: absolute;
+      top: 50%;
+      right: -8px;
+      transform: translateY(-50%);
+      font-size: 1.25rem;
+      color: var(--muted);
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+
+    span {
+      display: block;
+      margin-bottom: var(--space-sm);
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 1rem;
+    }
+  }
+}

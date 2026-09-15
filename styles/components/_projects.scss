@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 64px 32px;
+  margin-top: var(--space-xl);
 }
 
 // .project-card {

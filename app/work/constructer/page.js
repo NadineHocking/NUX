@@ -766,9 +766,9 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          <div className="process-flow">
+          <div className="arrow-cards">
 
-            <div>
+            <div className="card">
               <span>01</span>
               <h3 className="card-title">Figma</h3>
               <p className="card-description">Design system and visual language</p>
@@ -776,7 +776,7 @@ export default function ConstructerPage() {
 
             <FiArrowRight aria-hidden="true" />
 
-            <div>
+            <div className="card">
               <span>02</span>
               <h3 className="card-title">Components</h3>
               <p className="card-description">Reusable interface patterns</p>
@@ -784,7 +784,7 @@ export default function ConstructerPage() {
 
             <FiArrowRight aria-hidden="true" />
 
-            <div>
+            <div className="card">
               <span>03</span>
               <h3 className="card-title">Responsive layouts</h3>
               <p className="card-description">Desktop and mobile implementation</p>
@@ -792,7 +792,7 @@ export default function ConstructerPage() {
 
             <FiArrowRight aria-hidden="true" />
 
-            <div>
+            <div className="card">
               <span>04</span>
               <h3 className="card-title">Code</h3>
               <p className="card-description">HTML · SCSS · PHP · JavaScript</p>
@@ -1243,21 +1243,32 @@ export default function ConstructerPage() {
       </section>
 
 
-      {/* ========================================
-          NEXT PROJECT
-      ======================================== */}
+      
+      {/* NEXT PROJECT */}
 
-      <section className="next-project">
+      <section className="case-section next-project">
+
         <div className="container">
 
-          <p className="eyebrow">Next project</p>
+          <p className="eyebrow">
+            NEXT PROJECT
+          </p>
 
-          <Link href="/work" className="next-project-link">
-            <span>View all work</span>
-            <FiArrowRight aria-hidden="true" />
+          <Link
+            href="/work/insurwave"
+            className="next-project-link"
+          >
+            <span>
+              Insurwave
+            </span>
+
+            <FiArrowRight
+              aria-hidden="true"
+            />
           </Link>
 
         </div>
+
       </section>
 
     </article>

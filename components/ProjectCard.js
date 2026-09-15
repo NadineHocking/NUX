@@ -5,13 +5,13 @@ export default function ProjectCard({ project }) {
     <article className="project-card">
 
       <div className="project-image">
-        <span>{project.category}</span>
+        {/* <span>{project.category}</span> */}
       </div>
 
       <div className="project-content">
 
         <p className="project-category">
-          {project.category}
+          {/* {project.category} */}
         </p>
 
         <h3>{project.title}</h3>
