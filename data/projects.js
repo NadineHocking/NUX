@@ -4,7 +4,7 @@ const projects = [
     title: "Constructer.ai",
     category: "Product Design",
     description:
-      "An AI-powered construction intelligence platform designed to help project teams identify and quantify risk.",
+      "Designing and building the digital foundation for an AI construction startup.",
     skills: [
       "UX Research",
       "Product Design",
@@ -19,7 +19,7 @@ const projects = [
     title: "Insurwave",
     category: "Product Design",
     description:
-      "",
+      "Helping transform complex specialty-insurance workflows into a clearer, more efficient and user-centred product experience.",
     skills: [
       "UX Research",
       "UX Design",
@@ -51,7 +51,7 @@ const projects = [
     title: "Rethink",
     category: "Branding, Visual Design, UI Design, Wordpress Development",
     description:
-      "A start-up that provides training in the property/real estate and technology spaces.",
+      "Designing and building a training platform for property and technology professionals.",
     skills: [
       "Branding",
       "Visual Design",
@@ -65,7 +65,7 @@ const projects = [
     title: "Cargiant",
     category: "UI / Visual Design",
     description:
-      "",
+      "Redesigning the digital car-buying journey around user needs.",
     skills: [
       "UX Research",
       "UX Design",
