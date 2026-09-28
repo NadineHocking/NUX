@@ -2,6 +2,8 @@ import Link from "next/link";
 import Button from "@/components/Button";
 import ProjectCard from "@/components/ProjectCard";
 import projects from "@/data/projects";
+import { FiArrowLeft, FiArrowRight, FiExternalLink } from "react-icons/fi";
+
 
 export default function Home() {
   return (
@@ -10,11 +12,11 @@ export default function Home() {
       <section className="hero">
         <div className="container d-flex">
             <div className=" flex-column align-items-start justify-content-start text-md-start">
-            <p className="eyebrow"><span className="eyebrow-highlight">Available </span> | Product Designer & UI Engineer   
+            <p className="eyebrow">Product Designer & UI Engineer   
             </p>
 
             <h1>
-            {/* Transforming complex problems into intuitive digital products.             */}
+            {/* Transforming complex problems into intuitive digital products. */}
             {/* I research, design and build digital products */}
             Bridging the gap between product strategy, design and development
             </h1>
@@ -82,7 +84,7 @@ export default function Home() {
 
       {/* DESIGN + DEVELOPMENT */}
 
-      <section className="section section-dark">
+      <section className="section section-highlight">
 
         <div className="container">
 
@@ -96,9 +98,9 @@ export default function Home() {
             interface to code.
           </h2>
 
-          <div className="process-grid">
+          <div className="arrow-cards">
 
-            <div>
+            <div className="card">
               <span>01</span>
               <h3>Understand</h3>
               <p>
@@ -106,8 +108,9 @@ export default function Home() {
                 and product strategy.
               </p>
             </div>
+              <FiArrowRight aria-hidden="true" />
 
-            <div>
+            <div className="card">
               <span>02</span>
               <h3>Design</h3>
               <p>
@@ -115,8 +118,9 @@ export default function Home() {
                 design, UI and prototyping.
               </p>
             </div>
+            <FiArrowRight aria-hidden="true" />
 
-            <div>
+            <div className="card">
               <span>03</span>
               <h3>Build</h3>
               <p>
@@ -170,7 +174,7 @@ export default function Home() {
 
       {/* CTA */}
 
-      <section className="cta section-dark">
+      <section className="cta section-highlight">
 
         <div className="container">
 

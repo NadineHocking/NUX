@@ -9,6 +9,24 @@
   color: #ffffff;
 }
 
+.cta, .section-highlight {
+    background: var(--paper-glass);
+
+
+  .button-primary {
+    background: var(--foreground);
+    color: var(--background);
+    border-color: var(--background);
+      &:hover {
+        background: var(--background);
+        color: var(--foreground);
+      }
+
+}
+
+
+}
+
 html.dark .section-dark {
   background: #f5f5f5;
   color: #111111;
@@ -32,13 +50,13 @@ html.dark .section-dark {
     margin-top: 40px;
   }
 
-  .button-primary {
-    background: var(--background);
-    color: var(--foreground);
-    border-color: var(--background);
-      &:hover {
-        background: var(--foreground);
-        color: var(--background);
-      }
-  }
+  // .button-primary {
+  //   background: var(--background);
+  //   color: var(--foreground);
+  //   border-color: var(--background);
+  //     &:hover {
+  //       background: var(--foreground);
+  //       color: var(--background);
+  //     }
+  // }
 }

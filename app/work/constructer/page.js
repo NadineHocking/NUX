@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   FiArrowLeft,
   FiArrowRight,
@@ -77,28 +78,36 @@ export default function ConstructerPage() {
             <div className="case-meta">
 
               <div>
-                <span>Role</span>
+                <span className="case-meta-label">
+                  Role
+                </span>
                 <strong>
                   Product Designer · UI/UX Designer · Frontend Developer
                 </strong>
               </div>
 
               <div>
-                <span>Industry</span>
+                <span className="case-meta-label">
+                  Industry
+                </span>
                 <strong>
                   Construction Technology · AI · SaaS
                 </strong>
               </div>
 
               <div>
-                <span>Project</span>
+                <span className="case-meta-label">
+                  Project
+                </span>
                 <strong>
                   Brand Identity · Website · Design System
                 </strong>
               </div>
 
               <div>
-                <span>Platform</span>
+                <span className="case-meta-label">
+                  Platform
+                </span>
                 <strong>
                   WordPress · Custom Theme
                 </strong>
@@ -109,11 +118,24 @@ export default function ConstructerPage() {
           </div>
 
           {/* Large hero image */}
-          <ImagePlaceholder
+          {/* <ImagePlaceholder
             label="HERO IMAGE"
             description="Final Constructer.ai website / homepage"
             className="placeholder-hero"
-          />
+          /> */}
+          <section className="case-section case-hero-image">
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/constructer/Constructer-feature-xxl.png"
+                alt="Constructer AI platform interface"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
+          </section>
 
         </div>
       </section>
@@ -123,7 +145,7 @@ export default function ConstructerPage() {
           OVERVIEW
       ======================================== */}
 
-      <section className="case-section case-overview">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="case-grid case-grid-2">
@@ -238,7 +260,7 @@ export default function ConstructerPage() {
           BUSINESS & USERS
       ======================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -315,7 +337,7 @@ export default function ConstructerPage() {
           COMPETITIVE LANDSCAPE
       ======================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
@@ -361,11 +383,25 @@ export default function ConstructerPage() {
 
           </div>
 
-          <ImagePlaceholder
+          {/* <ImagePlaceholder
             label="COMPETITIVE AUDIT"
             description="Competitor screenshots / positioning matrix"
             className="placeholder-wide"
-          />
+          /> */}
+
+           <section className="case-section case-image">
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/constructer/constructerCompetitiveAudit.png"
+                alt="Constructer competitive audit"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
+          </section>
 
           <div className="insight-block">
 
@@ -394,7 +430,7 @@ export default function ConstructerPage() {
           BRAND STRATEGY
       ======================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -446,7 +482,7 @@ export default function ConstructerPage() {
           VISUAL IDENTITY
       ======================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
@@ -464,31 +500,67 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          <ImagePlaceholder
+          {/* <ImagePlaceholder
             label="LOGO EXPLORATION"
             description="Initial sketches / logo concepts"
             className="placeholder-large"
-          />
+          /> */}
+
+          {/* <section className="case-section case-image">
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/constructer/constructer-logo-concepts.png"
+                alt="Initial sketches / logo concepts"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
+          </section> */}
+            <p className="eyebrow">Logo Concepts</p>
 
           <div className="case-grid case-grid-2 image-row">
 
-            <ImagePlaceholder
-              label="LOGO CONCEPT 01"
-              description="Exploration"
-            />
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/constructer/constructer-logo-concept-1.png"
+                alt="Initial sketches / logo concept1"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
+             <div className="case-image-wrapper">
 
-            <ImagePlaceholder
-              label="LOGO CONCEPT 02"
-              description="Exploration"
-            />
+              <Image
+                src="/images/constructer/constructer-logo-concept-2.png"
+                alt="Initial sketches / logo concept2"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
 
           </div>
 
-          <ImagePlaceholder
-            label="FINAL LOGO"
-            description="Final Constructer.ai identity"
-            className="placeholder-large"
-          />
+          <div className="case-image-wrapper">
+
+              <Image
+                src="/images/constructer/Constructer-logo-img-xl.png"
+                alt="Initial sketches / logo concept1"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
 
         </div>
       </section>
@@ -498,22 +570,23 @@ export default function ConstructerPage() {
           COLOUR
       ======================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="case-grid case-grid-2">
 
             <div>
               <p className="eyebrow">06 — Colour system</p>
+              <div className="section-intro">
+                <h2>
+                  Structural foundations with a signal layer.
+                </h2>
 
-              <h2>
-                Structural foundations with a signal layer.
-              </h2>
-
-              <p className="case-copy">
-                The colour system balances enterprise credibility
-                with a distinctive technology signal.
-              </p>
+                <p className="case-copy">
+                  The colour system balances enterprise credibility
+                  with a distinctive technology signal.
+                </p>
+              </div>
             </div>
 
             <div className="colour-system">
@@ -546,7 +619,7 @@ export default function ConstructerPage() {
           TYPOGRAPHY
       ======================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
@@ -589,7 +662,7 @@ export default function ConstructerPage() {
           UX / IA
       ======================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -608,70 +681,153 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          <ImagePlaceholder
+          {/* <ImagePlaceholder
             label="SITEMAP"
             description="Website information architecture"
             className="placeholder-large"
-          />
+          /> */}
 
-          <div className="journey">
+          <div className="arrow-cards">
 
-            <div>
+            <div className="card">
               <span>01</span>
-              <strong>Visitor arrives</strong>
+              <h4>Visitor arrives</h4>
             </div>
+            <FiArrowRight aria-hidden="true" />
 
-            <div>
+            <div className="card">
               <span>02</span>
-              <strong>Understand the problem</strong>
+              <h4>Understand the problem</h4>
             </div>
+            <FiArrowRight aria-hidden="true" />
 
-            <div>
+            <div className="card">
               <span>03</span>
-              <strong>Understand Constructer's approach</strong>
+              <h4>Understand Constructer's approach</h4>
             </div>
+            <FiArrowRight aria-hidden="true" />
 
-            <div>
+            <div className="card">
               <span>04</span>
-              <strong>Explore the platform</strong>
+              <h4>Explore the platform</h4>
             </div>
+            <FiArrowRight aria-hidden="true" />
 
-            <div>
+            <div className="card">
               <span>05</span>
-              <strong>See business impact</strong>
+              <h4>See business impact</h4>
             </div>
+            <FiArrowRight aria-hidden="true" />
 
-            <div>
+            <div className="card">
               <span>06</span>
-              <strong>Build trust</strong>
+              <h4>Build trust</h4>
+            </div>
+            <FiArrowRight aria-hidden="true" />
+
+            <div className="card">
+              <span>07</span>
+              <h4>Request a conversation</h4>
             </div>
 
-            <div>
-              <span>07</span>
-              <strong>Request a conversation</strong>
+          </div>
+          
+        </div>
+      </section>
+
+
+
+      {/* ========================================
+          Wireframes
+      ======================================== */}
+
+      <section className="case-section">
+        <div className="container">
+
+          <div className="section-intro">
+              <span className="eyebrow">09 – Wireframes</span>
+              <h2>Structuring the experience before adding visual detail.</h2>
+              <p>
+                Low-fidelity wireframes were used to explore the structure,
+                hierarchy and key user flows before moving into high-fidelity UI design.
+              </p>
+            </div>
+
+            {/* <div className="figma-embed">
+              <iframe
+                title="Constructer wireframe prototype"
+                src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=1-50&viewport=402%2C131%2C0.08&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A50&page-id=0%3A1&embed-host=share"
+                allowFullScreen
+              />
+            </div> */}
+
+             <div className="figma-comparison">
+
+            <div className="figma-panel">
+              <div className="prototype-header">
+                <span>Desktop</span>
+                <span>Figma prototype</span>
+              </div>
+
+              <div className="figma-embed">
+                <iframe
+                  title="Constructer desktop wireframe prototype"
+                  src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=146-1190&viewport=185%2C186%2C0.1&scaling=min-zoom&content-scaling=fixed&page-id=146%3A1189&embed-host=share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+
+            <div className="figma-panel">
+              <div className="prototype-header">
+                <span>Mobile</span>
+                <span>Figma prototype</span>
+              </div>
+
+              <div className="figma-embed">
+                <iframe
+                  title="Constructer mobile wireframe prototype"
+                  src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=1-50&viewport=402%2C131%2C0.08&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A50&page-id=0%3A1&embed-host=share"
+                  allowFullScreen
+                />
+              </div>
             </div>
 
           </div>
 
-          <ImagePlaceholder
-            label="WIREFRAMES"
-            description="Early website wireframes"
-            className="placeholder-large"
-          />
-
         </div>
       </section>
+
+
+       {/* <section className="case-section">
+            <div className="section-intro">
+              <span className="eyebrow">Wireframes</span>
+              <h2>Structuring the experience before adding visual detail.</h2>
+              <p>
+                Low-fidelity wireframes were used to explore the structure,
+                hierarchy and key user flows before moving into high-fidelity UI design.
+              </p>
+            </div>
+
+            <div className="figma-embed">
+              <iframe
+                title="Constructer wireframe prototype"
+                src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=1-50&viewport=402%2C131%2C0.08&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A50&page-id=0%3A1&embed-host=share"
+                allowFullScreen
+              />
+            </div>
+          </section> */}
 
 
       {/* ========================================
           UI DESIGN
       ======================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section  section-highlight">
         <div className="container">
 
           <div className="section-intro">
-            <p className="eyebrow">09 — UI design system</p>
+            <p className="eyebrow">10 — UI design system</p>
 
             <h2>
               Translating the brand into a scalable interface.
@@ -721,23 +877,28 @@ export default function ConstructerPage() {
 
           </div>
 
-          <ImagePlaceholder
-            label="FIGMA DESIGN SYSTEM"
-            description="Components, typography, buttons, cards and UI patterns"
-            className="placeholder-large"
-          />
+          <div className="case-image-wrapper">
 
-          <div className="case-grid case-grid-2 image-row">
+              <Image
+                src="/images/constructer/constructer.aiDesignSystem.png"
+                alt="Initial sketches / logo concept2"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
 
-            <ImagePlaceholder
-              label="DESKTOP UI"
-              description="Desktop website designs"
-            />
+          <div className="image-row">
 
-            <ImagePlaceholder
-              label="MOBILE UI"
-              description="Responsive mobile designs"
-            />
+            <div className="figma-embed">
+              <iframe
+                title="Constructer prototype"
+                src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=2-563&p=f&viewport=-229%2C239%2C0.39&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A563&page-id=1%3A406&embed-host=share"
+                allowFullScreen
+              />
+            </div>
 
           </div>
 
@@ -753,7 +914,7 @@ export default function ConstructerPage() {
         <div className="container">
 
           <div className="section-intro">
-            <p className="eyebrow">10 — From Figma to production</p>
+            <p className="eyebrow">11 — From Figma to production</p>
 
             <h2>
               Bridging the gap between design and development.
@@ -800,11 +961,18 @@ export default function ConstructerPage() {
 
           </div>
 
-          <ImagePlaceholder
-            label="DESIGN → CODE"
-            description="Figma design alongside production implementation"
-            className="placeholder-large"
-          />
+           <div className="case-image-wrapper">
+
+              <Image
+                src="/images/constructer/constructer-figma-prod.png"
+                alt="Figma to production"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
 
         </div>
       </section>
@@ -814,13 +982,13 @@ export default function ConstructerPage() {
           WORDPRESS
       ======================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section  section-highlight">
         <div className="container">
 
           <div className="case-grid case-grid-2">
 
             <div>
-              <p className="eyebrow">11 — Custom WordPress development</p>
+              <p className="eyebrow">12 — Custom WordPress development</p>
 
               <h2>
                 A bespoke theme built around the design system.
@@ -878,11 +1046,17 @@ export default function ConstructerPage() {
 
           </div>
 
-          <ImagePlaceholder
-            label="WORDPRESS DEVELOPMENT"
-            description="Custom theme / template implementation"
-            className="placeholder-large"
-          />
+          <div className="case-image-wrapper">
+              <Image
+                src="/images/constructer/constructer-wordpress-dev-env.png"
+                alt="Wordpress development"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
 
         </div>
       </section>
@@ -896,7 +1070,7 @@ export default function ConstructerPage() {
         <div className="container">
 
           <div className="section-intro">
-            <p className="eyebrow">12 — Technical implementation</p>
+            <p className="eyebrow">13 — Technical implementation</p>
 
             <h2>
               Building a maintainable frontend architecture.
@@ -920,11 +1094,17 @@ export default function ConstructerPage() {
 
           </div>
 
-          <ImagePlaceholder
-            label="CODE"
-            description="SCSS architecture / PHP templates / JavaScript"
-            className="placeholder-large"
-          />
+          <div className="case-image-wrapper">
+              <Image
+                src="/images/constructer/constructer-dev-env.png"
+                alt="Constructer development environment"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+          </div>
 
         </div>
       </section>
@@ -934,11 +1114,11 @@ export default function ConstructerPage() {
           DATABASE
       ======================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section  section-highlight">
         <div className="container">
 
           <div className="section-intro">
-            <p className="eyebrow">13 — Database & content management</p>
+            <p className="eyebrow">14 — Database & content management</p>
 
             <h2>
               Managing the transition to the new platform.
@@ -982,15 +1162,13 @@ export default function ConstructerPage() {
       <section className="case-section">
         <div className="container">
 
-          <div className="case-grid case-grid-2">
+          <div className="section-intro">
 
-            <div>
-              <p className="eyebrow">14 — Internationalisation</p>
+              <p className="eyebrow">15 — Internationalisation</p>
 
               <h2>
                 Designing for an international audience.
               </h2>
-            </div>
 
             <div className="case-copy">
 
@@ -1010,7 +1188,7 @@ export default function ConstructerPage() {
 
           </div>
 
-          <div className="case-grid case-grid-2 image-row">
+          {/* <div className="case-grid case-grid-2 image-row">
 
             <ImagePlaceholder
               label="ENGLISH"
@@ -1022,6 +1200,18 @@ export default function ConstructerPage() {
               description="Portuguese website"
             />
 
+          </div> */}
+
+          <div className="case-image-wrapper">
+              <Image
+                src="/images/constructer/constructer-international.png"
+                alt="Constructer development environment"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
           </div>
 
         </div>
@@ -1032,11 +1222,11 @@ export default function ConstructerPage() {
           PRODUCTION
       ======================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section  section-highlight">
         <div className="container">
 
           <div className="section-intro">
-            <p className="eyebrow">15 — Production considerations</p>
+            <p className="eyebrow">16 — Production considerations</p>
 
             <h2>
               Designing beyond the mockup.
@@ -1087,11 +1277,11 @@ export default function ConstructerPage() {
           OUTCOME
       ======================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
-            <p className="eyebrow">16 — Outcome</p>
+            <p className="eyebrow">17 — Outcome</p>
 
             <h2>
               A digital foundation for Constructer.ai's next stage.
@@ -1144,13 +1334,57 @@ export default function ConstructerPage() {
 
           </div>
 
-          <ImagePlaceholder
-            label="FINAL WEBSITE"
-            description="Full-page final website / selected final screens"
-            className="placeholder-hero"
-          />
+
+          <div className="case-grid case-grid-3 image-row">
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/constructer/constructer-m-1.png"
+                alt="Constructer development environment"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+          </div>
+
+          <div className="case-image-wrapper">
+              <Image
+                src="/images/constructer/constructer-m-2.png"
+                alt="Constructer development environment"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+          </div>
+
+    
+
+          <div className="case-image-wrapper">
+              <Image
+                src="/images/constructer/constructer-m-4.png"
+                alt="Constructer development environment"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+          </div>
+
+          </div>
+          <Link
+            href="https://constructer.ai/"
+            className="button button-primary"
+          >
+            View live website
+          </Link>
 
         </div>
+
+         
       </section>
 
 
@@ -1158,13 +1392,13 @@ export default function ConstructerPage() {
           REFLECTION
       ======================================== */}
 
-      <section className="case-section case-reflection">
+      <section className="case-section  section-highlight">
         <div className="container">
 
           <div className="case-grid case-grid-2">
 
             <div>
-              <p className="eyebrow">17 — Reflection</p>
+              <p className="eyebrow">18 — Reflection</p>
 
               <h2>
                 Designing for trust is different from designing for
@@ -1202,11 +1436,11 @@ export default function ConstructerPage() {
           FINAL GALLERY
       ======================================== */}
 
-      <section className="case-section">
+      {/* <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
-            <p className="eyebrow">Project gallery</p>
+            <p className="eyebrow">19 - Project gallery</p>
 
             <h2>
               Selected final screens.
@@ -1240,7 +1474,7 @@ export default function ConstructerPage() {
           />
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       

@@ -2,6 +2,10 @@ import Link from "next/link";
 import {
   FiArrowLeft,
   FiArrowRight,
+  FiType,
+  FiEye,
+  FiSmartphone,
+  FiMenu,
   FiExternalLink,
 } from "react-icons/fi";
 
@@ -81,9 +85,9 @@ export default function CarGiantPage() {
                   Role
                 </span>
 
-                <span>
+                <strong>
                   Senior Graphic Designer
-                </span>
+                </strong>
               </div>
 
               <div>
@@ -91,9 +95,9 @@ export default function CarGiantPage() {
                   Industry
                 </span>
 
-                <span>
+                <strong>
                   Automotive
-                </span>
+                </strong>
               </div>
 
               <div>
@@ -101,9 +105,9 @@ export default function CarGiantPage() {
                   Focus
                 </span>
 
-                <span>
+                <strong>
                   UX · UI · Brand · Research
-                </span>
+                </strong>
               </div>
 
               <div>
@@ -111,9 +115,9 @@ export default function CarGiantPage() {
                   Platform
                 </span>
 
-                <span>
+                <strong>
                   Web
-                </span>
+                </strong>
               </div>
 
             </div>
@@ -132,7 +136,7 @@ export default function CarGiantPage() {
 
       {/* OVERVIEW */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
@@ -166,10 +170,6 @@ export default function CarGiantPage() {
                 finance and test-drive journeys.
               </p>
 
-            </div>
-
-            <div className="case-copy">
-
               <p>
                 As Senior Graphic Designer, I worked
                 with stakeholders and the Marketing
@@ -196,7 +196,7 @@ export default function CarGiantPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              THE CHALLENGE
+              01 – THE CHALLENGE
             </p>
 
             <h2>
@@ -258,14 +258,14 @@ export default function CarGiantPage() {
 
       {/* BUSINESS RESEARCH */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
           <div className="section-intro">
 
             <p className="eyebrow">
-              BUSINESS RESEARCH
+              02 – BUSINESS RESEARCH
             </p>
 
             <h2>
@@ -336,7 +336,7 @@ export default function CarGiantPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              USER RESEARCH
+              03 – USER RESEARCH
             </p>
 
             <h2>
@@ -412,14 +412,14 @@ export default function CarGiantPage() {
 
       {/* A/B TEST */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
           <div className="section-intro">
 
             <p className="eyebrow">
-              EXPERIMENTATION
+              04 – EXPERIMENTATION
             </p>
 
             <h2>
@@ -481,7 +481,7 @@ export default function CarGiantPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              HYPOTHESES
+              05 – HYPOTHESES
             </p>
 
             <h2>
@@ -569,14 +569,14 @@ export default function CarGiantPage() {
 
       {/* DESIGN STRATEGY */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
           <div className="section-intro">
 
             <p className="eyebrow">
-              DESIGN STRATEGY
+              06 – DESIGN STRATEGY
             </p>
 
             <h2>
@@ -647,7 +647,7 @@ export default function CarGiantPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              DESIGN DELIVERY
+              07 – DESIGN DELIVERY
             </p>
 
             <h2>
@@ -710,7 +710,7 @@ export default function CarGiantPage() {
 
       {/* WEBSITE DESIGNS */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
@@ -762,7 +762,7 @@ export default function CarGiantPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              FINANCE
+              09 – FINANCE
             </p>
 
             <h2>
@@ -784,14 +784,14 @@ export default function CarGiantPage() {
 
       {/* BRAND */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
           <div className="section-intro">
 
             <p className="eyebrow">
-              BRAND EVOLUTION
+              10 – BRAND EVOLUTION
             </p>
 
             <h2>
@@ -836,7 +836,7 @@ export default function CarGiantPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              ACCESSIBILITY
+              11 – ACCESSIBILITY
             </p>
 
             <h2>
@@ -846,9 +846,11 @@ export default function CarGiantPage() {
 
           </div>
 
-          <div className="principles-grid">
+          <div className="card-container">
 
-            <div className="principle-card">
+            <div className="card">
+                    
+              <FiType className="card-icon" aria-hidden="true" />
               <h3>Typography</h3>
 
               <p>
@@ -857,7 +859,8 @@ export default function CarGiantPage() {
               </p>
             </div>
 
-            <div className="principle-card">
+            <div className="card">
+              <FiEye className="card-icon" aria-hidden="true" />
               <h3>Contrast</h3>
 
               <p>
@@ -867,7 +870,8 @@ export default function CarGiantPage() {
               </p>
             </div>
 
-            <div className="principle-card">
+            <div className="card">
+              <FiSmartphone className="card-icon" aria-hidden="true" />
               <h3>Responsive</h3>
 
               <p>
@@ -876,7 +880,8 @@ export default function CarGiantPage() {
               </p>
             </div>
 
-            <div className="principle-card">
+            <div className="card">
+              <FiMenu className="card-icon" aria-hidden="true" />
               <h3>Navigation</h3>
 
               <p>
@@ -895,14 +900,14 @@ export default function CarGiantPage() {
 
       {/* HANDOFF */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
           <div className="section-intro">
 
             <p className="eyebrow">
-              DESIGN HANDOFF
+              12 – DESIGN HANDOFF
             </p>
 
             <h2>
@@ -960,7 +965,7 @@ export default function CarGiantPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              OUTCOME
+              13 – OUTCOME
             </p>
 
             <h2>
@@ -1019,12 +1024,12 @@ export default function CarGiantPage() {
 
       {/* REFLECTION */}
 
-      <section className="case-section case-reflection">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
           <p className="eyebrow">
-            REFLECTION
+            14 – REFLECTION
           </p>
 
           <h2>

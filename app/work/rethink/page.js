@@ -1,5 +1,13 @@
 import Link from "next/link";
-import { FiArrowLeft, FiArrowRight, FiExternalLink } from "react-icons/fi";
+import {
+  FiArrowLeft,
+  FiArrowRight,
+  FiType,
+  FiEye,
+  FiSmartphone,
+  FiMenu,
+  FiExternalLink,
+} from "react-icons/fi";
 
 export const metadata = {
   title: "Rethink - Branding and Wordpress Development",
@@ -81,9 +89,9 @@ export default function RethinkPage() {
                   Role
                 </span>
 
-                <span>
+                <strong>
                   Founding Designer & Developer
-                </span>
+                </strong>
               </div>
 
               <div>
@@ -91,9 +99,9 @@ export default function RethinkPage() {
                   Industry
                 </span>
 
-                <span>
+                <strong>
                   Property · Real Estate · Technology
-                </span>
+                </strong>
               </div>
 
               <div>
@@ -101,9 +109,9 @@ export default function RethinkPage() {
                   Project
                 </span>
 
-                <span>
+                <strong>
                   Brand & Website
-                </span>
+                </strong>
               </div>
 
               <div>
@@ -111,9 +119,9 @@ export default function RethinkPage() {
                   Platform
                 </span>
 
-                <span>
+                <strong>
                   WordPress
-                </span>
+                </strong>
               </div>
 
             </div>
@@ -132,7 +140,7 @@ export default function RethinkPage() {
 
       {/* OVERVIEW */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -164,10 +172,6 @@ export default function RethinkPage() {
                 implementation and testing.
               </p>
 
-            </div>
-
-            <div className="case-copy">
-
               <p>
                 Existing stakeholder research provided
                 a strong understanding of the target
@@ -194,7 +198,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              THE CHALLENGE
+              01 – THE CHALLENGE
             </p>
 
             <h2>
@@ -242,14 +246,14 @@ export default function RethinkPage() {
 
       {/* ROLE */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
           <div className="section-intro">
 
             <p className="eyebrow">
-              MY ROLE
+              02 – MY ROLE
             </p>
 
             <h2>
@@ -308,7 +312,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              DISCOVERY
+              03 – DISCOVERY
             </p>
 
             <h2>
@@ -366,14 +370,14 @@ export default function RethinkPage() {
 
       {/* HYPOTHESES */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
           <div className="section-intro">
 
             <p className="eyebrow">
-              HYPOTHESES
+              04 – HYPOTHESES
             </p>
 
             <h2>
@@ -428,7 +432,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              BRAND DISCOVERY
+              05 – BRAND DISCOVERY
             </p>
 
             <h2>
@@ -502,14 +506,14 @@ export default function RethinkPage() {
 
       {/* USER JOURNEY */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
           <div className="section-intro">
 
             <p className="eyebrow">
-              USER JOURNEYS
+              06 – USER JOURNEYS
             </p>
 
             <h2>
@@ -545,7 +549,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              UX DESIGN
+              07 – UX DESIGN
             </p>
 
             <h2>
@@ -606,14 +610,14 @@ export default function RethinkPage() {
 
       {/* HIGH FIDELITY */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
           <div className="section-intro">
 
             <p className="eyebrow">
-              UI DESIGN
+              08 – UI DESIGN
             </p>
 
             <h2>
@@ -667,7 +671,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              ACCESSIBILITY
+              08 – ACCESSIBILITY
             </p>
 
             <h2>
@@ -680,6 +684,7 @@ export default function RethinkPage() {
           <div className="card-container">
 
             <div className="card">
+              <FiType className="card-icon" aria-hidden="true" />
               <h3>Typography</h3>
               <p>
                 Legible type sizes and clear hierarchy.
@@ -687,6 +692,7 @@ export default function RethinkPage() {
             </div>
 
             <div className="card">
+              <FiEye className="card-icon" aria-hidden="true" />
               <h3>Contrast</h3>
               <p>
                 Consideration of contrast between
@@ -695,6 +701,7 @@ export default function RethinkPage() {
             </div>
 
             <div className="card">
+              <FiSmartphone className="card-icon" aria-hidden="true" />
               <h3>Responsive</h3>
               <p>
                 Layouts designed to work across
@@ -703,6 +710,7 @@ export default function RethinkPage() {
             </div>
 
             <div className="card">
+              <FiMenu className="card-icon" aria-hidden="true" />
               <h3>Navigation</h3>
               <p>
                 Clear hierarchy and interaction
@@ -719,14 +727,14 @@ export default function RethinkPage() {
 
       {/* VALIDATION */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
           <div className="section-intro">
 
             <p className="eyebrow">
-              VALIDATION
+              09 – VALIDATION
             </p>
 
             <h2>
@@ -789,7 +797,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              DEVELOPMENT
+              10 – DEVELOPMENT
             </p>
 
             <h2>
@@ -840,7 +848,7 @@ export default function RethinkPage() {
 
       {/* DEVELOPMENT IMAGES */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
@@ -892,7 +900,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              TESTING & LAUNCH
+              11 - TESTING & LAUNCH
             </p>
 
             <h2>
@@ -949,14 +957,14 @@ export default function RethinkPage() {
 
       {/* OUTCOME */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
           <div className="section-intro">
 
             <p className="eyebrow">
-              OUTCOME
+              12 – OUTCOME
             </p>
 
             <h2>
@@ -1013,7 +1021,7 @@ export default function RethinkPage() {
         <div className="container">
 
           <p className="eyebrow">
-            REFLECTION
+            13 - REFLECTION
           </p>
 
           <h2>

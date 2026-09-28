@@ -70,22 +70,30 @@ export default function InsurwaveCaseStudy() {
             <div className="case-meta">
 
               <div>
-                <span>Role</span>
+                <span className="case-meta-label">
+                  Role
+                </span>
                 <strong>Founding UI/UX Designer</strong>
               </div>
 
               <div>
-                <span>Industry</span>
+                <span className="case-meta-label">
+                  Industry
+                </span>
                 <strong>Insurtech</strong>
               </div>
 
               <div>
-                <span>Product</span>
+                <span className="case-meta-label">
+                  Product
+                </span>
                 <strong>B2B SaaS</strong>
               </div>
 
               <div>
-                <span>Timeline</span>
+                <span className="case-meta-label">
+                  Timeline
+                </span>
                 <strong>2020–2022</strong>
               </div>
 
@@ -107,7 +115,7 @@ export default function InsurwaveCaseStudy() {
           OVERVIEW
       ===================================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -167,7 +175,7 @@ export default function InsurwaveCaseStudy() {
           THE CHALLENGE
       ===================================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section">
         <div className="container">
           <div className="section-intro">
             <div className="eyebrow">
@@ -231,7 +239,7 @@ export default function InsurwaveCaseStudy() {
           MY ROLE
       ===================================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -310,7 +318,7 @@ export default function InsurwaveCaseStudy() {
           BUSINESS RESEARCH
       ===================================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
@@ -382,7 +390,7 @@ export default function InsurwaveCaseStudy() {
           USER RESEARCH
       ===================================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -501,7 +509,7 @@ export default function InsurwaveCaseStudy() {
           KEY INSIGHT
       ===================================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
@@ -581,7 +589,7 @@ export default function InsurwaveCaseStudy() {
           HYPOTHESES
       ===================================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -657,7 +665,7 @@ export default function InsurwaveCaseStudy() {
           USER JOURNEYS
       ===================================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
@@ -754,7 +762,7 @@ export default function InsurwaveCaseStudy() {
           PROTOTYPING + TESTING
       ===================================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -833,7 +841,7 @@ export default function InsurwaveCaseStudy() {
           INFORMATION ARCHITECTURE
       ===================================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
@@ -895,7 +903,7 @@ export default function InsurwaveCaseStudy() {
           UI DESIGN
       ===================================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -974,7 +982,7 @@ export default function InsurwaveCaseStudy() {
           ACCESSIBILITY
       ===================================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
@@ -1037,7 +1045,7 @@ export default function InsurwaveCaseStudy() {
           DESIGN → ENGINEERING
       ===================================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -1198,7 +1206,7 @@ export default function InsurwaveCaseStudy() {
           MEASUREMENT
       ===================================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -1264,7 +1272,7 @@ export default function InsurwaveCaseStudy() {
           OUTCOME
       ===================================================== */}
 
-      <section className="case-section case-muted">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
@@ -1346,7 +1354,7 @@ export default function InsurwaveCaseStudy() {
           REFLECTION
       ===================================================== */}
 
-      <section className="case-section case-reflection">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -1404,7 +1412,7 @@ export default function InsurwaveCaseStudy() {
           <div className="section-intro">
 
             <div className="eyebrow">
-              Product gallery
+              17 – Product gallery
             </div>
 
             <h2>

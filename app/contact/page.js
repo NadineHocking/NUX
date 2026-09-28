@@ -5,7 +5,7 @@ export default function Contact() {
       <div className="container">
 
         <p className="eyebrow">
-          Contact
+          <span className="eyebrow-highlight">Available </span>
         </p>
 
         <h1>
