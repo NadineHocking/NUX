@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 import {
   FiArrowLeft,
   FiArrowRight,
@@ -72,7 +74,7 @@ export default function RethinkPage() {
             </p>
 
             <h1>
-              Designing and building a training platform
+              Designing and building a training website
               for property and technology professionals.
             </h1>
 
@@ -128,11 +130,30 @@ export default function RethinkPage() {
 
           </div>
 
-          <ImagePlaceholder
-            label="Rethink website hero"
-            description="Final website hero image"
-            className="placeholder-hero"
-          />
+           <div className="grid-3-1">
+              <Image
+                  src="/images/Rethink/Feature-img-desktop2-Rethink-xxl.png"
+                  alt="Rethink Desktop"
+                  width={2400}
+                  height={1350}
+                  priority
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                  className="case-image"
+                />
+
+                 <Image
+                  src="/images/Rethink/mobile-feature-rethink.png"
+                  alt="Rethink Mobile"
+                  width={2400}
+                  height={1350}
+                  priority
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                  className="case-image"
+                />
+
+            </div>
+
+  
 
         </div>
       </section>
@@ -486,16 +507,29 @@ export default function RethinkPage() {
           </div>
 
           <div className="case-gallery">
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/Rethink/rethink-logo-concepts.png"
+                alt="Initial Rethink logo exploration"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
 
-            <ImagePlaceholder
-              label="Logo concepts"
-              description="Initial Rethink logo exploration"
-            />
-
-            <ImagePlaceholder
-              label="Moodboard"
-              description="Visual identity exploration"
-            />
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/Rethink/Rethink-m-boards-1059.png"
+                alt="Visual identity exploration - moodbooard"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
 
           </div>
 
@@ -529,11 +563,18 @@ export default function RethinkPage() {
             move through the website.
           </p>
 
-          <ImagePlaceholder
-            label="Rethink flow chart"
-            description="Initial user journey map"
-            className="placeholder-large"
+      
+      
+          <Image
+            src="/images/Rethink/Rethink-flowchart-xl.png"
+            alt="Initial user journey map"
+            width={2400}
+            height={1350}
+            priority
+            sizes="(max-width: 768px) 100vw, 1200px"
+            className="case-image"
           />
+             
 
         </div>
 
@@ -577,11 +618,36 @@ export default function RethinkPage() {
 
             </div>
 
-            <div>
-              <ImagePlaceholder
-                label="Low-fidelity prototype"
-                description="Initial website wireframes"
-              />
+            <div className="figma-comparison">
+              <div className="figma-panel">
+                <div className="prototype-header">
+                  <span>Desktop</span>
+                  <span>Figma prototype</span>
+                </div>
+
+                <div className="figma-embed">
+                  <iframe
+                    title="Rethink desktop wireframe prototype"
+                    src="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?node-id=104-6040&viewport=361%2C415%2C0.09&scaling=scale-down&content-scaling=fixed&starting-point-node-id=104%3A6040&page-id=104%3A6035&embed-host=share"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+
+              <div className="figma-panel">
+                <div className="prototype-header">
+                  <span>Mobile</span>
+                  <span>Figma prototype</span>
+                </div>
+
+                <div className="figma-embed">
+                  <iframe
+                    title="Rethink mobile wireframe prototype"
+                    src="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?node-id=296-2445&p=f&viewport=300%2C474%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=296%3A2445&page-id=104%3A6034&embed-host=share"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
             </div>
 
           </div>
@@ -635,25 +701,47 @@ export default function RethinkPage() {
 
           <div className="case-gallery">
 
-            <ImagePlaceholder
-              label="High-fidelity design"
-              description="Rethink website concept"
+    
+            <Image
+              src="/images/Rethink/rethink-long-display-1.png"
+              alt="Rethink website concept homepage"
+              width={2400}
+              height={1350}
+              priority
+              sizes="(max-width: 768px) 100vw, 1200px"
+              className="case-image"
+            />
+            <Image
+              src="/images/Rethink/rehtink-book-lg.png"
+              alt="Rethink booking page"
+              width={2400}
+              height={1350}
+              priority
+              sizes="(max-width: 768px) 100vw, 1200px"
+              className="case-image"
+            />
+             <Image
+              src="/images/Rethink/rethinkptgroup-prev-3.png"
+              alt="Course content experience"
+              width={2400}
+              height={1350}
+              priority
+              sizes="(max-width: 768px) 100vw, 1200px"
+              className="case-image"
             />
 
-            <ImagePlaceholder
-              label="High-fidelity design"
-              description="Responsive website concept"
+            <Image
+              src="/images/Rethink/rethinkptgroup-prev-4.png"
+              alt="Course content experience"
+              width={2400}
+              height={1350}
+              priority
+              sizes="(max-width: 768px) 100vw, 1200px"
+              className="case-image"
             />
 
-            <ImagePlaceholder
-              label="High-fidelity design"
-              description="Course content experience"
-            />
+            
 
-            <ImagePlaceholder
-              label="High-fidelity design"
-              description="Mobile experience"
-            />
 
           </div>
 
@@ -729,7 +817,7 @@ export default function RethinkPage() {
 
       <section className="case-section section-highlight">
 
-        <div className="container">
+        <div className="container"> 
 
           <div className="section-intro">
 
@@ -841,47 +929,31 @@ export default function RethinkPage() {
 
           </div>
 
-        </div>
-
-      </section>
 
 
       {/* DEVELOPMENT IMAGES */}
 
-      <section className="case-section section-highlight">
 
-        <div className="container">
+         <div className="case-gallery">
 
-          <div className="case-gallery">
-
-            <ImagePlaceholder
-              label="HTML5"
-              description="Frontend implementation"
+    
+            <Image
+              src="/images/Rethink/Wordpress-local-setup.png"
+              alt="Rethink wordpress website setup"
+              width={2400}
+              height={1350}
+              priority
+              sizes="(max-width: 768px) 100vw, 1200px"
+              className="case-image"
             />
-
-            <ImagePlaceholder
-              label="CSS3"
-              description="Interface styling"
-            />
-
-            <ImagePlaceholder
-              label="Sass / SCSS"
-              description="Maintainable styling architecture"
-            />
-
-            <ImagePlaceholder
-              label="JavaScript"
-              description="Frontend interaction"
-            />
-
-            <ImagePlaceholder
-              label="PHP"
-              description="WordPress implementation"
-            />
-
-            <ImagePlaceholder
-              label="WordPress"
-              description="CMS implementation"
+            <Image
+              src="/images/Rethink/rethink-dev.png"
+              alt="Rethink Local Dev Environment"
+              width={2400}
+              height={1350}
+              priority
+              sizes="(max-width: 768px) 100vw, 1200px"
+              className="case-image"
             />
 
           </div>
@@ -893,7 +965,7 @@ export default function RethinkPage() {
 
       {/* STAGING */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
 
         <div className="container">
 
@@ -957,7 +1029,7 @@ export default function RethinkPage() {
 
       {/* OUTCOME */}
 
-      <section className="case-section section-highlight">
+      <section className="case-section">
 
         <div className="container">
 
@@ -1016,7 +1088,7 @@ export default function RethinkPage() {
 
       {/* REFLECTION */}
 
-      <section className="case-section case-reflection">
+      <section className="case-section section-highlight">
 
         <div className="container">
 

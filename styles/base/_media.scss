@@ -18,11 +18,21 @@
   background: var(--paper);
 }
 
+.grid-image-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  // border-radius: var(--radius-lg);
+  // background: var(--paper);
+}
+
 .case-image {
   display: block;
   width: 100%;
   height: auto;
 }
+
+
 
 // .figma-embed {
 //   position: relative;
@@ -42,6 +52,14 @@
 //     border: 0;
 //   }
 // }
+/* Force the iframe container to scale fluidly */
+.iframe {
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
+  box-sizing: border-box;
+}
 
 .figma-comparison {
   display: grid;

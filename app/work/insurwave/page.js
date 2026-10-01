@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 import {
   FiArrowLeft,
   FiArrowRight,
@@ -19,7 +21,7 @@ const ImagePlaceholder = ({
           <span className="placeholder-description">
             {description}
           </span>
-        )}
+        )} 
       </div>
     </div>
   );
@@ -101,11 +103,26 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <ImagePlaceholder
+          {/* <ImagePlaceholder
             label="Hero product screen"
             description="Strongest final Insurwave interface or product overview"
             className="placeholder-hero"
-          />
+          /> */}
+
+          <section className="case-section case-hero-image">
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/insurwave/InsurwaveDashboard.png"
+                alt="Constructer AI platform interface"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
+          </section>
+
 
         </div>
       </section>
@@ -136,7 +153,7 @@ export default function InsurwaveCaseStudy() {
             <div className="case-copy">
 
               <p>
-                Insurwave was an early-stage B2B insurtech platform
+                Insurwave is a B2B Insurtech platform
                 designed to connect insurance buyers, brokers and
                 insurers while making complex insurance data easier
                 to manage and understand.
@@ -376,11 +393,25 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <ImagePlaceholder
+          {/* <ImagePlaceholder
             label="Existing product / known pains"
             description="Screenshots of the existing experience with annotated friction points"
             className="placeholder-large"
-          />
+          /> */}
+
+          <section className="case-section case-hero-image">
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/insurwave/InsurwaveWnownPains2.png"
+                alt="Constructer AI platform interface"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
+          </section>
 
         </div>
       </section>
@@ -524,7 +555,8 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <div className="positioning-grid">
+          <div className="positioning-grid-3">
+
 
             <div className="positioning-item">
               <span>BEFORE</span>
@@ -539,9 +571,8 @@ export default function InsurwaveCaseStudy() {
               </p>
             </div>
 
-            <div className="positioning-arrow">
-              →
-            </div>
+   
+            
 
             <div className="positioning-item">
               <span>INSIGHT</span>
@@ -556,9 +587,7 @@ export default function InsurwaveCaseStudy() {
               </p>
             </div>
 
-            <div className="positioning-arrow">
-              →
-            </div>
+          
 
             <div className="positioning-item">
               <span>RESPONSE</span>
@@ -574,12 +603,6 @@ export default function InsurwaveCaseStudy() {
             </div>
 
           </div>
-
-          <ImagePlaceholder
-            label="Before → after information architecture"
-            description="Show the transition from existing structure to asset-centric experience"
-            className="placeholder-large"
-          />
 
         </div>
       </section>
@@ -679,12 +702,7 @@ export default function InsurwaveCaseStudy() {
             </h2>
 
           </div>
-
-          <div className="case-grid case-grid-2">
-
-            <div className="case-copy">
-
-            <h3 className="subheading">
+           <h3 className="subheading">
                 Primary journey
               </h3>
 
@@ -693,6 +711,14 @@ export default function InsurwaveCaseStudy() {
                 users track an asset, identify risk, understand its
                 impact and take action.
               </p>
+              
+
+          <div className="case-grid case-grid-2">
+
+            <div className="case-copy">
+
+           
+              
 
               <div className="v-journey">
 
@@ -711,11 +737,18 @@ export default function InsurwaveCaseStudy() {
 
             </div>
 
-            <ImagePlaceholder
-              label="Primary user journey"
-              description="Detailed journey / flowchart"
-              className="placeholder-large"
-            />
+        
+
+            
+              <div className="figma-embed v-journey">
+           
+                <iframe 
+                title="Insurwave Journey 1 desktop wireframe prototype"
+                src="https://embed.figma.com/proto/0o9Y52yqcZrL5qYNbgYtht/InsurwaveCaseStudy?node-id=3004-70811&viewport=119%2C393%2C0.13&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3004%3A70811&page-id=3004%3A53617&embed-host=share"
+                allowFullScreen
+                />
+              </div>
+           
 
           </div>
 
@@ -728,31 +761,94 @@ export default function InsurwaveCaseStudy() {
             <div className="arrow-cards">
 
               <div className="card">
-                <strong>01 </strong>
-                Track vessels
+                <span>01</span>
+                Track Asset
               </div>
             <FiArrowRight aria-hidden="true" />
 
               <div className="card">
-                <strong>02 </strong>
+                <span>02</span>
                 Filter content within the risk map
               </div>
             <FiArrowRight aria-hidden="true" />
 
               <div className="card">
-                <strong>03 </strong>
+                <span>03</span>
                 Create an agreed-rates quote
               </div>
             <FiArrowRight aria-hidden="true" />
 
               <div className="card">
-                <strong>04 </strong>
-                Receive and view asset changes
+                <span>04</span>
+                Collaborative workspace
               </div>
 
             </div>
 
           </div>
+          <div className="grid-2x">
+            <div className="figma-panel">
+              <div className="prototype-header">
+                <span className="accent">01: Track Asset</span>
+                <span>Figma prototype</span>
+              </div>
+
+              <div className="figma-embed">
+                <iframe
+                  title="Track Asset Journey - wireframe prototype"
+                  src="https://embed.figma.com/proto/0o9Y52yqcZrL5qYNbgYtht/InsurwaveCaseStudy?node-id=3013-75636&p=f&viewport=94%2C450%2C0.11&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3013%3A75636&page-id=3013%3A75186&embed-host=share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+
+            <div className="figma-panel">
+              <div className="prototype-header">
+                <span>02: Asset Map Filter</span>
+                <span>Figma prototype</span>
+              </div>
+
+              <div className="figma-embed">
+                <iframe
+                  title="Journey 3: Asset map filter wireframe prototype"
+                  src="https://embed.figma.com/proto/0o9Y52yqcZrL5qYNbgYtht/InsurwaveCaseStudy?node-id=3018-76690&viewport=114%2C239%2C0.16&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3018%3A76690&page-id=3018%3A76502&embed-host=share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+            <div className="figma-panel">
+              <div className="prototype-header">
+                <span>03: Agreed Rates</span>
+                <span>Figma prototype</span>
+              </div>
+
+              <div className="figma-embed">
+                <iframe
+                  title="Agreed Rates"
+                  src="https://embed.figma.com/proto/0o9Y52yqcZrL5qYNbgYtht/InsurwaveCaseStudy?node-id=3083-78055&p=f&viewport=345%2C229%2C0.04&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3083%3A78055&page-id=3083%3A78044&embed-host=share" 
+                  allowFullScreen
+                />
+              </div>
+            </div>
+
+            <div className="figma-panel">
+              <div className="prototype-header">
+                <span>04: Collaborative workspace</span>
+                <span>Figma prototype</span>
+              </div>
+
+              <div className="figma-embed">
+                <iframe
+                  title="Collaborative workspace"
+                  src="https://embed.figma.com/proto/0o9Y52yqcZrL5qYNbgYtht/InsurwaveCaseStudy?node-id=3117-82024&p=f&viewport=289%2C383%2C0.09&scaling=scale-down&content-scaling=fixed&page-id=3117%3A82022&starting-point-node-id=3117%3A82024&embed-host=share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+
+          </div>
+
+          
 
         </div>
       </section>
@@ -827,11 +923,25 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <ImagePlaceholder
+          {/* <ImagePlaceholder
             label="Prototype evolution"
             description="Low-fidelity → prototype → refined UI"
             className="placeholder-wide"
-          />
+          /> */}
+
+          <section className="case-section case-hero-image">
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/insurwave/prototype-evolution2x.png"
+                alt="Prototype evolution"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
+          </section>
 
         </div>
       </section>
@@ -865,17 +975,26 @@ export default function InsurwaveCaseStudy() {
 
           <div className="case-grid case-grid-2">
 
-            <ImagePlaceholder
-              label="Existing information architecture"
-              description="Original sitemap / navigation"
-              className="placeholder-large"
-            />
+            <Image
+                src="/images/insurwave/InsurwvaeOldIA.png"
+                alt="Fragmented workflows"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
 
-            <ImagePlaceholder
-              label="Updated information architecture"
-              description="Asset-centric structure and navigation"
-              className="placeholder-large"
-            />
+            <Image
+                src="/images/insurwave/InsurwvaeNewIA.png"
+                alt="Asset centric workflows"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+           
 
           </div>
 
@@ -924,53 +1043,112 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <div className="case-grid case-grid-2">
-
-            <ImagePlaceholder
-              label="Wireframes"
-              description="Early structural explorations"
-              className="placeholder-large"
-            />
-
-            <ImagePlaceholder
-              label="High-fidelity UI"
-              description="Final interface designs"
-              className="placeholder-large"
-            />
-
-          </div>
 
           <div className="case-gallery">
 
-            <ImagePlaceholder
-              label="Dashboard"
-              description="Product dashboard"
-            />
 
-            <ImagePlaceholder
-              label="Asset view"
-              description="Asset-centric experience"
-            />
+            <Image
+                src="/images/insurwave/InsurwaveDashboard.png"
+                alt="Insurwave Dashboard"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
 
-            <ImagePlaceholder
-              label="Risk map"
-              description="Risk visualisation"
-            />
+               <Image
+                src="/images/insurwave/IWAsset-view.png"
+                alt="Insurwave Asset view"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
 
-            <ImagePlaceholder
-              label="Filters"
-              description="Filtering and navigation"
-            />
+            <Image
+                src="/images/insurwave/IWAssetinventorylist.png"
+                alt="Insurwave Asset inventory"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
 
-            <ImagePlaceholder
-              label="Policy information"
-              description="Policy interface"
-            />
+            
+            <Image
+                src="/images/insurwave/IWAriskmapfilters.png"
+                alt="Insurwave riskmap filters"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            <Image
+                src="/images/insurwave/IWagreedrates1.png"
+                alt="Insurwave Agreed rates"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
 
-            <ImagePlaceholder
-              label="Notifications"
-              description="Asset / risk notifications"
-            />
+            <Image
+                src="/images/insurwave/IWagreedrates.png"
+                alt="Insurwave Agreed rates"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+               
+
+              <Image
+                src="/images/insurwave/War zone voyages.png"
+                alt="Insurwave war voyages"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+
+
+            <Image
+                src="/images/insurwave/IWpolicypage.png"
+                alt="Insurwave Policy view"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+
+               <Image
+                src="/images/insurwave/IWKaban2.png"
+                alt="Insurwave Kaban board"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+
+              <Image
+                src="/images/insurwave/IWAssetdetail.png"
+                alt="Insurwave Asset detail"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+
 
           </div>
 
@@ -1119,7 +1297,7 @@ export default function InsurwaveCaseStudy() {
           FIGMA → PRODUCT
       ===================================================== */}
 
-      <section className="case-section">
+      {/* <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
@@ -1199,20 +1377,20 @@ export default function InsurwaveCaseStudy() {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
 
       {/* =====================================================
           MEASUREMENT
       ===================================================== */}
 
-      <section className="case-section section-highlight">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
 
             <div className="eyebrow">
-              14 — Measurement
+              13 — Measurement
             </div>
 
             <h2>
@@ -1272,13 +1450,13 @@ export default function InsurwaveCaseStudy() {
           OUTCOME
       ===================================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
 
             <div className="eyebrow">
-              15 — Outcome
+              14 — Outcome
             </div>
 
             <h2>
@@ -1354,13 +1532,13 @@ export default function InsurwaveCaseStudy() {
           REFLECTION
       ===================================================== */}
 
-      <section className="case-section section-highlight">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
 
             <div className="eyebrow">
-              16 — Reflection
+              15 — Reflection
             </div>
 
             <h2>
@@ -1406,13 +1584,13 @@ export default function InsurwaveCaseStudy() {
           GALLERY
       ===================================================== */}
 
-      <section className="case-section">
+      {/* <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
 
             <div className="eyebrow">
-              17 – Product gallery
+              16 – Product gallery
             </div>
 
             <h2>
@@ -1450,7 +1628,7 @@ export default function InsurwaveCaseStudy() {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
 
       

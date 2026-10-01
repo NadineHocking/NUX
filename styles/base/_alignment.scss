@@ -1,5 +1,6 @@
 .d-flex {
   display: flex;
+  flex-direction: row;
 }
 
 .flex-column {
@@ -28,4 +29,53 @@
 
 .text-md-start {
   text-align: left;
+}
+
+
+.grid-2x {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+}
+
+.grid-2-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+}
+
+.grid-3-1 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+}
+
+.grid-3x {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+}
+
+.grid-4x {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+}
+
+@media (max-width: 768px) {
+  .grid-2x, .grid-3x, .grid-4x, .grid-3-1, .grid-2-1  {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .d-flex {
+  flex-direction: column;
+}
+
+  
 }

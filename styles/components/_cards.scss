@@ -277,18 +277,21 @@
           transform: translateY(-2px);
           box-shadow: 0 8px 24px rgba(74, 27, 66, 0.08);
         }
+   
+        
       }
 
       svg {
       align-self: center;
       flex-shrink: 0;
       width: 18px;
+      color: var(--accent)
     }
 
       span, .small-number {
         // @include small-number;
       display: block;
-      margin-bottom: var(--space-sm);
+      margin-bottom: var(--space-xs);
       color: var(--accent);
       font-size: .9rem;
     }

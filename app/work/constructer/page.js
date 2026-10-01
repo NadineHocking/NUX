@@ -123,19 +123,30 @@ export default function ConstructerPage() {
             description="Final Constructer.ai website / homepage"
             className="placeholder-hero"
           /> */}
-          <section className="case-section case-hero-image">
-            <div className="case-image-wrapper">
+      
+
+          <div className="grid-3-1">
               <Image
-                src="/images/constructer/Constructer-feature-xxl.png"
-                alt="Constructer AI platform interface"
-                width={2400}
-                height={1350}
-                priority
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              />
+                  src="/images/constructer/Constructer-feature-xxl.png"
+                  alt="Rethink Desktop"
+                  width={2400}
+                  height={1350}
+                  priority
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                  className="case-image"
+                />
+
+                  <Image
+                  src="/images/constructer/mobile-feature-Constructer-xl.png"
+                  alt="Rethink Mobile"
+                  width={2400}
+                  height={1350}
+                  priority
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                  className="case-image"
+                />
+
             </div>
-          </section>
 
         </div>
       </section>
@@ -323,12 +334,6 @@ export default function ConstructerPage() {
 
           </div>
 
-          <ImagePlaceholder
-            label="USER / BUSINESS RESEARCH"
-            description="User groups, research notes or stakeholder mapping"
-            className="placeholder-wide"
-          />
-
         </div>
       </section>
 
@@ -382,12 +387,6 @@ export default function ConstructerPage() {
             </div>
 
           </div>
-
-          {/* <ImagePlaceholder
-            label="COMPETITIVE AUDIT"
-            description="Competitor screenshots / positioning matrix"
-            className="placeholder-wide"
-          /> */}
 
            <section className="case-section case-image">
             <div className="case-image-wrapper">
@@ -519,7 +518,7 @@ export default function ConstructerPage() {
               />
             </div>
           </section> */}
-            <p className="eyebrow">Logo Concepts</p>
+            {/* <p className="eyebrow">Logo Concepts</p>
 
           <div className="case-grid case-grid-2 image-row">
 
@@ -547,7 +546,7 @@ export default function ConstructerPage() {
               />
             </div>
 
-          </div>
+          </div> */}
 
           <div className="case-image-wrapper">
 
@@ -681,11 +680,6 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          {/* <ImagePlaceholder
-            label="SITEMAP"
-            description="Website information architecture"
-            className="placeholder-large"
-          /> */}
 
           <div className="arrow-cards">
 
@@ -751,18 +745,9 @@ export default function ConstructerPage() {
                 Low-fidelity wireframes were used to explore the structure,
                 hierarchy and key user flows before moving into high-fidelity UI design.
               </p>
-            </div>
+          </div>
 
-            {/* <div className="figma-embed">
-              <iframe
-                title="Constructer wireframe prototype"
-                src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=1-50&viewport=402%2C131%2C0.08&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A50&page-id=0%3A1&embed-host=share"
-                allowFullScreen
-              />
-            </div> */}
-
-             <div className="figma-comparison">
-
+          <div className="figma-comparison">
             <div className="figma-panel">
               <div className="prototype-header">
                 <span>Desktop</span>
@@ -772,7 +757,7 @@ export default function ConstructerPage() {
               <div className="figma-embed">
                 <iframe
                   title="Constructer desktop wireframe prototype"
-                  src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=146-1190&viewport=185%2C186%2C0.1&scaling=min-zoom&content-scaling=fixed&page-id=146%3A1189&embed-host=share"
+                  src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=146-1190&viewport=185%2C186%2C0.1&scaling=scale-down&content-scaling=fixed&page-id=146%3A1189&embed-host=share"
                   allowFullScreen
                 />
               </div>
@@ -792,9 +777,7 @@ export default function ConstructerPage() {
                 />
               </div>
             </div>
-
           </div>
-
         </div>
       </section>
 
@@ -880,7 +863,7 @@ export default function ConstructerPage() {
           <div className="case-image-wrapper">
 
               <Image
-                src="/images/constructer/constructer.aiDesignSystem.png"
+                src="/images/constructer/constructer.aiDesignSystem3.png"
                 alt="Initial sketches / logo concept2"
                 width={2400}
                 height={1350}
@@ -1113,7 +1096,7 @@ export default function ConstructerPage() {
       {/* ========================================
           DATABASE
       ======================================== */}
-
+{/* 
       <section className="case-section  section-highlight">
         <div className="container">
 
@@ -1152,14 +1135,14 @@ export default function ConstructerPage() {
           />
 
         </div>
-      </section>
+      </section> */}
 
 
       {/* ========================================
           INTERNATIONALISATION
       ======================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -1222,7 +1205,7 @@ export default function ConstructerPage() {
           PRODUCTION
       ======================================== */}
 
-      <section className="case-section  section-highlight">
+      <section className="case-section">
         <div className="container">
 
           <div className="section-intro">
@@ -1277,7 +1260,7 @@ export default function ConstructerPage() {
           OUTCOME
       ======================================== */}
 
-      <section className="case-section">
+      <section className="case-section section-highlight">
         <div className="container">
 
           <div className="section-intro">
@@ -1392,7 +1375,7 @@ export default function ConstructerPage() {
           REFLECTION
       ======================================== */}
 
-      <section className="case-section  section-highlight">
+      <section className="case-section">
         <div className="container">
 
           <div className="case-grid case-grid-2">

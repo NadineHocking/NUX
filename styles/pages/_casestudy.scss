@@ -621,6 +621,38 @@
 /* ========================================
    Positioning
 ======================================== */
+.positioning-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+
+  background: var(--border);
+  border: 1px solid var(--border);
+
+  div {
+    padding: var(--space-xl);
+
+    background: var(--background);
+  }
+
+  span {
+    display: block;
+    margin-bottom: var(--space-sm);
+
+    color: var(--accent);
+
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  h3 {
+    max-width: 450px;
+    margin-bottom: var(--space-sm);
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+}
 
 .positioning-grid {
   display: grid;
@@ -640,7 +672,7 @@
     display: block;
     margin-bottom: var(--space-sm);
 
-    color: var(--muted);
+    color: var(--accent);
 
     font-size: 0.75rem;
     text-transform: uppercase;
@@ -793,7 +825,7 @@
 
   .v-journey > span {
     padding-left: var(--space-sm);
-    color: var(--muted);
+    color: var(--accent);
   }
 
   .secondary-journeys {
@@ -1292,7 +1324,7 @@ html.dark .case-muted {
     min-height: 300px;
   }
 
-  .positioning-grid {
+  .positioning-grid, .positioning-grid-3 {
     div {
         padding: var(--space-lg);
     }
@@ -1300,6 +1332,7 @@ html.dark .case-muted {
 
   .user-groups,
   .positioning-grid,
+  .positioning-grid-3,
   .type-showcase,
   .development-grid,
   .production-grid,
