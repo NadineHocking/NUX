@@ -4,33 +4,30 @@ import GitHubRepos from "../../components/GitHubRepos";
 
 export default function Work() {
   return (
-    <section className="section page-header">
+    <>
+      <section className="section page-header">
+        <div className="container">
+          <p className="eyebrow">Portfolio</p>
 
-      <div className="container">
+          <h1 className="page-heading">
+            Selected projects
+          </h1>
 
-        <p className="eyebrow">
-          Portfolio
-        </p>
+          <p className="page-intro">
+            A selection of product design, UX and
+            frontend development projects.
+          </p>
 
-        <h1 className="page-heading">Selected projects</h1>
-
-        <p className="page-intro">
-          A selection of product design, UX and
-          frontend development projects.
-        </p>
-
-        <div className="project-grid">
-
-          {projects.map((project) => (
-            <ProjectCard
-              key={project.slug}
-              project={project}
-            />
-          ))}
-
+          <div className="project-grid">
+            {projects.map((project) => (
+              <ProjectCard
+                key={project.slug}
+                project={project}
+              />
+            ))}
+          </div>
         </div>
-
-      </div>
+      </section>
 
       <section className="github-section y-5">
         <div className="container">
@@ -40,23 +37,14 @@ export default function Work() {
             <h2>Explore my GitHub</h2>
 
             <p>
-              A selection of recent development projects, experiments,
-              and full-stack applications.
+              A selection of recent development projects,
+              experiments, and full-stack applications.
             </p>
           </div>
 
           <GitHubRepos />
         </div>
       </section>
-    </section>
-    
+    </>
   );
-}
-
-function isActive(href) {
-  if (href === "/work") {
-    return pathname === "/work" || pathname.startsWith("/work/");
-  }
-
-  return pathname === href;
 }

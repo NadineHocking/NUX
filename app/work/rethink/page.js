@@ -130,7 +130,8 @@ export default function RethinkPage() {
 
           </div>
 
-           <div className="grid-3-1">
+          <div className="grid-3-1">
+            <div className="case-image-wrapper">
               <Image
                   src="/images/Rethink/Feature-img-desktop2-Rethink-xxl.png"
                   alt="Rethink Desktop"
@@ -140,20 +141,19 @@ export default function RethinkPage() {
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
-
-                 <Image
-                  src="/images/Rethink/mobile-feature-rethink.png"
-                  alt="Rethink Mobile"
-                  width={2400}
-                  height={1350}
-                  priority
-                  sizes="(max-width: 768px) 100vw, 1200px"
-                  className="case-image"
-                />
-
             </div>
 
-  
+              <Image
+              src="/images/Rethink/mobile-feature-rethink.png"
+              alt="Rethink Mobile"
+              width={2400}
+              height={1350}
+              priority
+              sizes="(max-width: 768px) 100vw, 1200px"
+              className="case-image"
+            />
+
+          </div>
 
         </div>
       </section>
@@ -219,7 +219,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              01 – THE CHALLENGE
+              01 - THE CHALLENGE
             </p>
 
             <h2>
@@ -233,7 +233,7 @@ export default function RethinkPage() {
 
             <div>
               <span>01</span>
-              <h3>Course discovery</h3>
+              <h3>Course discovery:</h3>
               <p>
                 Help prospective students understand
                 the available training.
@@ -242,7 +242,7 @@ export default function RethinkPage() {
 
             <div>
               <span>02</span>
-              <h3>Trainer discovery</h3>
+              <h3>Trainer discovery:</h3>
               <p>
                 Provide information that helps users
                 understand who delivers the training.
@@ -251,7 +251,7 @@ export default function RethinkPage() {
 
             <div>
               <span>03</span>
-              <h3>Course booking</h3>
+              <h3>Course booking:</h3>
               <p>
                 Create a clear pathway from evaluating
                 a course to booking a place.
@@ -274,7 +274,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              02 – MY ROLE
+              02 - MY ROLE
             </p>
 
             <h2>
@@ -333,7 +333,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              03 – DISCOVERY
+              03 - DISCOVERY
             </p>
 
             <h2>
@@ -343,44 +343,41 @@ export default function RethinkPage() {
 
           </div>
 
-          <div className="case-grid">
 
-            <div className="case-copy">
+          <div className="case-copy">
 
-              <h3>
-                Defining the business goals
-              </h3>
+            <h3>
+              Defining the business goals
+            </h3>
 
-              <p>
-                The project began with stakeholder
-                discussions to understand the business
-                objectives, timeline and budget.
-              </p>
+            <p>
+              The project began with stakeholder
+              discussions to understand the business
+              objectives, timeline and budget.
+            </p>
 
-              <p>
-                We also explored the purpose of each
-                course and identified the information
-                prospective students would need to
-                make a decision.
-              </p>
+            <p>
+              We also explored the purpose of each
+              course and identified the information
+              prospective students would need to
+              make a decision.
+            </p>
 
-            </div>
+          </div>
 
-            <div className="insight-block">
+          <div className="insight-block">
 
-              <span className="eyebrow">
-                KEY TAKEAWAY
-              </span>
+            <span className="eyebrow">
+              KEY TAKEAWAY
+            </span>
 
-              <p>
-                Existing research provided a strong
-                understanding of the target audiences,
-                allowing the design process to move
-                directly into defining hypotheses
-                and user journeys.
-              </p>
-
-            </div>
+            <p>
+              Existing research provided a strong
+              understanding of the target audiences,
+              allowing the design process to move
+              directly into defining hypotheses
+              and user journeys.
+            </p>
 
           </div>
 
@@ -398,7 +395,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              04 – HYPOTHESES
+              04 - HYPOTHESES
             </p>
 
             <h2>
@@ -453,7 +450,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              05 – BRAND DISCOVERY
+              05 - BRAND DISCOVERY
             </p>
 
             <h2>
@@ -468,7 +465,7 @@ export default function RethinkPage() {
 
           </div>
 
-          <div className="arrow-cards">
+          <div className="arrow-cards spacer-b">
 
             <div className="card">
               <span>01</span>
@@ -507,29 +504,28 @@ export default function RethinkPage() {
           </div>
 
           <div className="case-gallery">
-            <div className="case-image-wrapper">
-              <Image
-                src="/images/Rethink/rethink-logo-concepts.png"
-                alt="Initial Rethink logo exploration"
-                width={2400}
-                height={1350}
-                priority
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              />
-            </div>
-
-            <div className="case-image-wrapper">
-              <Image
-                src="/images/Rethink/Rethink-m-boards-1059.png"
-                alt="Visual identity exploration - moodbooard"
-                width={2400}
-                height={1350}
-                priority
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              />
-            </div>
+              <div className="case-image-wrapper">
+                <Image
+                  src="/images/Rethink/rethink-logo-concepts.png"
+                  alt="Initial Rethink logo exploration"
+                  width={2400}
+                  height={1350}
+                  priority
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                  className="case-image"
+                />
+              </div>
+              <div className="case-image-wrapper">
+                <Image
+                  src="/images/Rethink/Rethink-m-boards-1059.png"
+                  alt="Visual identity exploration - moodbooard"
+                  width={2400}
+                  height={1350}
+                  priority
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                  className="case-image"
+                />
+              </div>
 
           </div>
 
@@ -563,8 +559,6 @@ export default function RethinkPage() {
             move through the website.
           </p>
 
-      
-      
           <Image
             src="/images/Rethink/Rethink-flowchart-xl.png"
             alt="Initial user journey map"
@@ -574,7 +568,6 @@ export default function RethinkPage() {
             sizes="(max-width: 768px) 100vw, 1200px"
             className="case-image"
           />
-             
 
         </div>
 
@@ -590,7 +583,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              07 – UX DESIGN
+              07 - UX DESIGN
             </p>
 
             <h2>
@@ -600,75 +593,53 @@ export default function RethinkPage() {
 
           </div>
 
-          <div className="case-grid">
+          <div className="case-copy">
 
-            <div className="case-copy">
+            <p>
+              Low-fidelity designs were created using
+              the agreed user journeys.
+            </p>
 
-              <p>
-                Low-fidelity designs were created using
-                the agreed user journeys.
-              </p>
-
-              <p>
-                These concepts were prototyped and
-                presented to stakeholders for review
-                and testing before moving into
-                high-fidelity design.
-              </p>
-
-            </div>
-
-            <div className="figma-comparison">
-              <div className="figma-panel">
-                <div className="prototype-header">
-                  <span>Desktop</span>
-                  <span>Figma prototype</span>
-                </div>
-
-                <div className="figma-embed">
-                  <iframe
-                    title="Rethink desktop wireframe prototype"
-                    src="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?node-id=104-6040&viewport=361%2C415%2C0.09&scaling=scale-down&content-scaling=fixed&starting-point-node-id=104%3A6040&page-id=104%3A6035&embed-host=share"
-                    allowFullScreen
-                  />
-                </div>
-              </div>
-
-              <div className="figma-panel">
-                <div className="prototype-header">
-                  <span>Mobile</span>
-                  <span>Figma prototype</span>
-                </div>
-
-                <div className="figma-embed">
-                  <iframe
-                    title="Rethink mobile wireframe prototype"
-                    src="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?node-id=296-2445&p=f&viewport=300%2C474%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=296%3A2445&page-id=104%3A6034&embed-host=share"
-                    allowFullScreen
-                  />
-                </div>
-              </div>
-            </div>
+            <p>
+              These concepts were prototyped and
+              presented to stakeholders for review
+              and testing before moving into
+              high-fidelity design.
+            </p>
 
           </div>
 
-          <div className="prototype-link">
+          <div className="figma-comparison spacer-t">
+            <div className="figma-panel">
+              <div className="prototype-header">
+                <span>Desktop</span>
+                <span>Figma prototype</span>
+              </div>
 
-            <a
-              href="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?page-id=&node-id=296-2445&p=f&viewport=334%2C637%2C0.09&scaling=scale-down&content-scaling=fixed&starting-point-node-id=296%3A2445&embed-host=share"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="button button-secondary"
-            >
-              <span>View Figma prototype</span>
-              <FiExternalLink
-                className="button-icon"
-                aria-hidden="true"
-              />
-            </a>
+              <div className="figma-embed">
+                <iframe
+                  title="Rethink desktop wireframe prototype"
+                  src="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?node-id=104-6040&viewport=361%2C415%2C0.09&scaling=scale-down&content-scaling=fixed&starting-point-node-id=104%3A6040&page-id=104%3A6035&embed-host=share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
 
+            <div className="figma-panel">
+              <div className="prototype-header">
+                <span>Mobile</span>
+                <span>Figma prototype</span>
+              </div>
+
+              <div className="figma-embed">
+                <iframe
+                  title="Rethink mobile wireframe prototype"
+                  src="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?node-id=296-2445&p=f&viewport=300%2C474%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=296%3A2445&page-id=104%3A6034&embed-host=share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
           </div>
-
         </div>
 
       </section>
@@ -683,7 +654,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              08 – UI DESIGN
+              08 - UI DESIGN
             </p>
 
             <h2>
@@ -700,49 +671,50 @@ export default function RethinkPage() {
           </div>
 
           <div className="case-gallery">
-
-    
-            <Image
-              src="/images/Rethink/rethink-long-display-1.png"
-              alt="Rethink website concept homepage"
-              width={2400}
-              height={1350}
-              priority
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="case-image"
-            />
-            <Image
-              src="/images/Rethink/rehtink-book-lg.png"
-              alt="Rethink booking page"
-              width={2400}
-              height={1350}
-              priority
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="case-image"
-            />
-             <Image
-              src="/images/Rethink/rethinkptgroup-prev-3.png"
-              alt="Course content experience"
-              width={2400}
-              height={1350}
-              priority
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="case-image"
-            />
-
-            <Image
-              src="/images/Rethink/rethinkptgroup-prev-4.png"
-              alt="Course content experience"
-              width={2400}
-              height={1350}
-              priority
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="case-image"
-            />
-
-            
-
-
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/Rethink/rethink-long-display-1.png"
+                alt="Rethink website concept homepage"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/Rethink/rehtink-book-lg.png"
+                alt="Rethink booking page"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/Rethink/rethinkptgroup-prev-3.png"
+                alt="Course content experience"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/Rethink/rethinkptgroup-prev-4.png"
+                alt="Course content experience"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
           </div>
 
         </div>
@@ -930,13 +902,11 @@ export default function RethinkPage() {
           </div>
 
 
-
       {/* DEVELOPMENT IMAGES */}
 
 
-         <div className="case-gallery">
-
-    
+        <div className="case-gallery">
+          <div className="case-image-wrapper">
             <Image
               src="/images/Rethink/Wordpress-local-setup.png"
               alt="Rethink wordpress website setup"
@@ -946,6 +916,8 @@ export default function RethinkPage() {
               sizes="(max-width: 768px) 100vw, 1200px"
               className="case-image"
             />
+          </div>
+          <div className="case-image-wrapper">
             <Image
               src="/images/Rethink/rethink-dev.png"
               alt="Rethink Local Dev Environment"
@@ -955,6 +927,7 @@ export default function RethinkPage() {
               sizes="(max-width: 768px) 100vw, 1200px"
               className="case-image"
             />
+          </div>
 
           </div>
 
@@ -1046,7 +1019,7 @@ export default function RethinkPage() {
 
           </div>
 
-           <div className="positioning-grid">
+          <div className="positioning-grid">
 
             <div className="positioning-item">
               <h3>Brand</h3>
@@ -1126,11 +1099,11 @@ export default function RethinkPage() {
           </p>
 
           <Link
-            href="/work/cargiant"
+            href="/work/insurwave"
             className="next-project-link"
           >
             <span>
-              Cargiant
+              Insurwave
             </span>
 
             <FiArrowRight

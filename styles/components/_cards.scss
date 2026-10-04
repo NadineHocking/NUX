@@ -89,6 +89,8 @@
 
 }
 
+
+
 .build-log {
   position: relative;
   border-left: 2px solid var(--line);
@@ -208,7 +210,7 @@
   display: flex;
   align-items: stretch;
   gap: var(--space-md);
-  margin-bottom: var(--space-2xl);
+  // margin-bottom: var(--space-2xl);
 
 
       .card {
@@ -268,7 +270,7 @@
   align-items: stretch;
   gap: 12px;
   // gap: var(--space-md);
-  margin-bottom: var(--space-2xl);
+  // margin-bottom: var(--space-2xl);
 
       .card {
         @include cards;

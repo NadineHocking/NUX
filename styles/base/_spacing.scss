@@ -1,4 +1,20 @@
 /* ---------- Spacing ---------- */
+.spacer-t {
+  margin-top: var(--space-3xl);
+}
+
+.spacer-b {
+  margin-bottom: var(--space-3xl);
+}
+
+.spacer-inner-t {
+  margin-top: var(--space-xl);
+}
+
+.spacer-inner-b {
+  margin-bottom: var(--space-xl);
+}
+
 .m-t-1 {
   margin-top: 1rem;
 }
@@ -45,6 +61,15 @@
 ========================= */
 
 @media (max-width: 768px) {
+
+  .spacer-t, .spacer-inner-t {
+    margin-top: 1rem;
+  }
+
+  .spacer-b, .spacer-inner-b {
+    margin-bottom: 1rem;
+  }
+
   .m-t-1 {
     margin-top: 0.5rem;
   }

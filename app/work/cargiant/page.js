@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 import {
   FiArrowLeft,
   FiArrowRight,
@@ -123,11 +125,15 @@ export default function CarGiantPage() {
             </div>
 
           </div>
-
-          <ImagePlaceholder
-            label="CarGiant website"
-            description="Final website redesign"
-            className="placeholder-hero"
+            
+          <Image
+            src="/images/cargiant/cg-feature.png"
+            alt="CarGiant"
+            width={2400}
+            height={1350}
+            priority
+            sizes="(max-width: 768px) 100vw, 1200px"
+            className="case-image"
           />
 
         </div>
@@ -196,7 +202,7 @@ export default function CarGiantPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              01 – THE CHALLENGE
+              01 - THE CHALLENGE
             </p>
 
             <h2>
@@ -265,7 +271,7 @@ export default function CarGiantPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              02 – BUSINESS RESEARCH
+              02 - BUSINESS RESEARCH
             </p>
 
             <h2>
@@ -316,11 +322,17 @@ export default function CarGiantPage() {
 
           </div>
 
-          <ImagePlaceholder
-            label="Existing website"
-            description="Known pain points and design review"
-            className="placeholder-large"
-          />
+          <div className="case-image-wrapper spacer-inner-t">
+            <Image
+              src="/images/cargiant/cargiant-design-review.png"
+              alt="Known pain points and design review"
+              width={2400}
+              height={1350}
+              priority
+              sizes="(max-width: 768px) 100vw, 1200px"
+              className="case-image"
+            />
+          </div>
 
         </div>
 
@@ -426,46 +438,48 @@ export default function CarGiantPage() {
               Testing the search experience
               rather than relying on assumptions.
             </h2>
+          </div>
+
+          <div className="case-copy">
+
+            <h3>
+              Horizontal vs vertical
+            </h3>
+
+            <p>
+              An A/B test compared alternative
+              search form layouts to understand
+              how layout, hierarchy and positioning
+              affected the customer journey.
+            </p>
 
           </div>
 
-          <div className="case-grid">
+          <div className="insight-block">
 
-            <div className="case-copy">
+            <span className="eyebrow">
+              INSIGHT
+            </span>
 
-              <h3>
-                Horizontal vs vertical
-              </h3>
-
-              <p>
-                An A/B test compared alternative
-                search form layouts to understand
-                how layout, hierarchy and positioning
-                affected the customer journey.
-              </p>
-
-            </div>
-
-            <div className="insight-block">
-
-              <span className="eyebrow">
-                INSIGHT
-              </span>
-
-              <p>
-                Testing indicated that users preferred
-                the vertical form layout.
-              </p>
-
-            </div>
+            <p>
+              Testing indicated that users preferred
+              the vertical form layout.
+            </p>
 
           </div>
 
-          <ImagePlaceholder
-            label="A/B test"
-            description="Horizontal versus vertical search form"
-            className="placeholder-large"
-          />
+
+          <div className="case-image-wrapper spacer-t">
+            <Image
+              src="/images/cargiant/cargiant-ab-test.png"
+              alt="Horizontal versus vertical search form"
+              width={2400}
+              height={1350}
+              priority
+              sizes="(max-width: 768px) 100vw, 1200px"
+              className="case-image"
+            />
+          </div>
 
         </div>
 
@@ -598,32 +612,32 @@ export default function CarGiantPage() {
               <span>01</span>
               <h3>Search</h3>
             </div>
-             <FiArrowRight aria-hidden="true" />
+            <FiArrowRight aria-hidden="true" />
 
 
             <div className="card">
               <span>02</span>
               <h3>Discover</h3>
             </div>
-             <FiArrowRight aria-hidden="true" />
+            <FiArrowRight aria-hidden="true" />
 
             <div className="card">
               <span>03</span>
               <h3>Evaluate</h3>
             </div>
-             <FiArrowRight aria-hidden="true" />
+            <FiArrowRight aria-hidden="true" />
 
             <div className="card">
               <span>04</span>
               <h3>Finance</h3>
             </div>
-             <FiArrowRight aria-hidden="true" />
+            <FiArrowRight aria-hidden="true" />
 
             <div className="card">
               <span>05</span>
               <h3>Test drive</h3>
             </div>
-             <FiArrowRight aria-hidden="true" />
+            <FiArrowRight aria-hidden="true" />
 
             <div className="card">
               <span>06</span>
@@ -664,31 +678,31 @@ export default function CarGiantPage() {
 
           </div>
 
-          <div className="arrow-cards">
+          <div className="arrow-cards spacer-b">
 
             <div className="card">
               <span>01</span>
               <h3>Research</h3>
             </div>
-             <FiArrowRight aria-hidden="true" />
+            <FiArrowRight aria-hidden="true" />
 
             <div className="card">
               <span>02</span>
               <h3>Hypotheses</h3>
             </div>
-             <FiArrowRight aria-hidden="true" />
+            <FiArrowRight aria-hidden="true" />
 
             <div className="card">
               <span>03</span>
               <h3>Concepts</h3>
             </div>
-             <FiArrowRight aria-hidden="true" />
+            <FiArrowRight aria-hidden="true" />
 
             <div className="card">
               <span>04</span>
               <h3>Prototype</h3>
             </div>
-             <FiArrowRight aria-hidden="true" />
+            <FiArrowRight aria-hidden="true" />
 
             <div className="card">
               <span>05</span>
@@ -700,82 +714,72 @@ export default function CarGiantPage() {
               <span>06</span>
               <h3>Iterate</h3>
             </div>
-
           </div>
-
-        </div>
-
-      </section>
-
 
       {/* WEBSITE DESIGNS */}
 
-      <section className="case-section section-highlight">
-
-        <div className="container">
-
           <div className="case-gallery">
+            <Image
+                src="/images/cargiant/cg-home.png"
+                alt="Horizontal versus vertical search form"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
 
-            <ImagePlaceholder
-              label="Homepage"
-              description="Desktop website design"
-            />
 
-            <ImagePlaceholder
-              label="Homepage"
-              description="Mobile website design"
-            />
+              <Image
+                src="/images/cargiant/cg-advanced-search.png"
+                alt="Horizontal versus vertical search form"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+         
+              <Image
+                src="/images/cargiant/cg-search-results.png"
+                alt="Horizontal versus vertical search form"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            
+              <Image
+                src="/images/cargiant/cg-product-single.png"
+                alt="Horizontal versus vertical search form"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+           
+              <Image
+                src="/images/cargiant/cg-finance.png"
+                alt="Horizontal versus vertical search form"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
 
-            <ImagePlaceholder
-              label="Advanced search"
-              description="Desktop search experience"
-            />
-
-            <ImagePlaceholder
-              label="Advanced search"
-              description="Mobile search experience"
-            />
-
-            <ImagePlaceholder
-              label="Search results"
-              description="Desktop results experience"
-            />
-
-            <ImagePlaceholder
-              label="Search results"
-              description="Mobile results experience"
-            />
-
+              <Image
+                src="/images/cargiant/cg-blog-single.png"
+                alt="Horizontal versus vertical search form"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
           </div>
-
-        </div>
-
-      </section>
-
-
-      {/* FINANCE */}
-
-      <section className="case-section">
-
-        <div className="container">
-
-          <div className="section-intro">
-
-            <p className="eyebrow">
-              09 – FINANCE
-            </p>
-
-            <h2>
-              Simplifying a key conversion journey.
-            </h2>
-
-          </div>
-
-          <ImagePlaceholder
-            label="Finance application"
-            description="Redesigned finance journey"
-            className="placeholder-large"
-          />
 
         </div>
 
@@ -809,16 +813,28 @@ export default function CarGiantPage() {
           </div>
 
           <div className="case-gallery">
-
-            <ImagePlaceholder
-              label="Colour system"
-              description="CarGiant brand guidelines"
-            />
-
-            <ImagePlaceholder
-              label="Typography"
-              description="CarGiant brand guidelines"
-            />
+            <div className="case-image-wrapper">
+              <Image
+                  src="/images/cargiant/Cargiant-brandguidelines-colour.png"
+                  alt="CarGiant brand guidelines"
+                  width={2400}
+                  height={1350}
+                  priority
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                  className="case-image"
+                />
+            </div>
+            <div className="case-image-wrapper">
+              <Image
+                src="/images/cargiant/Cargiant-brandguidelines-fonts.png"
+                alt="CarGiant brand guidelines"
+                width={2400}
+                height={1350}
+                priority
+                sizes="(max-width: 768px) 100vw, 1200px"
+                className="case-image"
+              />
+            </div>
 
           </div>
 
@@ -916,38 +932,35 @@ export default function CarGiantPage() {
 
           </div>
 
-          <div className="case-grid">
 
-            <div className="case-copy">
+          <div className="case-copy">
 
-              <p>
-                Before handoff, I provided the engineering
-                team with the necessary design files and
-                supporting documentation.
-              </p>
+            <p>
+              Before handoff, I provided the engineering
+              team with the necessary design files and
+              supporting documentation.
+            </p>
 
-              <p>
-                I also provided frontend development
-                support to backend-focused developers
-                where required.
-              </p>
+            <p>
+              I also provided frontend development
+              support to backend-focused developers
+              where required.
+            </p>
 
-            </div>
+          </div>
 
-            <div className="insight-block">
+          <div className="insight-block">
 
-              <span className="eyebrow">
-                COLLABORATION
-              </span>
-
-              <p>
-                Working across design and development
-                helped bridge communication between
-                technical and non-technical teams and
-                maintain alignment throughout delivery.
-              </p>
-
-            </div>
+            <span className="eyebrow">
+              INSIGHT
+            </span>
+            <h3>Collaboration</h3>
+            <p>
+              Working across design and development
+              helped bridge communication between
+              technical and non-technical teams and
+              maintain alignment throughout delivery.
+            </p>
 
           </div>
 
@@ -975,7 +988,7 @@ export default function CarGiantPage() {
 
           </div>
 
-         <div className="positioning-grid">
+          <div className="positioning-grid">
 
             <div className="positioning-item">
 
@@ -988,7 +1001,7 @@ export default function CarGiantPage() {
               </p>
             </div>
 
-          <div className="positioning-item">
+            <div className="positioning-item">
                 <h3>Experimentation</h3>
 
               <p>
@@ -997,7 +1010,7 @@ export default function CarGiantPage() {
               </p>
             </div>
 
-          <div className="positioning-item">
+            <div className="positioning-item">
               <h3>UX</h3>
 
               <p>
@@ -1006,7 +1019,7 @@ export default function CarGiantPage() {
               </p>
             </div>
 
-          <div className="positioning-item">
+            <div className="positioning-item">
               <h3>Brand</h3>
 
               <p>

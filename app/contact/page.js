@@ -20,7 +20,7 @@ export default function Contact() {
         </p>
 
         <a
-          href="mailto:hello@example.com"
+          href="mailto:hello@nuxfolio.com"
           className="button button-primary"
         >
           Email me

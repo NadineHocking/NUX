@@ -388,8 +388,7 @@ export default function ConstructerPage() {
 
           </div>
 
-           <section className="case-section case-image">
-            <div className="case-image-wrapper">
+            <div className="case-image-wrapper spacer-t">
               <Image
                 src="/images/constructer/constructerCompetitiveAudit.png"
                 alt="Constructer competitive audit"
@@ -400,7 +399,6 @@ export default function ConstructerPage() {
                 className="case-image"
               />
             </div>
-          </section>
 
           <div className="insight-block">
 
@@ -441,24 +439,24 @@ export default function ConstructerPage() {
             </h2>
           </div>
 
-          <div className="positioning-grid">
+           <div className="positioning-grid">
 
-            <div>
+            <div className="positioning-item">
               <span>What it does</span>
               <h3>Continuously analyses project information.</h3>
             </div>
 
-            <div>
+            <div className="positioning-item">
               <span>What it identifies</span>
               <h3>Emerging risks and issues.</h3>
             </div>
 
-            <div>
+            <div className="positioning-item">
               <span>What it quantifies</span>
               <h3>Schedule, cost and contractual impact.</h3>
             </div>
 
-            <div>
+            <div className="positioning-item">
               <span>What it enables</span>
               <h3>Earlier, better-informed decisions.</h3>
             </div>
@@ -499,68 +497,17 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          {/* <ImagePlaceholder
-            label="LOGO EXPLORATION"
-            description="Initial sketches / logo concepts"
-            className="placeholder-large"
-          /> */}
-
-          {/* <section className="case-section case-image">
-            <div className="case-image-wrapper">
-              <Image
-                src="/images/constructer/constructer-logo-concepts.png"
-                alt="Initial sketches / logo concepts"
-                width={2400}
-                height={1350}
-                priority
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              />
-            </div>
-          </section> */}
-            {/* <p className="eyebrow">Logo Concepts</p>
-
-          <div className="case-grid case-grid-2 image-row">
-
-            <div className="case-image-wrapper">
-              <Image
-                src="/images/constructer/constructer-logo-concept-1.png"
-                alt="Initial sketches / logo concept1"
-                width={2400}
-                height={1350}
-                priority
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              />
-            </div>
-             <div className="case-image-wrapper">
-
-              <Image
-                src="/images/constructer/constructer-logo-concept-2.png"
-                alt="Initial sketches / logo concept2"
-                width={2400}
-                height={1350}
-                priority
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              />
-            </div>
-
-          </div> */}
-
-          <div className="case-image-wrapper">
-
-              <Image
-                src="/images/constructer/Constructer-logo-img-xl.png"
-                alt="Initial sketches / logo concept1"
-                width={2400}
-                height={1350}
-                priority
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              />
-            </div>
-
+          <div className="case-image-wrapper ">
+            <Image
+              src="/images/constructer/Constructer-logo-img-xl.png"
+              alt="Initial sketches / logo concept1"
+              width={2400}
+              height={1350}
+              priority
+              sizes="(max-width: 768px) 100vw, 1200px"
+              className="case-image"
+            />
+          </div>
         </div>
       </section>
 
@@ -860,7 +807,7 @@ export default function ConstructerPage() {
 
           </div>
 
-          <div className="case-image-wrapper">
+          <div className="case-image-wrapper spacer-t">
 
               <Image
                 src="/images/constructer/constructer.aiDesignSystem3.png"
@@ -944,7 +891,7 @@ export default function ConstructerPage() {
 
           </div>
 
-           <div className="case-image-wrapper">
+           <div className="case-image-wrapper spacer-t">
 
               <Image
                 src="/images/constructer/constructer-figma-prod.png"
@@ -996,30 +943,30 @@ export default function ConstructerPage() {
 
           </div>
 
-          <div className="number-card-grid">
+           <div className="positioning-grid spacer-inner-b">
 
-            <div>
+            <div className="positioning-item">
               <h3>Design fidelity</h3>
               <p>
                 Precisely reproduce the Figma design system.
               </p>
             </div>
 
-            <div>
+            <div className="positioning-item">
               <h3>Performance</h3>
               <p>
                 Avoid unnecessary framework and plugin overhead.
               </p>
             </div>
 
-            <div>
+            <div className="positioning-item">
               <h3>Scalability</h3>
               <p>
                 Create reusable components and templates.
               </p>
             </div>
 
-            <div>
+            <div className="positioning-item">
               <h3>Control</h3>
               <p>
                 Maintain ownership of HTML, SCSS, PHP and
@@ -1029,7 +976,7 @@ export default function ConstructerPage() {
 
           </div>
 
-          <div className="case-image-wrapper">
+          <div className="case-image-wrapper spacer-t">
               <Image
                 src="/images/constructer/constructer-wordpress-dev-env.png"
                 alt="Wordpress development"
@@ -1216,9 +1163,9 @@ export default function ConstructerPage() {
             </h2>
           </div>
 
-          <div className="number-card-grid">
+          <div className="positioning-grid">
 
-            <div>
+            <div className="positioning-item">
               <h3>Responsive</h3>
               <p>
                 Interfaces designed and implemented across desktop,
@@ -1226,7 +1173,7 @@ export default function ConstructerPage() {
               </p>
             </div>
 
-            <div>
+            <div className="positioning-item">
               <h3>Accessibility</h3>
               <p>
                 Semantic structure, interaction states, readable
@@ -1234,7 +1181,7 @@ export default function ConstructerPage() {
               </p>
             </div>
 
-            <div>
+            <div className="positioning-item">
               <h3>Performance</h3>
               <p>
                 Lightweight implementation and considered use of
@@ -1242,7 +1189,7 @@ export default function ConstructerPage() {
               </p>
             </div>
 
-            <div>
+            <div className="positioning-item">
               <h3>SEO</h3>
               <p>
                 Structured content, metadata and internationalised
@@ -1278,9 +1225,9 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          <div className="number-card-grid">
+           <div className="positioning-grid spacer-b">
 
-            <div>
+            <div className="positioning-item">
               <span className="card-number">01</span>
               <h3>Brand</h3>
               <p>
@@ -1288,7 +1235,7 @@ export default function ConstructerPage() {
               </p>
             </div>
 
-            <div>
+            <div className="positioning-item">
               <span className="card-number">02</span>
               <h3>Product communication</h3>
               <p>
@@ -1297,7 +1244,7 @@ export default function ConstructerPage() {
               </p>
             </div>
 
-            <div>
+            <div className="positioning-item">
               <span className="card-number">03</span>
               <h3>Design system</h3>
               <p>
@@ -1306,7 +1253,7 @@ export default function ConstructerPage() {
               </p>
             </div>
 
-            <div>
+            <div className="positioning-item">
               <span className="card-number">04</span>
               <h3>Development</h3>
               <p>
@@ -1318,7 +1265,7 @@ export default function ConstructerPage() {
           </div>
 
 
-          <div className="case-grid case-grid-3 image-row">
+          <div className="case-grid case-grid-3 image-row spacer-t">
             <div className="case-image-wrapper">
               <Image
                 src="/images/constructer/constructer-m-1.png"
@@ -1342,8 +1289,6 @@ export default function ConstructerPage() {
                 className="case-image"
               />
           </div>
-
-    
 
           <div className="case-image-wrapper">
               <Image

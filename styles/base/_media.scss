@@ -14,8 +14,8 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  border-radius: var(--radius-lg);
-  background: var(--paper);
+  border-radius: var(--radius-md);
+  // background: var(--paper);
 }
 
 .grid-image-wrapper {
@@ -102,6 +102,24 @@
     height: 100%;
     border: 0;
   }
+}
+
+.project-card-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background: var(--paper);
+}
+
+.project-card-img {
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.project-card-link:hover .project-card-img {
+  transform: scale(1.03);
 }
 
 @media (max-width: 768px) {

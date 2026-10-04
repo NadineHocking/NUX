@@ -56,6 +56,7 @@ p {
 
 .subheading {
   font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin-bottom: var(--space-xl)
   }
 
 .hero-intro {
@@ -96,3 +97,13 @@ p {
   }
 }
 
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 768px) {
+.subheading {
+  margin-bottom: var(--space-sm)
+  }
+
+}
