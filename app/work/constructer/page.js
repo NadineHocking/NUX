@@ -731,25 +731,6 @@ export default function ConstructerPage() {
       </section>
 
 
-       {/* <section className="case-section">
-            <div className="section-intro">
-              <span className="eyebrow">Wireframes</span>
-              <h2>Structuring the experience before adding visual detail.</h2>
-              <p>
-                Low-fidelity wireframes were used to explore the structure,
-                hierarchy and key user flows before moving into high-fidelity UI design.
-              </p>
-            </div>
-
-            <div className="figma-embed">
-              <iframe
-                title="Constructer wireframe prototype"
-                src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=1-50&viewport=402%2C131%2C0.08&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A50&page-id=0%3A1&embed-host=share"
-                allowFullScreen
-              />
-            </div>
-          </section> */}
-
 
       {/* ========================================
           UI DESIGN
@@ -824,13 +805,13 @@ export default function ConstructerPage() {
 
           <div className="spacer-inner-t">
 
-            <div className="figma-embed">
+            {/* <div className="figma-embed">
               <iframe
                 title="Constructer prototype"
                 src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=2-563&p=f&viewport=-229%2C239%2C0.39&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A563&page-id=1%3A406&embed-host=share"
                 allowFullScreen
               />
-            </div>
+            </div> */}
 
           </div>
 
@@ -1040,51 +1021,6 @@ export default function ConstructerPage() {
 
         </div>
       </section>
-
-
-      {/* ========================================
-          DATABASE
-      ======================================== */}
-{/* 
-      <section className="case-section  section-highlight">
-        <div className="container">
-
-          <div className="section-intro">
-            <p className="eyebrow">14 — Database & content management</p>
-
-            <h2>
-              Managing the transition to the new platform.
-            </h2>
-
-            <p>
-              The project also involved managing existing website
-              data as part of the transition to the new WordPress
-              implementation.
-            </p>
-          </div>
-
-          <div className="migration-flow">
-
-            <div>Existing data</div>
-            <span>→</span>
-            <div>Data mapping</div>
-            <span>→</span>
-            <div>Migration</div>
-            <span>→</span>
-            <div>Validation</div>
-            <span>→</span>
-            <div>Production</div>
-
-          </div>
-
-          <ImagePlaceholder
-            label="DATABASE / CONTENT"
-            description="Database management or CMS implementation"
-            className="placeholder-wide"
-          />
-
-        </div>
-      </section> */}
 
 
       {/* ========================================
@@ -1345,51 +1281,6 @@ export default function ConstructerPage() {
 
         </div>
       </section>
-
-
-      {/* ========================================
-          FINAL GALLERY
-      ======================================== */}
-
-      {/* <section className="case-section">
-        <div className="container">
-
-          <div className="section-intro">
-            <p className="eyebrow">19 - Project gallery</p>
-
-            <h2>
-              Selected final screens.
-            </h2>
-          </div>
-
-          
-          <ImagePlaceholder
-            label="FINAL SCREEN 01"
-            description="Homepage"
-            className="placeholder-large"
-          />
-      
-          <div className="case-gallery">
-
-            <ImagePlaceholder
-              label="FINAL SCREEN 02"
-              description="Product / platform section"
-            />
-
-            <ImagePlaceholder
-              label="FINAL SCREEN 03"
-              description="Solutions / content section"
-            />
-
-
-          <ImagePlaceholder
-            label="FINAL SCREEN 04"
-            description="Contact / conversion section"
-            className="placeholder-large"
-          />
-          </div>
-        </div>
-      </section> */}
 
 
       
