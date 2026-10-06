@@ -1,6 +1,14 @@
 
-.hero {
-  padding: 110px 0;
+// .hero {
+//   padding: 110px 0;
+// }
+
+.hero-intro {
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .eyebrow {
@@ -54,5 +62,13 @@
 .hero-actions {
   display: flex;
   gap: 16px;
-  margin-top: 40px;
+  margin-top: var(--space-lg);
 }
+
+@media (max-width: 768px) {
+  .hero {
+  padding: 40px 0;
+}
+}
+
+  

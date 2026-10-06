@@ -14,7 +14,7 @@
   // }
 
   .hero {
-    padding: 100px 0;
+    padding: 2rem 0;
   }
 
   .project-grid,
@@ -31,7 +31,7 @@
 
   .process-grid {
     gap: 40px;
-    margin-top: 50px;
+    // margin-top: 50px;
   }
 
   .skills {
@@ -54,5 +54,9 @@
   .footer-inner {
     flex-direction: column;
     gap: 20px;
+  }
+
+  .project-grid {
+    margin-top: var(--space-sm);
   }
 }

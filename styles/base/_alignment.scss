@@ -36,7 +36,7 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--space-lg);
-  margin-top: var(--space-xl);
+  // margin-top: var(--space-xl);
 }
 
 .grid-2-1 {
@@ -70,12 +70,13 @@
 @media (max-width: 768px) {
   .grid-2x, .grid-3x, .grid-4x, .grid-3-1, .grid-2-1  {
     grid-template-columns: 1fr;
-    gap: var(--space-xl);
+    gap: var(--space-md);
+    margin-top: 0;
+    // gap: var(--space-xl);
   }
 
-  .d-flex {
-  flex-direction: column;
-}
-
+    .d-flex {
+    flex-direction: column;
+  }
   
 }

@@ -118,5 +118,9 @@ a {
   color: var(--accent);
 }
 
-//
+@media (max-width: 600) {
+  .button {
+    width: 100%;
+  }
+}
 

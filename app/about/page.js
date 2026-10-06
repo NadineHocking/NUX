@@ -24,7 +24,7 @@ export default function About() {
             </p>
           </div> */}
 
-          <div className="about-copy y-5">
+          <div className="about-copy spacer-inner-t">
 
             <p>
               I’m a <span className="bold">Product Designer & UI Engineer</span>  with 15+ years of experience creating intuitive, user-centred digital experiences across web and mobile. My work spans <span className="bold">UX research, interaction design, wireframing, prototyping, usability testing, visual design, and frontend development</span> .
@@ -41,14 +41,12 @@ export default function About() {
 
         </div>
 
-        
+        <div className="skills-section spacer-inner-t">
+            <p className="eyebrow">My Skills</p>
+        <h2>What I bring to a team</h2>
 
-            <section className="skills-section">
-               <p className="eyebrow">My Skills</p>
-            <h2>What I bring to a team</h2>
-
-              <SkillsGrid skills={skills} />
-            </section>
+          <SkillsGrid skills={skills} />
+        </div>
         
 
         {/* <div className="skills">

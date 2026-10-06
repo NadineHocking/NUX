@@ -29,7 +29,7 @@ export default function Work() {
         </div>
       </section>
 
-      <section className="github-section y-5">
+      <section className="section section-highlight">
         <div className="container">
           <div className="section-heading">
             <p className="eyebrow">Development</p>

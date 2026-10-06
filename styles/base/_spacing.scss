@@ -15,6 +15,10 @@
   margin-bottom: var(--space-xl);
 }
 
+.m-b-0 {
+  margin-bottom: 0;
+}
+
 .m-t-1 {
   margin-top: 1rem;
 }
@@ -63,11 +67,11 @@
 @media (max-width: 768px) {
 
   .spacer-t, .spacer-inner-t {
-    margin-top: 1rem;
+    margin-top: var(--space-lg);
   }
 
   .spacer-b, .spacer-inner-b {
-    margin-bottom: 1rem;
+    margin-bottom: var(--space-lg);
   }
 
   .m-t-1 {
@@ -108,7 +112,4 @@
     margin-bottom: 4rem;
   }
 
-  .section-intro {
-    margin-bottom: var(--space-lg);
-  }
 }

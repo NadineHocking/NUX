@@ -59,7 +59,7 @@ export default function CarGiantPage() {
               className="breadcrumb-current"
               aria-current="page"
             >
-              CarGiant
+              Cargiant
             </span>
           </div>
 
@@ -76,7 +76,7 @@ export default function CarGiantPage() {
 
             <p className="case-hero-intro">
               Using research, usability testing and
-              experimentation to improve key CarGiant
+              experimentation to improve key Cargiant
               customer journeys.
             </p>
 
@@ -128,7 +128,7 @@ export default function CarGiantPage() {
             
           <Image
             src="/images/cargiant/cg-feature.png"
-            alt="CarGiant"
+            alt="Cargiant"
             width={2400}
             height={1350}
             priority
@@ -165,7 +165,7 @@ export default function CarGiantPage() {
 
               <p>
                 Following the launch of a new website,
-                CarGiant identified a decline in return
+                Cargiant identified a decline in return
                 on investment and began investigating
                 potential causes.
               </p>
@@ -223,7 +223,7 @@ export default function CarGiantPage() {
 
               <p>
                 The updated design did not fully
-                communicate the intended CarGiant
+                communicate the intended Cargiant
                 brand proposition.
               </p>
             </div>
@@ -302,10 +302,6 @@ export default function CarGiantPage() {
                 opportunities affecting the customer
                 experience.
               </p>
-
-            </div>
-
-            <div className="case-copy">
 
               <h3>
                 Design review
@@ -606,7 +602,7 @@ export default function CarGiantPage() {
 
           </div>
 
-          <div className="arrow-cards">
+          <div className="arrow-cards spacer-inner-t">
 
             <div className="card">
               <span>01</span>
@@ -661,7 +657,7 @@ export default function CarGiantPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              07 – DESIGN DELIVERY
+              07 - DESIGN DELIVERY
             </p>
 
             <h2>
@@ -678,7 +674,7 @@ export default function CarGiantPage() {
 
           </div>
 
-          <div className="arrow-cards spacer-b">
+          <div className="arrow-cards spacer-inner-t spacer-b">
 
             <div className="card">
               <span>01</span>
@@ -806,7 +802,7 @@ export default function CarGiantPage() {
             <p>
               The visual language was refined to create
               a more consistent digital experience while
-              retaining recognisable CarGiant brand
+              retaining recognisable Cargiant brand
               characteristics.
             </p>
 
@@ -852,7 +848,7 @@ export default function CarGiantPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              11 – ACCESSIBILITY
+              11 - ACCESSIBILITY
             </p>
 
             <h2>
@@ -862,7 +858,7 @@ export default function CarGiantPage() {
 
           </div>
 
-          <div className="card-container">
+          <div className="card-container spacer-inner-t">
 
             <div className="card">
                     
@@ -1051,7 +1047,7 @@ export default function CarGiantPage() {
           </h2>
 
           <p>
-            The CarGiant project demonstrated the value
+            The Cargiant project demonstrated the value
             of combining visual design with research,
             experimentation and interaction design.
             Investigating the underlying customer

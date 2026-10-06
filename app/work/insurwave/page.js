@@ -35,7 +35,7 @@ export default function InsurwaveCaseStudy() {
           HERO
       ===================================================== */}
 
-      <section className="case-section case-hero">
+      <section className="case-section section">
         <div className="container">
 
           <div className="case-breadcrumb">
@@ -142,7 +142,7 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <div className="case-grid case-grid-2">
+          <div className="case-grid-2">
 
             <div className="case-copy">
 
@@ -162,7 +162,7 @@ export default function InsurwaveCaseStudy() {
 
             </div>
 
-            <div className="case-copy">
+            <div className="case-copy spacer-inner-t">
 
               <h3>
                 The opportunity
@@ -211,7 +211,7 @@ export default function InsurwaveCaseStudy() {
               </p>
           </div>
 
-          <div className="card-container">
+          <div className="card-container spacer-inner-t">
             <div className="card">
                 <h3 className="card-title">Complex workflows</h3>
                 <p>
@@ -272,7 +272,7 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <div className="arrow-cards">
+          <div className="arrow-cards spacer-inner-t">
 
             <div className="card">
               <span className="small-number">01</span>
@@ -350,7 +350,7 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <div className="card-container">
+          <div className="card-container spacer-inner-t">
 
             <div className="card">
               <span>01</span>
@@ -431,7 +431,7 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <div className="card-container spacer-b">
+          <div className="card-container spacer-b spacer-inner-t">
 
             <div className="card">
               <span className="eyebrow">
@@ -622,7 +622,7 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <div className="card-container">
+          <div className="card-container spacer-inner-t">
 
             <div className="card">
               <span>01</span>
@@ -695,14 +695,14 @@ export default function InsurwaveCaseStudy() {
                 Primary journey
               </h3>
 
-              <p>
+              <p className="m-b-0">
                 The strongest product story centred around helping
                 users track an asset, identify risk, understand its
                 impact and take action.
               </p>
               
 
-          <div className="case-grid case-grid-2">
+          <div className="case-grid case-grid-2 spacer-inner-t">
 
             <div className="case-copy">
 
@@ -862,7 +862,7 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <div className="card-container">
+          <div className="card-container spacer-inner-t">
 
             <div className="card">
               <span>01</span>
@@ -949,7 +949,7 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <div className="case-grid case-grid-2">
+          <div className="case-grid case-grid-2 spacer-inner-t spacer-inner-b">
             <div className="case-image-wrapper">
               <Image
                   src="/images/insurwave/InsurwvaeOldIA.png"
@@ -1228,7 +1228,7 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <div className="arrow-cards">
+          <div className="arrow-cards spacer-inner-t">
 
             <div className="card">
               <span>01</span>
@@ -1303,7 +1303,7 @@ export default function InsurwaveCaseStudy() {
 
           </div>
 
-          <div className="card-column">
+          <div className="card-column spacer-inner-t">
 
             <div className="card">
               <span>BEHAVIOUR</span>

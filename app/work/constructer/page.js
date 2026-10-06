@@ -288,7 +288,7 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          <div className="business-diagram">
+          <div className="business-diagram spacer-inner-t">
 
             <div>AI</div>
             <span>+</span>
@@ -360,7 +360,7 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          <div className="card-container">
+          <div className="card-container spacer-inner-t">
 
             <div className="card">
               <h3>Brand</h3>
@@ -463,7 +463,7 @@ export default function ConstructerPage() {
 
           </div>
 
-          <div className="detect-block">
+          <div className="detect-block spacer-t">
             <span>Detect</span>
             <span>→</span>
             <span>Quantify</span>
@@ -497,7 +497,7 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          <div className="case-image-wrapper ">
+          <div className="case-image-wrapper spacer-inner-t ">
             <Image
               src="/images/constructer/Constructer-logo-img-xl.png"
               alt="Initial sketches / logo concept1"
@@ -628,7 +628,7 @@ export default function ConstructerPage() {
           </div>
 
 
-          <div className="arrow-cards">
+          <div className="arrow-cards spacer-inner-t">
 
             <div className="card">
               <span>01</span>
@@ -770,7 +770,7 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          <div className="card-container">
+          <div className="card-container spacer-inner-t">
 
             <div className="card">
               <span className="card-number">01</span>
@@ -820,7 +820,7 @@ export default function ConstructerPage() {
               />
             </div>
 
-          <div className="image-row">
+          <div className="spacer-inner-t">
 
             <div className="figma-embed">
               <iframe
@@ -857,7 +857,7 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          <div className="arrow-cards">
+          <div className="arrow-cards spacer-inner-t">
 
             <div className="card">
               <span>01</span>
@@ -943,7 +943,7 @@ export default function ConstructerPage() {
 
           </div>
 
-           <div className="positioning-grid spacer-inner-b">
+           <div className="positioning-grid spacer-inner-t spacer-inner-b">
 
             <div className="positioning-item">
               <h3>Design fidelity</h3>
@@ -1013,7 +1013,7 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          <div className="tech-stack">
+          <div className="tech-stack spacer-inner-t spacer-inner-b">
 
             <span>HTML5</span>
             <span>SCSS</span>
@@ -1118,21 +1118,7 @@ export default function ConstructerPage() {
 
           </div>
 
-          {/* <div className="case-grid case-grid-2 image-row">
-
-            <ImagePlaceholder
-              label="ENGLISH"
-              description="English website"
-            />
-
-            <ImagePlaceholder
-              label="PORTUGUESE"
-              description="Portuguese website"
-            />
-
-          </div> */}
-
-          <div className="case-image-wrapper">
+          <div className="case-image-wrapper spacer-inner-t">
               <Image
                 src="/images/constructer/constructer-international.png"
                 alt="Constructer development environment"
@@ -1225,7 +1211,7 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-           <div className="positioning-grid spacer-b">
+           <div className="positioning-grid spacer-inner-t spacer-b">
 
             <div className="positioning-item">
               <span className="card-number">01</span>
@@ -1265,7 +1251,7 @@ export default function ConstructerPage() {
           </div>
 
 
-          <div className="case-grid case-grid-3 image-row spacer-t">
+          <div className="case-grid case-grid-3">
             <div className="case-image-wrapper">
               <Image
                 src="/images/constructer/constructer-m-1.png"
@@ -1305,14 +1291,13 @@ export default function ConstructerPage() {
           </div>
           <Link
             href="https://constructer.ai/"
-            className="button button-primary"
+            className="button button-primary spacer-inner-t"
           >
             View live website
           </Link>
 
         </div>
 
-         
       </section>
 
 

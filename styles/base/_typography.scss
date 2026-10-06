@@ -61,7 +61,7 @@ p {
 
 .hero-intro {
   color: var(--muted);
-  font-size: 1.6rem;
+  font-size: clamp(1.2rem, 5vw, 1.6rem);
   font-weight: 300;
 }
 .page-heading {
@@ -74,7 +74,7 @@ p {
   color: var(--muted);
   font-size: clamp(1.1rem, 5vw, 1.4rem);
   font-weight: 300;
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-lg);
 }
 
 .skill-description {

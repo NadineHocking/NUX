@@ -56,8 +56,8 @@
 .iframe {
   width: 100%;
   height: 100%;
-  max-width: 100vw;
-  max-height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
   box-sizing: border-box;
 }
 
@@ -125,7 +125,7 @@
 @media (max-width: 768px) {
   .figma-comparison {
     grid-template-columns: 1fr;
-    gap: var(--space-xl);
+    gap: var(--space-md);
   }
 
   .figma-embed {

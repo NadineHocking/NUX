@@ -48,7 +48,7 @@ export default function Home() {
 
       {/* WORK */}
 
-      <section className="section">
+      <section className="section section-highlight">
 
         <div className="container">
 
@@ -68,7 +68,7 @@ export default function Home() {
 
           <div className="project-grid">
 
-            {projects.map((project) => (
+            {projects.slice(0, 2).map((project) => (
               <ProjectCard
                 key={project.slug}
                 project={project}
@@ -84,7 +84,7 @@ export default function Home() {
 
       {/* DESIGN + DEVELOPMENT */}
 
-      <section className="section section-highlight">
+      <section className="section">
 
         <div className="container">
 
@@ -136,45 +136,9 @@ export default function Home() {
       </section>
 
 
-      {/* ABOUT */}
-
-      <section className="section">
-
-        <div className="container about-preview">
-
-          <div>
-            <p className="eyebrow">About</p>
-
-            <h2>
-              A designer who
-              <br />
-              understands code.
-            </h2>
-          </div>
-
-          <div>
-
-            <p className="about-text">
-              I help teams bridge the gap between product strategy, design and development, from understanding the problem to designing and building the solution.
-            </p>
-
-            <Link
-              href="/about"
-              className="text-link"
-            >
-              More about me →
-            </Link>
-
-          </div>
-
-        </div>
-
-      </section>
-
-
       {/* CTA */}
 
-      <section className="cta section-highlight">
+      <section className="section section-highlight">
 
         <div className="container">
 

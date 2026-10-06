@@ -465,7 +465,7 @@ export default function RethinkPage() {
 
           </div>
 
-          <div className="arrow-cards spacer-b">
+          <div className="arrow-cards spacer-inner-t spacer-b">
 
             <div className="card">
               <span>01</span>
@@ -857,7 +857,7 @@ export default function RethinkPage() {
           <div className="section-intro">
 
             <p className="eyebrow">
-              10 – DEVELOPMENT
+              10 - DEVELOPMENT
             </p>
 
             <h2>
@@ -887,7 +887,7 @@ export default function RethinkPage() {
 
             </div>
 
-            <div className="tech-stack">
+            <div className="tech-stack spacer-inner-t">
 
               <span>HTML5</span>
               <span>CSS3</span>
