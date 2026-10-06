@@ -119,7 +119,7 @@ export default function ConstructerPage() {
 
            <Image
                   src="/images/constructer/Constructer-feature-xxl.png"
-                  alt="Rethink Desktop"
+                  alt="Constructer website interface"
                   width={2400}
                   height={1350}
                   priority
@@ -396,7 +396,6 @@ export default function ConstructerPage() {
                 alt="Constructer competitive audit"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -505,7 +504,6 @@ export default function ConstructerPage() {
               alt="Initial sketches / logo concept1"
               width={2400}
               height={1350}
-              priority
               sizes="(max-width: 768px) 100vw, 1200px"
               className="case-image"
             />
@@ -696,7 +694,7 @@ export default function ConstructerPage() {
               </p>
           </div>
 
-          {/* <div className="figma-comparison">
+          <div className="figma-comparison">
             <div className="figma-panel">
               <div className="prototype-header">
                 <span>Desktop</span>
@@ -726,7 +724,7 @@ export default function ConstructerPage() {
                 />
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </section>
 
@@ -797,7 +795,6 @@ export default function ConstructerPage() {
                 alt="Initial sketches / logo concept2"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -805,13 +802,13 @@ export default function ConstructerPage() {
 
           <div className="spacer-inner-t">
 
-            {/* <div className="figma-embed">
+            <div className="figma-embed">
               <iframe
                 title="Constructer prototype"
                 src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=2-563&p=f&viewport=-229%2C239%2C0.39&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A563&page-id=1%3A406&embed-host=share"
                 allowFullScreen
               />
-            </div> */}
+            </div>
 
           </div>
 
@@ -881,7 +878,6 @@ export default function ConstructerPage() {
                 alt="Figma to production"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -965,7 +961,6 @@ export default function ConstructerPage() {
                 alt="Wordpress development"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -1013,7 +1008,6 @@ export default function ConstructerPage() {
                 alt="Constructer development environment"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -1062,7 +1056,6 @@ export default function ConstructerPage() {
                 alt="Constructer development environment"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -1149,7 +1142,7 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-           <div className="positioning-grid spacer-inner-t spacer-b">
+          <div className="positioning-grid spacer-inner-t spacer-b">
 
             <div className="positioning-item">
               <span className="card-number">01</span>
@@ -1196,7 +1189,6 @@ export default function ConstructerPage() {
                 alt="Constructer development environment"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -1208,7 +1200,6 @@ export default function ConstructerPage() {
                 alt="Constructer development environment"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -1220,7 +1211,6 @@ export default function ConstructerPage() {
                 alt="Constructer development environment"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
