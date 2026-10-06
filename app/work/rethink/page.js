@@ -510,7 +510,6 @@ export default function RethinkPage() {
                   alt="Initial Rethink logo exploration"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
@@ -521,7 +520,6 @@ export default function RethinkPage() {
                   alt="Visual identity exploration - moodbooard"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
@@ -564,7 +562,6 @@ export default function RethinkPage() {
             alt="Initial user journey map"
             width={2400}
             height={1350}
-            priority
             sizes="(max-width: 768px) 100vw, 1200px"
             className="case-image"
           />
@@ -677,7 +674,6 @@ export default function RethinkPage() {
                 alt="Rethink website concept homepage"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -688,7 +684,6 @@ export default function RethinkPage() {
                 alt="Rethink booking page"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -699,7 +694,6 @@ export default function RethinkPage() {
                 alt="Course content experience"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -710,7 +704,6 @@ export default function RethinkPage() {
                 alt="Course content experience"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -912,7 +905,6 @@ export default function RethinkPage() {
               alt="Rethink wordpress website setup"
               width={2400}
               height={1350}
-              priority
               sizes="(max-width: 768px) 100vw, 1200px"
               className="case-image"
             />
@@ -923,7 +915,6 @@ export default function RethinkPage() {
               alt="Rethink Local Dev Environment"
               width={2400}
               height={1350}
-              priority
               sizes="(max-width: 768px) 100vw, 1200px"
               className="case-image"
             />

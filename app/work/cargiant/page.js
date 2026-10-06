@@ -324,7 +324,6 @@ export default function CarGiantPage() {
               alt="Known pain points and design review"
               width={2400}
               height={1350}
-              priority
               sizes="(max-width: 768px) 100vw, 1200px"
               className="case-image"
             />
@@ -471,7 +470,6 @@ export default function CarGiantPage() {
               alt="Horizontal versus vertical search form"
               width={2400}
               height={1350}
-              priority
               sizes="(max-width: 768px) 100vw, 1200px"
               className="case-image"
             />
@@ -720,7 +718,6 @@ export default function CarGiantPage() {
                 alt="Horizontal versus vertical search form"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -731,7 +728,6 @@ export default function CarGiantPage() {
                 alt="Horizontal versus vertical search form"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -741,7 +737,6 @@ export default function CarGiantPage() {
                 alt="Horizontal versus vertical search form"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -751,7 +746,6 @@ export default function CarGiantPage() {
                 alt="Horizontal versus vertical search form"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -761,7 +755,6 @@ export default function CarGiantPage() {
                 alt="Horizontal versus vertical search form"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -771,7 +764,6 @@ export default function CarGiantPage() {
                 alt="Horizontal versus vertical search form"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -815,7 +807,6 @@ export default function CarGiantPage() {
                   alt="CarGiant brand guidelines"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
@@ -826,7 +817,6 @@ export default function CarGiantPage() {
                 alt="CarGiant brand guidelines"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />

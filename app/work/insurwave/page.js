@@ -395,7 +395,6 @@ export default function InsurwaveCaseStudy() {
                 alt="Constructer AI platform interface"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -560,9 +559,6 @@ export default function InsurwaveCaseStudy() {
               </p>
             </div>
 
-   
-            
-
             <div className="positioning-item">
               <span>INSIGHT</span>
 
@@ -575,8 +571,6 @@ export default function InsurwaveCaseStudy() {
                 through the asset at the centre of the workflow.
               </p>
             </div>
-
-          
 
             <div className="positioning-item">
               <span>RESPONSE</span>
@@ -691,17 +685,16 @@ export default function InsurwaveCaseStudy() {
             </h2>
 
           </div>
-           <h3 className="subheading">
-                Primary journey
-              </h3>
+          <h3 className="subheading">
+            Primary journey
+          </h3>
 
-              <p className="m-b-0">
-                The strongest product story centred around helping
-                users track an asset, identify risk, understand its
-                impact and take action.
-              </p>
+          <p className="m-b-0">
+            The strongest product story centred around helping
+            users track an asset, identify risk, understand its
+            impact and take action.
+          </p>
               
-
           <div className="case-grid case-grid-2 spacer-inner-t">
 
             <div className="case-copy">
@@ -731,7 +724,6 @@ export default function InsurwaveCaseStudy() {
               allowFullScreen
               />
             </div>
-           
 
           </div>
 
@@ -912,7 +904,6 @@ export default function InsurwaveCaseStudy() {
               alt="Prototype evolution"
               width={2400}
               height={1350}
-              priority
               sizes="(max-width: 768px) 100vw, 1200px"
               className="case-image"
             />
@@ -956,7 +947,6 @@ export default function InsurwaveCaseStudy() {
                   alt="Fragmented workflows"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
@@ -967,7 +957,6 @@ export default function InsurwaveCaseStudy() {
                   alt="Asset centric workflows"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
@@ -1028,7 +1017,6 @@ export default function InsurwaveCaseStudy() {
                   alt="Insurwave Dashboard"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
@@ -1040,7 +1028,6 @@ export default function InsurwaveCaseStudy() {
                   alt="Insurwave Asset view"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
@@ -1051,7 +1038,6 @@ export default function InsurwaveCaseStudy() {
                 alt="Insurwave Asset inventory"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
               />
@@ -1062,7 +1048,6 @@ export default function InsurwaveCaseStudy() {
                   alt="Insurwave riskmap filters"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
@@ -1074,7 +1059,6 @@ export default function InsurwaveCaseStudy() {
                 alt="Insurwave Agreed rates"
                 width={2400}
                 height={1350}
-                priority
                 sizes="(max-width: 768px) 100vw, 1200px"
                 className="case-image"
                 />
@@ -1085,7 +1069,6 @@ export default function InsurwaveCaseStudy() {
                   alt="Insurwave Agreed rates"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
@@ -1096,7 +1079,6 @@ export default function InsurwaveCaseStudy() {
                   alt="Insurwave war voyages"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
@@ -1107,7 +1089,6 @@ export default function InsurwaveCaseStudy() {
                   alt="Insurwave Policy view"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
@@ -1118,7 +1099,6 @@ export default function InsurwaveCaseStudy() {
                   alt="Insurwave Kaban board"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
@@ -1129,7 +1109,6 @@ export default function InsurwaveCaseStudy() {
                   alt="Insurwave Asset detail"
                   width={2400}
                   height={1350}
-                  priority
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />

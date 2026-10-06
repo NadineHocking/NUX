@@ -1004,7 +1004,7 @@ export default function ConstructerPage() {
 
           <div className="case-image-wrapper">
               <Image
-                src="/images/constructer/constructer-dev-env.png"
+                src="/images/constructer/Constructer-dev-env.png"
                 alt="Constructer development environment"
                 width={2400}
                 height={1350}
