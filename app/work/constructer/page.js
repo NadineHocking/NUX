@@ -117,15 +117,17 @@ export default function ConstructerPage() {
 
           </div>
 
-          {/* Large hero image */}
-          {/* <ImagePlaceholder
-            label="HERO IMAGE"
-            description="Final Constructer.ai website / homepage"
-            className="placeholder-hero"
-          /> */}
-      
+           <Image
+                  src="/images/constructer/Constructer-feature-xxl.png"
+                  alt="Rethink Desktop"
+                  width={2400}
+                  height={1350}
+                  priority
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                  className="case-image"
+                />
 
-          <div className="grid-3-1">
+          {/* <div className="grid-3-1">
               <Image
                   src="/images/constructer/Constructer-feature-xxl.png"
                   alt="Rethink Desktop"
@@ -146,7 +148,7 @@ export default function ConstructerPage() {
                   className="case-image"
                 />
 
-            </div>
+            </div> */}
 
         </div>
       </section>

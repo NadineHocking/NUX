@@ -25,7 +25,7 @@ export default function Home() {
               I combine UX research, product design, and frontend engineering to create thoughtful, intuitive digital experiences — from understanding the problem and shaping the experience to designing and building the final product.
             </p>
 
-            <div className="hero-actions">
+            <div className="hero-actions spacer-b">
               <Button href="/work" icon="arrow">
                 View my work
               </Button>
