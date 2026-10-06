@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       {/* HERO */}
-      <section className="hero">
+      <section className="hero section">
         <div className="container d-flex">
             <div className=" flex-column align-items-start justify-content-start text-md-start">
             <p className="eyebrow">Product Designer & UI Engineer   
@@ -25,7 +25,7 @@ export default function Home() {
               I combine UX research, product design, and frontend engineering to create thoughtful, intuitive digital experiences — from understanding the problem and shaping the experience to designing and building the final product.
             </p>
 
-            <div className="hero-actions spacer-b">
+            <div className="hero-actions">
               <Button href="/work" icon="arrow">
                 View my work
               </Button>

@@ -441,7 +441,7 @@ export default function ConstructerPage() {
             </h2>
           </div>
 
-           <div className="positioning-grid">
+          <div className="positioning-grid">
 
             <div className="positioning-item">
               <span>What it does</span>
@@ -696,7 +696,7 @@ export default function ConstructerPage() {
               </p>
           </div>
 
-          <div className="figma-comparison">
+          {/* <div className="figma-comparison">
             <div className="figma-panel">
               <div className="prototype-header">
                 <span>Desktop</span>
@@ -726,7 +726,7 @@ export default function ConstructerPage() {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
