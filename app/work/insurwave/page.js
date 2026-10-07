@@ -1055,7 +1055,7 @@ export default function InsurwaveCaseStudy() {
 
               <div className="case-image-wrapper">
                 <Image
-                src="/images/insurwave/IWagreedrates1.png"
+                src="/images/insurwave/IWAgreedrates1.png"
                 alt="Insurwave Agreed rates"
                 width={2400}
                 height={1350}
