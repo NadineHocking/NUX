@@ -119,16 +119,6 @@ export default function ConstructerPage() {
 
           </div>
 
-          {/* <Image
-            src="/images/constructer/Constructer-feature-xxl.png"
-            alt="Constructer website interface"
-            width={2400}
-            height={1350}
-            priority
-            sizes="(max-width: 768px) 100vw, 1200px"
-            className="case-image"
-          /> */}
-
           <ResponsiveCaseImage
             desktopSrc="/images/constructer/Constructer-feature-xxl.png"
             mobileSrc="/images/constructer/Constructer-feature-mobile.png"
@@ -375,24 +365,13 @@ export default function ConstructerPage() {
 
           </div>
 
-            {/* <div className="case-image-wrapper spacer-t">
-              <Image
-                src="/images/constructer/constructerCompetitiveAudit.png"
-                alt="Constructer competitive audit"
-                width={2400}
-                height={1350}
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              />
-            </div> */}
-
-            <div className="case-image-wrapper spacer-t">
-              <ResponsiveCaseImage
-                desktopSrc="/images/constructer/constructerCompetitiveAudit.png"
-                mobileSrc="/images/constructer/competitiveAudit-mobile.png"
-                alt="Constructer competitive audit"
-              />
-            </div>
+          <div className="case-image-wrapper spacer-t">
+            <ResponsiveCaseImage
+              desktopSrc="/images/constructer/constructerCompetitiveAudit.png"
+              mobileSrc="/images/constructer/competitiveAudit-mobile.png"
+              alt="Constructer competitive audit"
+            />
+          </div>
 
           <div className="insight-block">
 
@@ -491,24 +470,13 @@ export default function ConstructerPage() {
             </p>
           </div>
 
-          {/* <div className="case-image-wrapper spacer-inner-t ">
-            <Image
-              src="/images/constructer/Constructer-logo-img-xl.png"
-              alt="Initial sketches / logo concept1"
-              width={2400}
-              height={1350}
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="case-image"
-            />
-          </div> */}
-
           <div className="case-image-wrapper spacer-inner-t">
-              <ResponsiveCaseImage
-                desktopSrc="/images/constructer/Constructer-logo-img-xl.png"
-                mobileSrc="/images/constructer/constucter-logo-mobile.png"
-                alt="Constructer logo"
-              />
-            </div>
+            <ResponsiveCaseImage
+              desktopSrc="/images/constructer/Constructer-logo-img-xl.png"
+              mobileSrc="/images/constructer/constucter-logo-mobile.png"
+              alt="Constructer logo"
+            />
+          </div>
         </div>
       </section>
 
@@ -695,14 +663,17 @@ export default function ConstructerPage() {
               </p>
           </div>
 
-          <div className="figma-comparison">
-            <div className="figma-panel">
-              <div className="prototype-header">
-                <span>Desktop</span>
-                <span>Figma prototype</span>
-              </div>
+          <div className="figma-responsive spacer-t">
+            <div className="figma-comparison">
 
-              <div className="figma-embed">
+              {/* Desktop */}
+              <div className="figma-panel figma-desktop">
+                <div className="prototype-header">
+                  <span>Desktop</span>
+                  <span>Figma prototype</span>
+                </div>
+
+                <div className="figma-embed">
                 <iframe
                   title="Constructer desktop wireframe prototype"
                   src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=146-1190&viewport=185%2C186%2C0.1&scaling=scale-down&content-scaling=fixed&page-id=146%3A1189&embed-host=share"
@@ -725,30 +696,18 @@ export default function ConstructerPage() {
                   allowFullScreen
                 />
               </div>
-            </div>
-          </div>
-
-          <div className="figma-mobile">
-              {/* <div className="case-image-wrapper spacer-t">
-                <Image
-                  src="/images/constructer/constructer-wireframes.png"
-                  alt="Constructer-wireframes"
-                  width={2400}
-                  height={1350}
-                  sizes="(max-width: 768px) 100vw, 1200px"
-                  className="case-image"
-                  </div>
-                /> */}
-
-              <div className="case-image-wrapper spacer-inner-t">
-                <ResponsiveCaseImage
-                  mobileSrc="/images/constructer/constructer-wireframes.png"
-                  alt="Constructer logo"
-                />
-                
               </div>
 
-            <div className="hero-actions">
+              {/* Mobile */}
+              <div className="figma-mobile">
+                <div className="case-image-wrapper">
+                  <ResponsiveCaseImage
+                    mobileSrc="/images/constructer/constructer-wireframes.png"
+                    alt="Constructer logo"
+                  />
+                </div>
+
+                <div className="hero-actions">
                 <Button href="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=113-109&p=f&viewport=354%2C38%2C0.09&t=q8x0YHX0DO9pLaAh-1&scaling=scale-down&content-scaling=fixed&page-id=113%3A16&starting-point-node-id=113%3A109" icon="arrow">
                   View desktop wireframe
                 </Button>
@@ -760,10 +719,9 @@ export default function ConstructerPage() {
                   View mobile wireframe
                 </Button>
             </div>
-
+              </div>
+            </div>
           </div>
-
-
 
         </div>
       </section>
@@ -828,7 +786,7 @@ export default function ConstructerPage() {
 
           </div>
 
-          <div className="case-image-wrapper spacer-t">
+          {/* <div className="case-image-wrapper spacer-t">
             <Image
               src="/images/constructer/constructer.aiDesignSystem3.png"
               alt="Initial sketches / logo concept2"
@@ -837,20 +795,57 @@ export default function ConstructerPage() {
               sizes="(max-width: 768px) 100vw, 1200px"
               className="case-image"
             />
-          </div>
+          </div> */}
 
           <div className="case-image-wrapper spacer-t">
-              <ResponsiveCaseImage
-                desktopSrc="/images/constructer/constructerCompetitiveAudit.png"
-                mobileSrc="/images/constructer/competitiveAudit-mobile.png"
-                alt="Constructer competitive audit"
-              />
+            <ResponsiveCaseImage
+              desktopSrc="/images/constructer/constructer.aiDesignSystem3.png"
+              mobileSrc="/images/constructer/constructer.aiDesignSystem-mobile.png"
+              alt="Constructer design system"
+            />
+          </div>
+
+          <div className="spacer-t">
+
+            <div className="figma-responsive">
+              {/* Desktop */}
+              <div className="figma-panel figma-desktop">
+                <div className="prototype-header">
+                  <span>Desktop</span>
+                  <span>Figma high fidelity prototype</span>
+                </div>
+
+                <div className="figma-embed">
+                  <iframe
+                    title="Constructer prototype"
+                    src="https://embed.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=116-1054&p=f&viewport=238%2C120%2C0.11&scaling=scale-down&content-scaling=fixed&starting-point-node-id=116%3A1054&page-id=116%3A945&embed-host=share"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+
+              {/* Mobile */}
+              <div className="figma-mobile">
+                <div className="case-image-wrapper spacer-inner-b">
+                  <ResponsiveCaseImage
+                    mobileSrc="/images/constructer/constructer-hifi-proto.png"
+                    alt="Constructer high fidelity prototype"
+                  />
+                </div>
+
+
+                <Button
+                  href="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=116-1054&p=f"
+                  icon="arrow"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Figma prototype
+                </Button>
+              </div>
             </div>
 
-          <div className="spacer-inner-t">
-
-
-            <div className="figma-panel">
+            {/* <div className="figma-panel">
               <div className="prototype-header">
                 <span>Desktop</span>
                 <span>Figma high fidelity prototype</span>
@@ -864,34 +859,22 @@ export default function ConstructerPage() {
                 />
               </div>
             </div>
-          </div>
 
-          <div className="figma-mobile">
-              {/* <div className="case-image-wrapper spacer-t">
-                <Image
-                  src="/images/constructer/constructer-hifi-proto.png"
-                  alt="Constructer-high fidelity prototype"
-                  width={2400}
-                  height={1350}
-                  sizes="(max-width: 768px) 100vw, 1200px"
-                  className="case-image"
-                />
-              </div> */}
+            <div className="figma-mobile">
 
-               <div className="case-image-wrapper spacer-t">
+              <div className="case-image-wrapper spacer-t">
                 <ResponsiveCaseImage
                   mobileSrc="/images/constructer/constructer-hifi-proto.png"
                   alt="Constructer-high fidelity prototype"
                 />
               </div>
 
-
               <Button href="" icon="arrow">
                 View figma prototype
               </Button>
 
+            </div> */}
           </div>
-
         </div>
       </section>
 
@@ -950,17 +933,6 @@ export default function ConstructerPage() {
             </div>
 
           </div>
-
-          {/* <div className="case-image-wrapper spacer-t">
-            <Image
-              src="/images/constructer/constructer-figma-prod.png"
-              alt="Figma to production"
-              width={2400}
-              height={1350}
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="case-image"
-            />
-          </div> */}
 
           <div className="case-image-wrapper spacer-t">
             <ResponsiveCaseImage
@@ -1042,17 +1014,6 @@ export default function ConstructerPage() {
 
           </div>
 
-          {/* <div className="case-image-wrapper spacer-t">
-            <Image
-              src="/images/constructer/constructer-wordpress-dev-env.png"
-              alt="Wordpress development"
-              width={2400}
-              height={1350}
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="case-image"
-            />
-          </div> */}
-
           <div className="case-image-wrapper spacer-t">
             <ResponsiveCaseImage
               desktopSrc="/images/constructer/constructer-wordpress-dev-env.png"
@@ -1060,8 +1021,6 @@ export default function ConstructerPage() {
               alt="Wordpress development"
             />
           </div>
-
-          
 
         </div>
       </section>
@@ -1098,17 +1057,6 @@ export default function ConstructerPage() {
             <span>MySQL</span>
 
           </div>
-
-          {/* <div className="case-image-wrapper">
-              <Image
-                src="/images/constructer/Constructer-dev-env.png"
-                alt="Constructer development environment"
-                width={2400}
-                height={1350}
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              />
-          </div> */}
 
           <div className="case-image-wrapper">
             <ResponsiveCaseImage
@@ -1155,17 +1103,6 @@ export default function ConstructerPage() {
 
           </div>
 
-          {/* <div className="case-image-wrapper spacer-inner-t">
-              <Image
-                src="/images/constructer/constructer-international.png"
-                alt="Constructer development environment"
-                width={2400}
-                height={1350}
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              />
-          </div> */}
-          
           <div className="case-image-wrapper  spacer-inner-t">
             <ResponsiveCaseImage
               desktopSrc="/images/constructer/constructer-international.png"
@@ -1303,15 +1240,6 @@ export default function ConstructerPage() {
               alt="Constructer screens"
               className="case-image"
               />
-
-              {/* <Image
-                src="/images/constructer/constructer-m-1.png"
-                alt="Constructer development environment"
-                width={2400}
-                height={1350}
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              /> */}
           </div>
 
           <div className="case-image-wrapper">
@@ -1323,14 +1251,6 @@ export default function ConstructerPage() {
               className="case-image"
               />
 
-              {/* <Image
-                src="/images/constructer/constructer-m-2.png"
-                alt="Constructer development environment"
-                width={2400}
-                height={1350}
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              /> */}
           </div>
 
           <div className="case-image-wrapper">
@@ -1340,15 +1260,6 @@ export default function ConstructerPage() {
               alt="Constructer screens"
               className="case-image"
               />
-            
-              {/* <Image
-                src="/images/constructer/constructer-m-4.png"
-                alt="Constructer development environment"
-                width={2400}
-                height={1350}
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              /> */}
           </div>
 
           </div>
