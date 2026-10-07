@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import Button from "@/components/Button";
 import ResponsiveCaseImage from "@/components/ResponsiveCaseImage";
+import ResponsiveFigma from "@/components/ResponsiveFigma";
+
 import {
   FiArrowLeft,
   FiArrowRight,
@@ -663,43 +665,61 @@ export default function ConstructerPage() {
               </p>
           </div>
 
-          <div className="figma-responsive spacer-t">
-            <div className="figma-comparison">
+          <div className="spacer-t">
+              <ResponsiveFigma
+                iframeSrc="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=146-1190&viewport=185%2C186%2C0.1&scaling=scale-down&content-scaling=fixed&page-id=146%3A1189&embed-host=share"
+                iframeTitle="Constructer desktop wireframe prototype"
+                mobileImage="/images/constructer/constructer-wireframes.png"
+                mobileAlt="Constructer wireframes"
+                mobileLink="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=113-109&p=f"
+                mobileButtonText="View desktop wireframe"
+              />
+              <div className="spacer-inner-t">
+                <Button
+                href="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=113-597&p=f"
+                variant="secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                  View mobile wireframe
+                </Button>
+              </div>
+              
 
-              {/* Desktop */}
-              <div className="figma-panel figma-desktop">
+            {/* <div className="figma-comparison"> */}
+
+              {/* <div className="figma-panel figma-desktop">
                 <div className="prototype-header">
                   <span>Desktop</span>
                   <span>Figma prototype</span>
                 </div>
 
                 <div className="figma-embed">
-                <iframe
-                  title="Constructer desktop wireframe prototype"
-                  src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=146-1190&viewport=185%2C186%2C0.1&scaling=scale-down&content-scaling=fixed&page-id=146%3A1189&embed-host=share"
-                  allowFullScreen
-                />
+                  <iframe
+                    title="Constructer desktop wireframe prototype"
+                    src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=146-1190&viewport=185%2C186%2C0.1&scaling=scale-down&content-scaling=fixed&page-id=146%3A1189&embed-host=share"
+                    allowFullScreen
+                  />
 
-              </div>
-            </div>
+                </div>
+              </div> */}
 
-            <div className="figma-panel">
-              <div className="prototype-header">
-                <span>Mobile</span>
-                <span>Figma prototype</span>
-              </div>
+              {/* <div className="figma-panel">
+                <div className="prototype-header">
+                  <span>Mobile</span>
+                  <span>Figma prototype</span>
+                </div>
 
-              <div className="figma-embed">
-                <iframe
-                  title="Constructer mobile wireframe prototype"
-                  src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=1-50&viewport=402%2C131%2C0.08&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A50&page-id=0%3A1&embed-host=share"
-                  allowFullScreen
-                />
-              </div>
-              </div>
+                <div className="figma-embed">
+                  <iframe
+                    title="Constructer mobile wireframe prototype"
+                    src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=1-50&viewport=402%2C131%2C0.08&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A50&page-id=0%3A1&embed-host=share"
+                    allowFullScreen
+                  />
+                </div>
+              </div> */}
 
-              {/* Mobile */}
-              <div className="figma-mobile">
+              {/* <div className="figma-mobile">
                 <div className="case-image-wrapper">
                   <ResponsiveCaseImage
                     mobileSrc="/images/constructer/constructer-wireframes.png"
@@ -708,19 +728,20 @@ export default function ConstructerPage() {
                 </div>
 
                 <div className="hero-actions">
-                <Button href="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=113-109&p=f&viewport=354%2C38%2C0.09&t=q8x0YHX0DO9pLaAh-1&scaling=scale-down&content-scaling=fixed&page-id=113%3A16&starting-point-node-id=113%3A109" icon="arrow">
-                  View desktop wireframe
-                </Button>
-  
-                <Button
-                  href="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=113-597&p=f&viewport=408%2C40%2C0.1&t=hVhV0JFpYuPSkseL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=113%3A597&page-id=113%3A590"
-                  variant="secondary"
-                >
-                  View mobile wireframe
-                </Button>
-            </div>
-              </div>
-            </div>
+                  <Button href="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=113-109&p=f&viewport=354%2C38%2C0.09&t=q8x0YHX0DO9pLaAh-1&scaling=scale-down&content-scaling=fixed&page-id=113%3A16&starting-point-node-id=113%3A109" icon="arrow">
+                    View desktop wireframe
+                  </Button>
+    
+                  <Button
+                    href="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=113-597&p=f&viewport=408%2C40%2C0.1&t=hVhV0JFpYuPSkseL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=113%3A597&page-id=113%3A590"
+                    variant="secondary"
+                  >
+                    View mobile wireframe
+                  </Button>
+                </div>
+
+              </div> */}
+            {/* </div> */}
           </div>
 
         </div>
@@ -786,17 +807,6 @@ export default function ConstructerPage() {
 
           </div>
 
-          {/* <div className="case-image-wrapper spacer-t">
-            <Image
-              src="/images/constructer/constructer.aiDesignSystem3.png"
-              alt="Initial sketches / logo concept2"
-              width={2400}
-              height={1350}
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="case-image"
-            />
-          </div> */}
-
           <div className="case-image-wrapper spacer-t">
             <ResponsiveCaseImage
               desktopSrc="/images/constructer/constructer.aiDesignSystem3.png"
@@ -807,8 +817,7 @@ export default function ConstructerPage() {
 
           <div className="spacer-t">
 
-            <div className="figma-responsive">
-              {/* Desktop */}
+            {/* <div className="figma-responsive">
               <div className="figma-panel figma-desktop">
                 <div className="prototype-header">
                   <span>Desktop</span>
@@ -824,7 +833,6 @@ export default function ConstructerPage() {
                 </div>
               </div>
 
-              {/* Mobile */}
               <div className="figma-mobile">
                 <div className="case-image-wrapper spacer-inner-b">
                   <ResponsiveCaseImage
@@ -843,37 +851,16 @@ export default function ConstructerPage() {
                   View Figma prototype
                 </Button>
               </div>
-            </div>
-
-            {/* <div className="figma-panel">
-              <div className="prototype-header">
-                <span>Desktop</span>
-                <span>Figma high fidelity prototype</span>
-              </div>
-
-              <div className="figma-embed">
-                <iframe
-                  title="Constructer prototype"
-                  src="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=116-1054&p=f&viewport=238%2C120%2C0.11&t=NTGZCxtSsqP5XSqG-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=116%3A1054&page-id=116%3A945"
-                  allowFullScreen
-                />
-              </div>
-            </div>
-
-            <div className="figma-mobile">
-
-              <div className="case-image-wrapper spacer-t">
-                <ResponsiveCaseImage
-                  mobileSrc="/images/constructer/constructer-hifi-proto.png"
-                  alt="Constructer-high fidelity prototype"
-                />
-              </div>
-
-              <Button href="" icon="arrow">
-                View figma prototype
-              </Button>
-
             </div> */}
+
+             <ResponsiveFigma
+              iframeSrc="https://embed.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=116-1054&p=f&viewport=238%2C120%2C0.11&scaling=scale-down&content-scaling=fixed&starting-point-node-id=116%3A1054&page-id=116%3A945&embed-host=share"
+              iframeTitle="Constructer high fidelity prototype"
+              mobileImage="/images/constructer/constructer-hifi-proto.png"
+              mobileAlt="Constructer high fidelity prototype"
+              mobileLink="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=116-1054&p=f"
+            />
+
           </div>
         </div>
       </section>
