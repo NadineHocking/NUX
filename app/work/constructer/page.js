@@ -1285,11 +1285,11 @@ export default function ConstructerPage() {
           </p>
 
           <Link
-            href="/work/insurwave"
+            href="/work/rethink"
             className="next-project-link"
           >
             <span>
-              Insurwave
+              Rethink Property Training
             </span>
 
             <FiArrowRight
