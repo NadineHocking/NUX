@@ -1,4 +1,10 @@
 
+@media (min-width: 768.99px) {
+  .figma-mobile {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
 
   :root {
@@ -58,5 +64,9 @@
 
   .project-grid {
     margin-top: var(--space-sm);
+  }
+
+  .figma-panel {
+    display: none;
   }
 }

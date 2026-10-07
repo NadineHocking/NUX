@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import Button from "@/components/Button";
+
 import {
   FiArrowLeft,
   FiArrowRight,
@@ -117,38 +119,15 @@ export default function ConstructerPage() {
 
           </div>
 
-           <Image
-                  src="/images/constructer/Constructer-feature-xxl.png"
-                  alt="Constructer website interface"
-                  width={2400}
-                  height={1350}
-                  priority
-                  sizes="(max-width: 768px) 100vw, 1200px"
-                  className="case-image"
-                />
-
-          {/* <div className="grid-3-1">
-              <Image
-                  src="/images/constructer/Constructer-feature-xxl.png"
-                  alt="Rethink Desktop"
-                  width={2400}
-                  height={1350}
-                  priority
-                  sizes="(max-width: 768px) 100vw, 1200px"
-                  className="case-image"
-                />
-
-                  <Image
-                  src="/images/constructer/mobile-feature-Constructer-xl.png"
-                  alt="Rethink Mobile"
-                  width={2400}
-                  height={1350}
-                  priority
-                  sizes="(max-width: 768px) 100vw, 1200px"
-                  className="case-image"
-                />
-
-            </div> */}
+          <Image
+            src="/images/constructer/Constructer-feature-xxl.png"
+            alt="Constructer website interface"
+            width={2400}
+            height={1350}
+            priority
+            sizes="(max-width: 768px) 100vw, 1200px"
+            className="case-image"
+          />
 
         </div>
       </section>
@@ -707,6 +686,7 @@ export default function ConstructerPage() {
                   src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=146-1190&viewport=185%2C186%2C0.1&scaling=scale-down&content-scaling=fixed&page-id=146%3A1189&embed-host=share"
                   allowFullScreen
                 />
+
               </div>
             </div>
 
@@ -725,6 +705,36 @@ export default function ConstructerPage() {
               </div>
             </div>
           </div>
+
+          <div className="figma-mobile">
+              <div className="case-image-wrapper spacer-t">
+                <Image
+                  src="/images/constructer/constructer-wireframes.png"
+                  alt="Constructer-wireframes"
+                  width={2400}
+                  height={1350}
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                  className="case-image"
+                />
+              </div>
+
+            <div className="hero-actions">
+                <Button href="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=113-109&p=f&viewport=354%2C38%2C0.09&t=q8x0YHX0DO9pLaAh-1&scaling=scale-down&content-scaling=fixed&page-id=113%3A16&starting-point-node-id=113%3A109" icon="arrow">
+                  View desktop wireframe
+                </Button>
+  
+                <Button
+                  href="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=113-597&p=f&viewport=408%2C40%2C0.1&t=hVhV0JFpYuPSkseL-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=113%3A597&page-id=113%3A590"
+                  variant="secondary"
+                >
+                  View mobile wireframe
+                </Button>
+            </div>
+
+          </div>
+
+
+
         </div>
       </section>
 
@@ -802,13 +812,37 @@ export default function ConstructerPage() {
 
           <div className="spacer-inner-t">
 
-            <div className="figma-embed">
-              <iframe
-                title="Constructer prototype"
-                src="https://embed.figma.com/proto/SCVNxmmI4GlQ8YAq7ItFg0/Constructer?node-id=2-563&p=f&viewport=-229%2C239%2C0.39&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A563&page-id=1%3A406&embed-host=share"
-                allowFullScreen
-              />
+
+            <div className="figma-panel">
+              <div className="prototype-header">
+                <span>Desktop</span>
+                <span>Figma high fidelity prototype</span>
+              </div>
+
+              <div className="figma-embed">
+                <iframe
+                  title="Constructer prototype"
+                  src="https://www.figma.com/proto/LcRiG658Y9gkqN76Xxpvqf/constructer.ai-case-study?node-id=116-1054&p=f&viewport=238%2C120%2C0.11&t=NTGZCxtSsqP5XSqG-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=116%3A1054&page-id=116%3A945"
+                  allowFullScreen
+                />
+              </div>
             </div>
+          </div>
+
+          <div className="figma-mobile">
+              <div className="case-image-wrapper spacer-t">
+                <Image
+                  src="/images/constructer/constructer-hifi-proto.png"
+                  alt="Constructer-high fidelity prototype"
+                  width={2400}
+                  height={1350}
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                  className="case-image"
+                />
+              </div>
+              <Button href="" icon="arrow">
+                View figma prototype
+              </Button>
 
           </div>
 
@@ -871,7 +905,7 @@ export default function ConstructerPage() {
 
           </div>
 
-           <div className="case-image-wrapper spacer-t">
+          <div className="case-image-wrapper spacer-t">
 
               <Image
                 src="/images/constructer/constructer-figma-prod.png"
@@ -922,7 +956,7 @@ export default function ConstructerPage() {
 
           </div>
 
-           <div className="positioning-grid spacer-inner-t spacer-inner-b">
+          <div className="positioning-grid spacer-inner-t spacer-inner-b">
 
             <div className="positioning-item">
               <h3>Design fidelity</h3>
