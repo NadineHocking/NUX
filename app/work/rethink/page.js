@@ -488,26 +488,6 @@ export default function RethinkPage() {
           </div>
 
           <div className="case-gallery">
-              {/* <div className="case-image-wrapper">
-                <Image
-                  src="/images/Rethink/rethink-logo-concepts.png"
-                  alt="Initial Rethink logo exploration"
-                  width={2400}
-                  height={1350}
-                  sizes="(max-width: 768px) 100vw, 1200px"
-                  className="case-image"
-                />
-              </div>
-              <div className="case-image-wrapper">
-                <Image
-                  src="/images/Rethink/Rethink-m-boards-1059.png"
-                  alt="Visual identity exploration - moodbooard"
-                  width={2400}
-                  height={1350}
-                  sizes="(max-width: 768px) 100vw, 1200px"
-                  className="case-image"
-                />
-              </div> */}
 
             <ResponsiveCaseImage
               desktopSrc="/images/Rethink/rethink-logo-concepts.png"
@@ -553,14 +533,6 @@ export default function RethinkPage() {
             move through the website.
           </p>
 
-          {/* <Image
-            src="/images/Rethink/Rethink-flowchart-xl.png"
-            alt="Initial user journey map"
-            width={2400}
-            height={1350}
-            sizes="(max-width: 768px) 100vw, 1200px"
-            className="case-image"
-          /> */}
           <div className="spacer-inner-t">
             <ResponsiveCaseImage
               desktopSrc="/images/Rethink/Rethink-flowchart-xl.png"
@@ -610,36 +582,7 @@ export default function RethinkPage() {
 
           <div className="spacer-t">
             
-            {/* <div className="figma-panel">
-              <div className="prototype-header">
-                <span>Desktop</span>
-                <span>Figma prototype</span>
-              </div>
-
-              <div className="figma-embed">
-                <iframe
-                  title="Rethink desktop wireframe prototype"
-                  src="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?node-id=104-6040&viewport=361%2C415%2C0.09&scaling=scale-down&content-scaling=fixed&starting-point-node-id=104%3A6040&page-id=104%3A6035&embed-host=share"
-                  allowFullScreen
-                />
-              </div>
-            </div>
-
-            <div className="figma-panel">
-              <div className="prototype-header">
-                <span>Mobile</span>
-                <span>Figma prototype</span>
-              </div>
-
-              <div className="figma-embed">
-                <iframe
-                  title="Rethink mobile wireframe prototype"
-                  src="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?node-id=296-2445&p=f&viewport=300%2C474%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=296%3A2445&page-id=104%3A6034&embed-host=share"
-                  allowFullScreen
-                />
-              </div>
-            </div> */}
-
+  
 
             <ResponsiveFigma
               iframeSrc="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?node-id=104-6040&viewport=361%2C415%2C0.09&scaling=scale-down&content-scaling=fixed&starting-point-node-id=104%3A6040&page-id=104%3A6035&embed-host=share"
@@ -915,24 +858,19 @@ export default function RethinkPage() {
 
         <div className="case-gallery">
           <div className="case-image-wrapper">
-            <Image
-              src="/images/Rethink/Wordpress-local-setup.png"
-              alt="Rethink wordpress website setup"
-              width={2400}
-              height={1350}
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="case-image"
-            />
+              <ResponsiveCaseImage
+                desktopSrc="/images/Rethink/Wordpress-local-setup.png"
+                mobileSrc="/images/Rethink/Wordpress-local-setup-mobile.png"
+                alt="Rethink wordpress local development environment"
+              />
           </div>
+
           <div className="case-image-wrapper">
-            <Image
-              src="/images/Rethink/rethink-dev.png"
-              alt="Rethink Local Dev Environment"
-              width={2400}
-              height={1350}
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="case-image"
-            />
+              <ResponsiveCaseImage
+                desktopSrc="/images/Rethink/rethink-dev.png"
+                mobileSrc="/images/Rethink/rethink-dev-mobile.png"
+                alt="Rethink local development"
+              />
           </div>
 
           </div>
