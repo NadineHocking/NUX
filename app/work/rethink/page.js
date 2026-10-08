@@ -1,5 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+import Button from "@/components/Button";
+import ResponsiveCaseImage from "@/components/ResponsiveCaseImage";
+import ResponsiveFigma from "@/components/ResponsiveFigma";
 
 import {
   FiArrowLeft,
@@ -130,30 +133,11 @@ export default function RethinkPage() {
 
           </div>
 
-          <div className="grid-3-1">
-            <div className="case-image-wrapper">
-              <Image
-                  src="/images/Rethink/Feature-img-desktop2-Rethink-xxl.png"
-                  alt="Rethink Desktop"
-                  width={2400}
-                  height={1350}
-                  priority
-                  sizes="(max-width: 768px) 100vw, 1200px"
-                  className="case-image"
-                />
-            </div>
-
-              <Image
-              src="/images/Rethink/mobile-feature-rethink.png"
-              alt="Rethink Mobile"
-              width={2400}
-              height={1350}
-              priority
-              sizes="(max-width: 768px) 100vw, 1200px"
-              className="case-image"
-            />
-
-          </div>
+          <ResponsiveCaseImage
+            desktopSrc="/images/Rethink/rethink-feature-img.png"
+            mobileSrc="/images/Rethink/rethink-feature-img-mobile.png"
+            alt="Rethink mobile and desktop"
+          />
 
         </div>
       </section>
@@ -504,7 +488,7 @@ export default function RethinkPage() {
           </div>
 
           <div className="case-gallery">
-              <div className="case-image-wrapper">
+              {/* <div className="case-image-wrapper">
                 <Image
                   src="/images/Rethink/rethink-logo-concepts.png"
                   alt="Initial Rethink logo exploration"
@@ -523,7 +507,19 @@ export default function RethinkPage() {
                   sizes="(max-width: 768px) 100vw, 1200px"
                   className="case-image"
                 />
-              </div>
+              </div> */}
+
+            <ResponsiveCaseImage
+              desktopSrc="/images/Rethink/rethink-logo-concepts.png"
+              mobileSrc="/images/Rethink/rethink-logo-concepts-mobile.png"
+              alt="rethink logo concepts"
+            />
+
+             <ResponsiveCaseImage
+              desktopSrc="/images/Rethink/Rethink-m-boards-1059.png"
+              mobileSrc="/images/Rethink/Rethink-moodboard-mobile.png"
+              alt="Rethink moodboard"
+            />
 
           </div>
 
@@ -557,15 +553,21 @@ export default function RethinkPage() {
             move through the website.
           </p>
 
-          <Image
+          {/* <Image
             src="/images/Rethink/Rethink-flowchart-xl.png"
             alt="Initial user journey map"
             width={2400}
             height={1350}
             sizes="(max-width: 768px) 100vw, 1200px"
             className="case-image"
-          />
-
+          /> */}
+          <div className="spacer-inner-t">
+            <ResponsiveCaseImage
+              desktopSrc="/images/Rethink/Rethink-flowchart-xl.png"
+              mobileSrc="/images/Rethink/Rethink-flowchart-mobile.png"
+              alt="Initial user journey map"
+            />
+          </div>
         </div>
 
       </section>
@@ -606,8 +608,9 @@ export default function RethinkPage() {
 
           </div>
 
-          <div className="figma-comparison spacer-t">
-            <div className="figma-panel">
+          <div className="spacer-t">
+            
+            {/* <div className="figma-panel">
               <div className="prototype-header">
                 <span>Desktop</span>
                 <span>Figma prototype</span>
@@ -635,8 +638,32 @@ export default function RethinkPage() {
                   allowFullScreen
                 />
               </div>
+            </div> */}
+
+
+            <ResponsiveFigma
+              iframeSrc="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?node-id=104-6040&viewport=361%2C415%2C0.09&scaling=scale-down&content-scaling=fixed&starting-point-node-id=104%3A6040&page-id=104%3A6035&embed-host=share"
+              iframeTitle="Rethink desktop wireframe prototype"
+              mobileImage="/images/Rethink/Rethink-wireframes-mobile.png"
+              mobileAlt="Rethink wireframes"
+              mobileLink="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?node-id=296-2445&p=f&viewport=300%2C474%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=296%3A2445&page-id=104%3A6034&embed-host=share"
+              mobileButtonText="View desktop wireframe"
+            />
+            <div className="spacer-inner-t">
+              <Button
+              href="https://embed.figma.com/proto/fkGDnHym89cPtsjAlzdskG/Wireframes?node-id=296-2445&p=f&viewport=300%2C474%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=296%3A2445&page-id=104%3A6034&embed-host=share"
+              variant="secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                View mobile wireframe
+              </Button>
+
             </div>
+            
+
           </div>
+
         </div>
 
       </section>
@@ -669,43 +696,31 @@ export default function RethinkPage() {
 
           <div className="case-gallery">
             <div className="case-image-wrapper">
-              <Image
-                src="/images/Rethink/rethink-long-display-1.png"
-                alt="Rethink website concept homepage"
-                width={2400}
-                height={1350}
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
+              <ResponsiveCaseImage
+                desktopSrc="/images/Rethink/rethink-display-1.png"
+                mobileSrc="/images/Rethink/rethink-display-1-mobile.png"
+                alt="Rethink home page"
               />
             </div>
             <div className="case-image-wrapper">
-              <Image
-                src="/images/Rethink/rehtink-book-lg.png"
+              <ResponsiveCaseImage
+                desktopSrc="/images/Rethink/rethink-display-2.png"
+                mobileSrc="/images/Rethink/rethink-display-2-mobile.png"
+                alt="Rethink course page"
+              />
+            </div>
+            <div className="case-image-wrapper">
+              <ResponsiveCaseImage
+                desktopSrc="/images/Rethink/rethink-display-3.png"
+                mobileSrc="/images/Rethink/rethink-display-3-mobile.png"
+                alt="Rethink course 2 page"
+              />
+            </div>
+            <div className="case-image-wrapper">
+              <ResponsiveCaseImage
+                desktopSrc="/images/Rethink/rethink-display-4.png"
+                mobileSrc="/images/Rethink/rethink-display-4-mobile.png"
                 alt="Rethink booking page"
-                width={2400}
-                height={1350}
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              />
-            </div>
-            <div className="case-image-wrapper">
-              <Image
-                src="/images/Rethink/rethinkptgroup-prev-3.png"
-                alt="Course content experience"
-                width={2400}
-                height={1350}
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
-              />
-            </div>
-            <div className="case-image-wrapper">
-              <Image
-                src="/images/Rethink/rethinkptgroup-prev-4.png"
-                alt="Course content experience"
-                width={2400}
-                height={1350}
-                sizes="(max-width: 768px) 100vw, 1200px"
-                className="case-image"
               />
             </div>
           </div>
