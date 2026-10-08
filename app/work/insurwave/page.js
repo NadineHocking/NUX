@@ -35,7 +35,7 @@ export default function InsurwaveCaseStudy() {
           HERO
       ===================================================== */}
 
-      <section className="case-section section">
+      <section className="case-section case-hero">
         <div className="container">
 
           <div className="case-breadcrumb">
