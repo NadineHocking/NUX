@@ -39,7 +39,7 @@ export default function About() {
 
             <p>My work is informed by a human-centred approach, and I’m passionate about creating digital products that are useful, usable and accessible. I’m particularly interested in how design and technology can be used to improve people’s lives, and how we can create digital experiences that are inclusive, ethical and sustainable.</p>
 
-            <p>I’m also interested in the intersection of design, technology and AI. I actively use generative AI in my design and development workflow, including Claude and Lovable, for research, ideation, prototyping, technical exploration and development. I’m particularly interested in how AI can improve the way products are designed, built and experienced — while keeping human needs and good design judgement at the centre.</p>
+            <p>I’m also interested in the intersection of design, technology and AI. I actively use generative AI in my design and development workflow, including Claude and Lovable, for research, ideation, prototyping, technical exploration and development. I’m particularly interested in how AI can improve the way products are designed, built and experienced while keeping human needs and good design judgement at the centre.</p>
 
             <p>I’m currently available for opportunities across:</p>
 
